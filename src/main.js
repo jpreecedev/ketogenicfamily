@@ -7,8 +7,11 @@ import App from './App';
 import router from './router';
 import store from './store';
 
+import components from './components';
+
 Vue.use(BootstrapVue);
 Vue.use(store);
+Vue.use(components);
 
 Vue.config.productionTip = false;
 
