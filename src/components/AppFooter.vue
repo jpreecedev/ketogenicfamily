@@ -17,7 +17,7 @@
 <style lang="scss" scoped>
 
 footer {
-  margin: 2rem 0;
+  margin: 5rem 0;
 }
 
 </style>

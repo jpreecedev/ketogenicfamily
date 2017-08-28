@@ -1,16 +1,17 @@
-[{
+[
+  {
+    "url": "/recipes/bean-sprouts-blue-cheese-sauce",
+    "key": "bean-sprouts-blue-cheese-sauce",
+    "imgSrc": "/static/img/bean-sprouts-blue-cheese-sauce.jpg",
+    "imgAlt": "Bean sprouts with blue cheese sauce",
+    "title": "Bean sprouts with blue cheese sauce",
+    "text": "This is the description, make the recipe sound really good",
+    "lastUpdated": "Published 28 August 2017 by Jon Preece"
+  },
+  {
     "url": "/recipes/keto-fat-head-pizza",
     "key": "keto-fat-head-pizza",
     "imgSrc": "https://placekitten.com/g/500/350",
-    "imgAlt": "Card image cap",
-    "title": "Card title",
-    "text": "This card has supporting text below as a natural lead-in to additional content.",
-    "lastUpdated": "Last updated 3 mins ago"
-  },
-  {
-    "url": "/recipes/keto-kids-packed-lunch",
-    "key": "keto-kids-packed-lunch",
-    "imgSrc": "https://placekitten.com/g/400/500",
     "imgAlt": "Card image cap",
     "title": "Card title",
     "text": "This card has supporting text below as a natural lead-in to additional content.",

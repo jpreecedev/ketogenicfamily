@@ -3,7 +3,9 @@
     <app-nav></app-nav>
     <app-header></app-header>
     <main class="container">
-      <router-view></router-view>
+      <transition name="fade">
+        <router-view></router-view>
+      </transition>
     </main>
     <app-footer></app-footer>
   </div>
@@ -14,4 +16,3 @@ export default {
   name: 'app'
 };
 </script>
-
