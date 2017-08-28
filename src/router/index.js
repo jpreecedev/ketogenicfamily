@@ -6,12 +6,17 @@ import RecipesRouteConfig from '@/recipes/route-config';
 
 Vue.use(Router);
 
-export default new Router({
+const router = new Router({
   base: '/',
   mode: 'history',
   linkActiveClass: 'active',
+  scrollBehavior() {
+    return { x: 0, y: 0 };
+  },
   routes: [
     ...HomeRouteConfig,
     ...RecipesRouteConfig
   ]
 });
+
+export default router;

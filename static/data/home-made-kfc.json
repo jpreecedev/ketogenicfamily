@@ -1,0 +1,49 @@
+{
+  "key": "home-made-kfc",
+  "imgSrc": "/static/img/home-made-kfc.jpg",
+  "title": "Home Made KFC",
+  "description": "Who doesn't love KFC?  Now you can enjoy it in your own home for a fraction of the cost.",
+  "ingredients": [{
+      "quantity": 4,
+      "units": "large",
+      "description": "Chicken thighs (or chicken breast, thighs works best)"
+    },
+    {
+      "quantity": 100,
+      "units": "grams",
+      "description": "almond flour"
+    },
+    {
+      "quantity": 1,
+      "units": "teaspoon",
+      "description": "ginger"
+    },
+    {
+      "quantity": 1,
+      "units": "teaspoon",
+      "description": "parsley"
+    },
+    {
+      "quantity": 1,
+      "units": "teaspoon",
+      "description": "paprika"
+    },
+    {
+      "quantity": 1,
+      "units": "teaspoon",
+      "description": "chilli powder"
+    },
+    {
+      "quantity": 1,
+      "units": "pinch",
+      "description": "Salt and Pepper"
+    }
+  ],
+  "instructions": [
+    "Put the ground almonds and all the herbs and spices into a plastic food bag, twist the top and shake to mix.",
+    "Add the chicken drumsticks, twist the top, shake and rub the mixture through the bag onto the chicken.",
+    "In a baking dish, add enough olive oil to cover the bottom well (1-2mm).",
+    "Place the chicken drumsticks on the oil and bake at 180C/350F for 45 minutes.",
+    "Turn 2 or 3 times while they are cooking so all the coating gets covered in the olive oil."
+  ]
+}
