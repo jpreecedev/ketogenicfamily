@@ -1,0 +1,32 @@
+{
+  "key": "peanut-butter-chocolate-fat-bombs",
+  "imgSrc": "/static/img/peanut-butter-chocolate-fat-bombs.jpg",
+  "title": "Peanut butter & chocolate fat bombs",
+  "description": "A delicious, high fat treat that is ready in minutes",
+  "ingredients": [{
+      "quantity": 3,
+      "units": "tablespoons",
+      "description": "peanut butter (no added sugar)"
+    },
+    {
+      "quantity": 3,
+      "units": "tablespoons",
+      "description": "coconut oil"
+    },
+    {
+      "quantity": 1,
+      "units": "tablespoon",
+      "description": "dark cocoa powder"
+    },
+    {
+      "quantity": 1,
+      "units": "pinch",
+      "description": "salt"
+    }
+  ],
+  "instructions": [
+    "Add all the ingredients to a bowl and mix for 30 seconds to one minute",
+    "Pour mixture into a cup-cake dish",
+    "Freeze for at least 20 minutes to 1 hour"
+  ]
+}
