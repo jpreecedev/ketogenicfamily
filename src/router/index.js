@@ -19,4 +19,9 @@ const router = new Router({
   ]
 });
 
+router.beforeEach((to, from, next) => {
+  document.title = 'KetogenicFamily.com';
+  next();
+});
+
 export default router;

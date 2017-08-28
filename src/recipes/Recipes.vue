@@ -45,6 +45,7 @@
     },
     async created() {
       this.recipe = await this.$dataService.getRecipe(this.$route.params.recipeKey);
+      document.title = `KetogenicFamily.com - ${this.recipe.title}`;
     }
   };
 
