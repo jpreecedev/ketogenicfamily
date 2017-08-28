@@ -1,8 +1,8 @@
-import Page from './Page';
+import Home from './Home';
 
 const RouteConfig = [{
   path: '/',
-  component: Page
+  component: Home
 }];
 
 export default RouteConfig;

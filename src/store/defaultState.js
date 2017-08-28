@@ -1,3 +1,4 @@
 export default {
-  isWorking: true
+  overview: null,
+  recipes: []
 };

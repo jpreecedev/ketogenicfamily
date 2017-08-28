@@ -54,6 +54,7 @@ module.exports = {
       {
         "props": false
       }
-    ]
+    ],
+    'no-multi-assign': 0
   }
 }

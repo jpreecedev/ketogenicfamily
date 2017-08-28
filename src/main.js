@@ -8,8 +8,12 @@ import store from './store';
 
 import components from './components';
 
+import dataService from './services/data.service';
+
 Vue.use(store);
 Vue.use(components);
+
+Vue.use(dataService);
 
 Vue.config.productionTip = false;
 
