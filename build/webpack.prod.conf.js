@@ -85,6 +85,9 @@ var webpackConfig = merge(baseWebpackConfig, {
         from: path.resolve(__dirname, '../static'),
         to: config.build.assetsSubDirectory,
         ignore: ['.*']
+      }, {
+        from: path.resolve(__dirname, '../googleea63ee6892a9d306.html'),
+        to: config.build.assetsRoot + '/googleea63ee6892a9d306.html'
       }
     ])
   ]
