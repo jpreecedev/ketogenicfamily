@@ -10,6 +10,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 var loadMinified = require('./load-minified')
+var PrerenderSpaPlugin = require('prerender-spa-plugin')
 
 var env = config.build.env
 
@@ -89,7 +90,15 @@ var webpackConfig = merge(baseWebpackConfig, {
         from: path.resolve(__dirname, '../googleea63ee6892a9d306.html'),
         to: config.build.assetsRoot + '/googleea63ee6892a9d306.html'
       }
-    ])
+    ]),
+    new webpack.ProvidePlugin({
+      'Promise': 'es6-promise',
+      'fetch': 'imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch'
+    }),
+    new PrerenderSpaPlugin(
+      path.join(__dirname, '../dist'),
+      [ '/', '/recipes' ]
+    )
   ]
 })
 
