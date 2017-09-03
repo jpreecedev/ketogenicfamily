@@ -1,0 +1,36 @@
+{
+  "key": "keto-muffins",
+  "imgSrc": "/static/img/keto-muffins.jpg",
+  "title": "Keto Muffins",
+  "description": "A great alternative for traditional flour based muffins",
+  "ingredients": [{
+      "quantity": 6,
+      "units": "Large",
+      "description": "eggs"
+    },
+    {
+      "quantity": 12,
+      "units": "tablespoons",
+      "description": "coconut flour"
+    },
+    {
+      "quantity": 1,
+      "units": "teaspoon",
+      "description": "baking powder"
+    }, {
+      "quantity": 1,
+      "units": "teaspoon",
+      "description": "salt"
+    },
+    {
+      "quantity": 1,
+      "units": "teaspoon",
+      "description": "stevia"
+    }
+  ],
+  "instructions": [
+    "Mix all the ingredients together in a mixing bowl with a hand mixer",
+    "Grease up a muffin tray and fill each compartment with the mixture",
+    "Cook in the oven for 10 minutes or until slightly brown"
+  ]
+}

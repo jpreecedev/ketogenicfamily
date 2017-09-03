@@ -1,5 +1,14 @@
 [
   {
+    "url": "/recipes/keto-muffins",
+    "key": "keto-muffins",
+    "imgSrc": "/static/img/keto-muffins.jpg",
+    "imgAlt": "Keto Muffins",
+    "title": "Keto Muffins",
+    "text": "A great alternative for traditional flour based muffins",
+    "lastUpdated": "Published 03 September 2017 by Sian Preece"
+  },
+  {
     "url": "/recipes/keto-nacho-pizza",
     "key": "keto-nacho-pizza",
     "imgSrc": "/static/img/keto-nacho-pizza.jpg",
