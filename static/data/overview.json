@@ -1,5 +1,14 @@
 [
   {
+    "url": "/recipes/chocolate-chip-cheesecake",
+    "key": "chocolate-chip-cheesecake",
+    "imgSrc": "/static/img/chocolate-chip-cheesecake.jpg",
+    "imgAlt": "Chocolate chip cheesecake",
+    "title": "Chocolate chip cheesecake",
+    "text": "A delicious little something to satisfy any sweet tooth",
+    "lastUpdated": "Updated on 03 September 2017 by Sian Preece"
+  },
+  {
     "url": "/recipes/keto-muffins",
     "key": "keto-muffins",
     "imgSrc": "/static/img/keto-muffins.jpg",
@@ -70,14 +79,5 @@
     "title": "Home Made KFC",
     "text": "Who doesn't love KFC?  Now you can enjoy it in your own home for a fraction of the cost.",
     "lastUpdated": "Published on 28 August 2017 by Jon Preece"
-  },
-  {
-    "url": "/recipes/cheesecake",
-    "key": "cheesecake",
-    "imgSrc": "/static/img/cheesecake.jpg",
-    "imgAlt": "Cheesecake",
-    "title": "Cheesecake",
-    "text": "Something to help your sweet tooth!",
-    "lastUpdated": "Published on 28 August 2017 by Sian Preece"
   }
 ]
