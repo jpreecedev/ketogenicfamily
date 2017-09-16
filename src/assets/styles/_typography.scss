@@ -7,3 +7,10 @@ h1 {
     font-size: 2.4rem;
   }
 }
+
+h2 {
+  &.display-2 {
+    font-size: 2rem;
+    margin-bottom: 24px;
+  }
+}

@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    <app-nav></app-nav>
     <app-header></app-header>
-    <main class="container">
+    <main>
       <transition name="fade">
         <router-view></router-view>
       </transition>
@@ -16,3 +15,16 @@ export default {
   name: 'app'
 };
 </script>
+
+<style lang="scss" scoped>
+  @import 'src/assets/styles/mixins';
+
+  main {
+    margin-top: 72px;
+
+    @include tablet {
+      margin-top: 113px;
+    }
+  }
+</style>
+

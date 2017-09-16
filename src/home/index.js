@@ -1,2 +1,3 @@
-export default function install() {
+export default function install () {
+
 }
