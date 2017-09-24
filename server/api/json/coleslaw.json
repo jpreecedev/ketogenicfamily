@@ -1,0 +1,47 @@
+{
+  "key": "Coleslaw",
+  "imgSrc": "/img/coleslaw.jpg",
+  "title": "Coleslaw",
+  "description": "A fantastic healthy side dish, which goes with pretty much anything",
+  "ingredients": [{
+      "quantity": 1,
+      "units": "large",
+      "description": "Red cabbage"
+    },
+    {
+      "quantity": 1,
+      "units": "large",
+      "description": "Red onion"
+    },
+    {
+      "quantity": 2,
+      "units": "tablespoons",
+      "description": "sour cream"
+    },
+    {
+      "quantity": 2,
+      "units": "tablespoons",
+      "description": "mayonnaise"
+    },
+    {
+      "quantity": 1,
+      "units": "teaspoon",
+      "description": "tarragon"
+    },
+    {
+      "quantity": 1,
+      "units": "tablespoon",
+      "description": "balsamic vinegar"
+    },
+    {
+      "quantity": 1,
+      "units": "tablespoon",
+      "description": "stevia"
+    }
+  ],
+  "instructions": [
+    "Cut up the red cabbage into sections and individually blend in a food processor until nicely chopped. Transfer the red cabbage to a large mixing bowl and add in the chopped red onion.",
+    "Mix in sour cream, mayonnaise, tarragon, balsamic vinegar & stevia.",
+    "With a spatula, mix well and serve."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "key": "bean-sprouts-blue-cheese-sauce",
+  "imgSrc": "/img/bean-sprouts-blue-cheese-sauce.jpg",
+  "title": "Bean sprouts with blue cheese sauce",
+  "description": "A buttery, cheesy, delicious meal for the whole family",
+  "ingredients": [
+    {
+      "quantity": 300,
+      "units": "grams",
+      "description": "fresh beansprouts"
+    },
+    {
+      "quantity": 125,
+      "units": "grams",
+      "description": "blue cheese"
+    },
+    {
+      "quantity": 125,
+      "units": "grams",
+      "description": "cream cheese"
+    },
+    {
+      "quantity": 1,
+      "units": "tablespoon",
+      "description": "Butter"
+    },
+    {
+      "quantity": 1,
+      "units": "pinch",
+      "description": "Salt & Pepper"
+    }
+  ],
+  "instructions": [
+    "Start by boiling the bean sprouts for 2 to 3 minutes, once cooked drain them.",
+    "In a separate pan, add a large blob of butter, the blue cheese and cream cheese. Add a pinch of salt and pepper to taste.",
+    "Transfer the bean sprouts into the cheese mixture, simmer for 2 to 3 minutes and serve."
+  ]
+}

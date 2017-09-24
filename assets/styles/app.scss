@@ -1,0 +1,76 @@
+@import 'mixins';
+@import 'variables';
+@import 'typography';
+
+body {
+  overflow-x: hidden;
+}
+
+.bullets {
+  &--triangular {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+
+    li:before {
+      content: "";
+      border-color: transparent #111;
+      border-style: solid;
+      border-width: 0.35em 0 0.35em 0.45em;
+      display: block;
+      height: 0;
+      width: 0;
+      left: -1em;
+      top: 0.9em;
+      position: relative;
+    }
+  }
+
+  &--hidden {
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+
+    li {
+      margin-bottom: .5rem;
+    }
+  }
+
+  &--numbered {
+    list-style: none;
+    counter-reset: numbered-counter;
+    padding: 0 0 0 3rem;
+
+    li {
+      min-height: 3rem;
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+
+      &:before {
+        content: counter(numbered-counter);
+        counter-increment: numbered-counter;
+        background: $numbered-bullet-color;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        line-height: 2rem;
+        color: white;
+        text-align: center;
+        position: absolute;
+        left: 1rem;
+      }
+    }
+  }
+}
+
+.fade-enter-active {
+  transition: all .3s ease;
+}
+.fade-enter {
+  transform: translateX(10px);
+  opacity: 0;
+}
+.fade-leave-to, .fade-leave-active {
+  opacity: 0
+}
