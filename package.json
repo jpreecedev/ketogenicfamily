@@ -16,11 +16,12 @@
     "bootstrap": "^4.0.0-beta",
     "cross-env": "^5.0.1",
     "express": "^4.15.3",
-    "nuxt": "^1.0.0-rc3",
+    "nuxt": "^1.0.0-rc11",
     "source-map-support": "^0.4.15"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.0.0",
+    "babel-preset-stage-2": "^6.24.1",
     "backpack-core": "^0.4.1",
     "eslint": "^4.3.0",
     "eslint-config-standard": "^10.2.1",
