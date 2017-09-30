@@ -30,13 +30,17 @@
           </div>
           <div class="col-12 col-md-4 order-1 order-md-12">
             <img :src="recipe.imgSrc"
-                :alt="recipe.title"
-                class="img-fluid img-thumbnail">
+                 :alt="recipe.title"
+                 lazy="loading"
+                 class="img-fluid img-thumbnail">
           </div>
         </div>
         <section class="mt-5" id="comments">
           <h2 class="display-2">Discussion</h2>
-          <vue-disqus shortname="ketogenicfamily" :identifier="this.recipe.key" :url="'https://ketogenicfamily.com/recipes/' + this.recipe.key"></vue-disqus>
+          <vue-disqus shortname="ketogenicfamily"
+                      :identifier="this.recipe.key"
+                      :url="'https://ketogenicfamily.com/recipes/' + this.recipe.key">
+          </vue-disqus>
         </section>
       </div>
     </div>
@@ -132,4 +136,5 @@ export default {
   #comments {
     margin: 3rem auto 1rem auto;
   }
+
 </style>

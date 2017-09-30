@@ -18,7 +18,8 @@
     "express": "^4.16.1",
     "nuxt": "^1.0.0-rc11",
     "source-map-support": "^0.4.15",
-    "vue-disqus": "^2.0.3"
+    "vue-disqus": "^2.0.3",
+    "vue-lazyload": "^1.1.3"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.1",
