@@ -3,6 +3,8 @@
   "imgSrc": "/img/fat-head-pizza.jpg",
   "title": "Fat Head Pizza",
   "description": "Ridiculously nice pizza",
+  "author": "Jon Preece",
+  "published": "2017-08-28",
   "ingredients": [{
       "quantity": 1.5,
       "units": "cups",

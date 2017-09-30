@@ -3,6 +3,8 @@
   "imgSrc": "/img/shepherds-pie.jpg",
   "title": "Shepherd's Pie",
   "description": "A classic meal, keto style",
+  "author": "Sian Preece",
+  "published": "2017-08-28",
   "ingredients": [{
       "quantity": 500,
       "units": "grams",

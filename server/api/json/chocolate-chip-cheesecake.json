@@ -2,6 +2,8 @@
   "key": "chocolate-chip-cheesecake",
   "imgSrc": "/img/chocolate-chip-cheesecake.jpg",
   "title": "Chocolate Chip Cheesecake",
+  "author": "Jon Preece",
+  "published": "2017-09-03",
   "description": "A delicious little something to satisfy any sweet tooth",
   "ingredients": [{
       "quantity": 200,

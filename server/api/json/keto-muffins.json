@@ -3,6 +3,8 @@
   "imgSrc": "/img/keto-muffins.jpg",
   "title": "Keto Muffins",
   "description": "A great alternative for traditional flour based muffins",
+  "author": "Sian Preece",
+  "published": "2017-09-03",
   "ingredients": [{
       "quantity": 6,
       "units": "Large",

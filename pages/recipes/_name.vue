@@ -55,7 +55,51 @@ export default {
   },
   head () {
     return {
-      title: `Recipe: ${this.recipe.title}`
+      title: `${this.recipe.title} ${this.recipe.description} - KetogenicFamily.com`,
+      __dangerouslyDisableSanitizers: ['script'],
+      meta: [
+        { hid: 'description', name: 'description', content: `${this.recipe.title} ${this.recipe.description} - KetogenicFamily.com` }
+      ],
+      link: [
+        { hid: 'canonical', rel: 'canonical', content: `https://ketogenicfamily.com/recipes/${this.recipe.key}` }
+      ],
+      script: [
+        {
+          hid: 'recipe-structured-data',
+          type: 'application/ld+json',
+          innerHTML: this.getRecipeStructuredData()
+        }
+      ]
+    }
+  },
+  methods: {
+    getRecipeStructuredData () {
+      return `{
+        "@context": "http://schema.org/",
+        "@type": "Recipe",
+        "name": "${this.recipe.title}",
+        "image": ["https://ketogenicfamily.com${this.recipe.imgSrc}"],
+        "author": {
+          "@type": "Person",
+          "name": "${this.recipe.author}"
+        },
+        "datePublished": "${this.recipe.published}",
+        "description": "${this.recipe.description}",
+        "recipeIngredient": [${this.getRecipeIngredients()}],
+        "recipeInstructions": "${this.getRecipeInstructions()}"
+      }`
+    },
+    getRecipeIngredients () {
+      return this.recipe.ingredients.map(ingredient => {
+        return `"${ingredient.quantity} ${ingredient.units} ${ingredient.description}"`
+      })
+    },
+    getRecipeInstructions () {
+      let result = []
+      this.recipe.instructions.map((instruction, index) => {
+        result.push(`${index + 1}. ${instruction}`)
+      })
+      return result.join('\n')
     }
   }
 }
