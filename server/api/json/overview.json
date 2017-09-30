@@ -1,5 +1,23 @@
 [
   {
+    "url": "/recipes/peanut-butter-creams",
+    "key": "peanut-butter-creams",
+    "imgSrc": "/img/peanut-butter-creams.jpg",
+    "imgAlt": "Peanut butter creams",
+    "title": "Peanut butter creams",
+    "text": "Creamy, bite-sized decadent treat",
+    "lastUpdated": "Updated on 30 September 2017 by Sian Preece"
+  },
+  {
+    "url": "/recipes/keto-hot-chocolate",
+    "key": "keto-hot-chocolate",
+    "imgSrc": "/img/keto-hot-chocolate.jpg",
+    "imgAlt": "Keto Hot Chocolate",
+    "title": "Keto Hot Chocolate",
+    "text": "Perfect winter warmer",
+    "lastUpdated": "Updated on 30 September 2017 by Sian Preece"
+  },
+  {
     "url": "/recipes/chocolate-chip-cheesecake",
     "key": "chocolate-chip-cheesecake",
     "imgSrc": "/img/chocolate-chip-cheesecake.jpg",
@@ -16,6 +34,15 @@
     "title": "Keto Muffins",
     "text": "A great alternative for traditional flour based muffins",
     "lastUpdated": "Published 03 September 2017 by Sian Preece"
+  },
+  {
+    "url": "/recipes/birthday-cake-for-nutters",
+    "key": "birthday-cake-for-nutters",
+    "imgSrc": "/img/birthday-cake-for-nutters.jpg",
+    "imgAlt": "Birthday Cake For Nutters",
+    "title": "Birthday Cake For Nutters",
+    "text": "Low carb, high fat, keto friendly, nutty birthday cake!",
+    "lastUpdated": "Updated on 30 September 2017 by Sian Preece"
   },
   {
     "url": "/recipes/keto-nacho-pizza",
