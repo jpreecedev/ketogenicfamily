@@ -17,7 +17,8 @@
     "cross-env": "^5.0.1",
     "express": "^4.16.1",
     "nuxt": "^1.0.0-rc11",
-    "source-map-support": "^0.4.15"
+    "source-map-support": "^0.4.15",
+    "vue-disqus": "^2.0.3"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.1",

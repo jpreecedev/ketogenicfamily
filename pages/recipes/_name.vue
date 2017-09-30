@@ -34,6 +34,9 @@
                 class="img-fluid img-thumbnail">
           </div>
         </div>
+        <section id="comments">
+          <vue-disqus shortname="ketogenicfamily" :identifier="this.recipe.key" :url="'https://ketogenicfamily.com/recipes/' + this.recipe.key"></vue-disqus>
+        </section>
       </div>
     </div>
   </transition>
@@ -41,9 +44,13 @@
 
 <script>
 import axios from '~/plugins/axios'
+import VueDisqus from 'vue-disqus/VueDisqus.vue'
 
 export default {
   name: 'id',
+  components: {
+    VueDisqus
+  },
   asyncData ({ params, error }) {
     return axios.get('/api/recipes/' + params.name)
       .then((res) => {
@@ -106,6 +113,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  @import '~assets/styles/mixins';
+
   .recipe-header {
     background-color: #fafafa;
     padding: 30px 0 15px 0;
@@ -113,5 +122,13 @@ export default {
     margin-bottom: 20px;
     border-bottom: 1px solid #eee;
     text-align: center;
+  }
+
+  #comments {
+    margin: 3rem auto 1rem auto;
+
+    @include desktop {
+      width: 75%;
+    }
   }
 </style>
