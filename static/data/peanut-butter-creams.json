@@ -1,0 +1,27 @@
+{
+  "key": "peanut-butter-creams",
+  "imgSrc": "/static/img/peanut-butter-creams.jpg",
+  "title": "Peanut butter creams",
+  "description": "Creamy, bite-sized decadent treat",
+  "ingredients": [{
+      "quantity": 1,
+      "units": "tablespoon",
+      "description": "peanut butter"
+    },
+    {
+      "quantity": 1,
+      "units": "tablespoon",
+      "description": "stevia"
+    },
+    {
+      "quantity": 300,
+      "units": "ml",
+      "description": "whipping cream"
+    }
+  ],
+  "instructions": [
+    "Mix all the ingredients together with a hand mixer.",
+    "Scoop the mixture onto the cupcake tray.",
+    "Place in the freezer for an hour to set."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "key": "Keto Lamb Meatballs",
+  "imgSrc": "/static/img/keto-lamb-meatballs.jpg",
+  "title": "Keto Lamb Meatballs",
+  "description": "A healthy twist on an Italian classic",
+  "ingredients": [{
+      "quantity": 500,
+      "units": "grams",
+      "description": "Lamb mince"
+    },
+    {
+      "quantity": 2,
+      "units": "tablespoons",
+      "description": "Shreaded Cheese"
+    },
+    {
+      "quantity": 1,
+      "units": "teaspoon",
+      "description": "mixed herbs"
+    },
+    {
+      "quantity": 1,
+      "units": "teaspoon",
+      "description": "salt & pepper"
+    },
+    {
+      "quantity": 1,
+      "units": "jar",
+      "description": "Salsa"
+    },
+    {
+      "quantity": 1,
+      "units": "tin",
+      "description": "Chopped tomatoes"
+    }
+  ],
+  "instructions": [
+    "Mix all the ingredients together in a bowl.",
+    "Roll out into meatballs and fry in a pan.",
+    "In a casserole dish, add Salsa and chopped tomatoes.",
+    "Then add in the meatballs and simmer.",
+    "Serve with grated cheese on top."
+  ]
+}
