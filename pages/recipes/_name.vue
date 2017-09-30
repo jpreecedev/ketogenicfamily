@@ -34,7 +34,8 @@
                 class="img-fluid img-thumbnail">
           </div>
         </div>
-        <section id="comments">
+        <section class="mt-5" id="comments">
+          <h2 class="display-2">Discussion</h2>
           <vue-disqus shortname="ketogenicfamily" :identifier="this.recipe.key" :url="'https://ketogenicfamily.com/recipes/' + this.recipe.key"></vue-disqus>
         </section>
       </div>
@@ -115,6 +116,10 @@ export default {
 <style lang="scss" scoped>
   @import '~assets/styles/mixins';
 
+  .container {
+    max-width: 900px;
+  }
+
   .recipe-header {
     background-color: #fafafa;
     padding: 30px 0 15px 0;
@@ -126,9 +131,5 @@ export default {
 
   #comments {
     margin: 3rem auto 1rem auto;
-
-    @include desktop {
-      width: 75%;
-    }
   }
 </style>

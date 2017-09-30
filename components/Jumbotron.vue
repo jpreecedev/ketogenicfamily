@@ -17,8 +17,8 @@
   @import '~assets/styles/mixins';
 
   .jumbotron {
-    background: linear-gradient(rgba(0, 0, 0, 0.6),  rgba(0, 0, 0, 0.6)), url('~/assets/img/banner.jpg') center center fixed;
-    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),  rgba(0, 0, 0, 0.6)), url('~/assets/img/banner.jpg') center top fixed;
+    background-size: contain;
     color: #fff;
     text-align: center;
     border-radius: 0;
@@ -28,6 +28,7 @@
     }
 
     h1 {
+      text-shadow: 0 5px 10px #000;
       font-size: 2rem;
 
       @include tablet {
@@ -37,6 +38,8 @@
     }
 
     p {
+      text-shadow: 0px 5px 10px #000;
+
       @include tablet {
         font-size: 1.5rem;
         line-height: 32px;
