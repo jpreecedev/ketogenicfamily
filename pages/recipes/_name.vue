@@ -32,7 +32,7 @@
       </div>
       <div class="container body">
         <div class="row">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-4">
             <section class="mt-3" id="ingredients">
               <h2 class="display-2">Ingredients</h2>
               <ul class="bullets--hidden">
@@ -43,7 +43,7 @@
               </ul>
             </section>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-8">
             <section class="mt-5 mt-md-3" id="instructions">
               <h2 class="display-2">Instructions</h2>
               <ul class="bullets--numbered">
