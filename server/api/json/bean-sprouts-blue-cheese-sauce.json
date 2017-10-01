@@ -5,6 +5,7 @@
   "author": "Jon Preece",
   "published": "2017-08-28",
   "description": "A buttery, cheesy, delicious meal for the whole family",
+  "rating": 3.5,
   "ingredients": [
     {
       "quantity": 300,

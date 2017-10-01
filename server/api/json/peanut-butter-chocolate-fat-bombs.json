@@ -5,6 +5,7 @@
   "description": "A delicious, high fat treat that is ready in minutes",
   "author": "Sian Preece",
   "published": "2017-08-28",
+  "rating": 5,
   "ingredients": [{
       "quantity": 3,
       "units": "tablespoons",

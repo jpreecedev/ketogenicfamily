@@ -163,3 +163,11 @@ img[lazy=loading] {
   -ms-transform: translateZ(0);
   transform: translateZ(0);
 }
+
+#star-rating, #star-rating .star-rating {
+  display: block;
+
+  .rating {
+    display: none;
+  }
+}

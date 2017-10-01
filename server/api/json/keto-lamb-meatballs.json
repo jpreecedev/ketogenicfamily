@@ -5,6 +5,7 @@
   "description": "A healthy twist on an Italian classic",
   "author": "Sian Preece",
   "published": "2017-09-30",
+  "rating": 4,
   "ingredients": [{
       "quantity": 500,
       "units": "grams",

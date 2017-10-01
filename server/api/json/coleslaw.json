@@ -5,6 +5,7 @@
   "description": "A fantastic healthy side dish, which goes with pretty much anything",
   "author": "Sian Preece",
   "published": "2017-08-28",
+  "rating": 4,
   "ingredients": [{
       "quantity": 1,
       "units": "large",

@@ -5,6 +5,7 @@
   "description": "Creamy, bite-sized decadent treat",
   "author": "Sian Preece",
   "published": "2017-09-30",
+  "rating": 4,
   "ingredients": [{
       "quantity": 1,
       "units": "tablespoon",

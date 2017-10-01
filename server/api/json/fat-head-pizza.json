@@ -5,6 +5,7 @@
   "description": "Ridiculously nice pizza",
   "author": "Jon Preece",
   "published": "2017-08-28",
+  "rating": 5,
   "ingredients": [{
       "quantity": 1.5,
       "units": "cups",

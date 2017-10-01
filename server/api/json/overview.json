@@ -6,6 +6,7 @@
     "imgAlt": "Peanut butter creams",
     "title": "Peanut butter creams",
     "text": "Creamy, bite-sized decadent treat",
+    "rating": 4,
     "lastUpdated": "Updated on 30 September 2017 by Sian Preece"
   },
   {
@@ -15,6 +16,7 @@
     "imgAlt": "Keto Hot Chocolate",
     "title": "Keto Hot Chocolate",
     "text": "Perfect winter warmer",
+    "rating": 4.5,
     "lastUpdated": "Updated on 30 September 2017 by Sian Preece"
   },
   {
@@ -24,6 +26,7 @@
     "imgAlt": "Chocolate chip cheesecake",
     "title": "Chocolate chip cheesecake",
     "text": "A delicious little something to satisfy any sweet tooth",
+    "rating": 5,
     "lastUpdated": "Updated on 03 September 2017 by Sian Preece"
   },
   {
@@ -33,6 +36,7 @@
     "imgAlt": "Keto Muffins",
     "title": "Keto Muffins",
     "text": "A great alternative for traditional flour based muffins",
+    "rating": 3.5,
     "lastUpdated": "Published 03 September 2017 by Sian Preece"
   },
   {
@@ -42,6 +46,7 @@
     "imgAlt": "Birthday Cake For Nutters",
     "title": "Birthday Cake For Nutters",
     "text": "Low carb, high fat, keto friendly, nutty birthday cake!",
+    "rating": 5,
     "lastUpdated": "Updated on 30 September 2017 by Sian Preece"
   },
   {
@@ -51,6 +56,7 @@
     "imgAlt": "Keto Nacho Pizza",
     "title": "Keto Nacho Pizza",
     "text": "Nacho pizza, the keto way!",
+    "rating": 4.5,
     "lastUpdated": "Published 29 August 2017 by Sian Preece"
   },
   {
@@ -60,6 +66,7 @@
     "imgAlt": "Bean sprouts with blue cheese sauce",
     "title": "Bean sprouts with blue cheese sauce",
     "text": "A buttery, cheesy, delicious meal for the whole family",
+    "rating": 3.5,
     "lastUpdated": "Published 28 August 2017 by Jon Preece"
   },
   {
@@ -69,6 +76,7 @@
     "imgAlt": "Fat Head Pizza",
     "title": "Fat Head Pizza",
     "text": "Ridiculously nice pizza",
+    "rating": 5,
     "lastUpdated": "Published 28 August 2017 by Jon Preece"
   },
   {
@@ -78,6 +86,7 @@
     "imgAlt": "Shepherd's Pie",
     "title": "Shepherd's Pie",
     "text": "A classic meal, keto style",
+    "rating": 4,
     "lastUpdated": "Published on 28 August 2017 by Sian Preece"
   },
   {
@@ -87,6 +96,7 @@
     "imgAlt": "Peanut butter & chocolate fat bombs",
     "title": "Peanut butter & chocolate fat bombs",
     "text": "A delicious, high fat treat that is ready in minutes",
+    "rating": 5,
     "lastUpdated": "Published on 28 August 2017 by Jon Preece"
   },
   {
@@ -96,6 +106,7 @@
     "imgAlt": "Coleslaw",
     "title": "Coleslaw",
     "text": "A fantastic healthy side dish, which goes with pretty much anything",
+    "rating": 4,
     "lastUpdated": "Published on 28 August 2017 by Sian Preece"
   },
   {
@@ -105,6 +116,7 @@
     "imgAlt": "Home Made KFC",
     "title": "Home Made KFC",
     "text": "Who doesn't love KFC?  Now you can enjoy it in your own home for a fraction of the cost.",
+    "rating": 4,
     "lastUpdated": "Published on 28 August 2017 by Jon Preece"
   }
 ]

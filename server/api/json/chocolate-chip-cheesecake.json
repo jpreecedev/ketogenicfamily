@@ -5,6 +5,7 @@
   "author": "Jon Preece",
   "published": "2017-09-03",
   "description": "A delicious little something to satisfy any sweet tooth",
+  "rating": 5,
   "ingredients": [{
       "quantity": 200,
       "units": "grams",

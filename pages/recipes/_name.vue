@@ -2,12 +2,37 @@
   <transition appear name="fade">
     <div>
       <div class="recipe-header">
-          <h1 class="display-4 mt-4 mt-md-0">{{ recipe.title }}</h1>
-          <p class="lead">{{ recipe.description }}</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+              <div class="img-container">
+                <div class="img-underlay"
+                    :style="{ 'background-image': 'url(' + recipe.imgSrc + ')' }">
+                </div>
+                <img :src="recipe.imgSrc"
+                    :alt="recipe.title"
+                    class="img-fluid img-thumbnail">
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-6 d-flex justify-content-center align-items-center">
+              <div>
+                <h1 class="display-4 mt-4 mt-md-3">{{ recipe.title }}</h1>
+                <p class="lead">{{ recipe.description }}</p>
+                <star-rating id="star-rating"
+                            v-model="recipe.rating"
+                            text-class="rating"
+                            :increment="0.5"
+                            :read-only="true"
+                            :star-size="20">
+                </star-rating>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="container">
+      <div class="container body">
         <div class="row">
-          <div class="col-12 col-md-8 order-12 order-md-1">
+          <div class="col-12 col-md-6">
             <section class="mt-3" id="ingredients">
               <h2 class="display-2">Ingredients</h2>
               <ul class="bullets--hidden">
@@ -17,8 +42,9 @@
                 </li>
               </ul>
             </section>
-
-            <section class="mt-5" id="instructions">
+          </div>
+          <div class="col-12 col-md-6">
+            <section class="mt-5 mt-md-3" id="instructions">
               <h2 class="display-2">Instructions</h2>
               <ul class="bullets--numbered">
                 <li v-for="(instruction, index) in recipe.instructions"
@@ -27,11 +53,6 @@
                 </li>
               </ul>
             </section>
-          </div>
-          <div class="col-12 col-md-4 order-1 order-md-12">
-            <img :src="recipe.imgSrc"
-                 :alt="recipe.title"
-                 class="img-fluid img-thumbnail">
           </div>
         </div>
         <section class="mt-5" id="comments">
@@ -49,11 +70,13 @@
 <script>
 import axios from '~/plugins/axios'
 import VueDisqus from 'vue-disqus/VueDisqus.vue'
+import StarRating from 'vue-star-rating'
+import '~/plugins/components'
 
 export default {
   name: 'id',
   components: {
-    VueDisqus
+    VueDisqus, StarRating
   },
   asyncData ({ params, error }) {
     return axios.get('/api/recipes/' + params.name)
@@ -120,20 +143,51 @@ export default {
   @import '~assets/styles/mixins';
 
   .container {
+    max-width: 1024px;
+  }
+
+  .container.body {
     max-width: 900px;
   }
 
   .recipe-header {
     background-color: #fafafa;
-    padding: 30px 0 15px 0;
+    padding: 15px 0;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
     border-bottom: 1px solid #eee;
     text-align: center;
+
+    @include tablet {
+      padding-top: 30px;
+    }
   }
 
   #comments {
     margin: 3rem auto 1rem auto;
+  }
+
+  .img-container {
+    height: 200px;
+    position: relative;
+  }
+
+  .img-thumbnail {
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    position: absolute;
+    transform: translateX(-50%);
+  }
+
+  .img-underlay {
+    width: 100%;
+    position: absolute;
+    height: 200px;
+    transform: scale(1.03, 1.03);
+    background-position: center center;
+    background-size: cover;
+    filter: blur(10px);
   }
 
 </style>

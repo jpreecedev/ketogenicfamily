@@ -5,6 +5,7 @@
   "description": "Who doesn't love KFC?  Now you can enjoy it in your own home for a fraction of the cost.",
   "author": "Jon Preece",
   "published": "2017-08-28",
+  "rating": 4,
   "ingredients": [{
       "quantity": 4,
       "units": "large",

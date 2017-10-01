@@ -5,6 +5,7 @@
   "description": "A great alternative for traditional flour based muffins",
   "author": "Sian Preece",
   "published": "2017-09-03",
+  "rating": 3.5,
   "ingredients": [{
       "quantity": 6,
       "units": "Large",

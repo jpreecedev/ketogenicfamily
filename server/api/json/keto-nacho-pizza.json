@@ -5,6 +5,7 @@
   "description": "Nacho pizza, the keto way!",
   "author": "Sian Preece",
   "published": "2017-08-29",
+  "rating": 4.5,
   "ingredients": [{
       "quantity": 500,
       "units": "grams",
