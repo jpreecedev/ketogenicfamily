@@ -18,6 +18,10 @@
               <div>
                 <h1 class="display-4 mt-4 mt-md-3">{{ recipe.title }}</h1>
                 <p class="lead">{{ recipe.description }}</p>
+                <p class="mt-3 small">
+                  <span v-if="recipe.prepTimeDisplay" :class="{'mr-3': recipe.cookTimeDisplay}">Prep time: {{ recipe.prepTimeDisplay }}</span>
+                  <span v-if="recipe.cookTimeDisplay">Cook time: {{ recipe.cookTimeDisplay }}</span>
+                </p>
                 <star-rating id="star-rating"
                             v-model="recipe.rating"
                             text-class="rating"
@@ -25,10 +29,6 @@
                             :read-only="true"
                             :star-size="20">
                 </star-rating>
-                <p class="mt-3 small">
-                  <span v-if="recipe.prepTimeDisplay" :class="{'mr-3': recipe.cookTimeDisplay}">Prep time: {{ recipe.prepTimeDisplay }}</span>
-                  <span v-if="recipe.cookTimeDisplay">Cook time: {{ recipe.cookTimeDisplay }}</span>
-                </p>
               </div>
             </div>
           </div>
@@ -39,12 +39,8 @@
           <div class="col-12 col-md-4">
             <section class="mt-3" id="ingredients">
               <h2 class="display-2">Ingredients</h2>
-              <ul class="bullets--hidden">
-                <li v-for="ingredient in recipe.ingredients"
-                    :key="ingredient.quantity + ' ' + ingredient.units + ' ' + ingredient.description">
-                  {{ ingredient.quantity }} {{ ingredient.units }} {{ ingredient.description }}
-                </li>
-              </ul>
+              <app-ingredients :ingredients="recipe.ingredients">
+              </app-ingredients>
             </section>
           </div>
           <div class="col-12 col-md-8">

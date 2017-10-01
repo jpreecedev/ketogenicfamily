@@ -14,3 +14,9 @@ h2 {
     margin-bottom: 24px;
   }
 }
+
+h3 {
+  &.display-2 {
+    font-size: 1.5rem;
+  }
+}
