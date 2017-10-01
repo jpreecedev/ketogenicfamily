@@ -18,13 +18,14 @@
 
   .jumbotron {
     background: linear-gradient(rgba(0, 0, 0, 0.6),  rgba(0, 0, 0, 0.6)), url('~/assets/img/banner.jpg') center top fixed;
-    background-size: contain;
+    background-size: cover;
     color: #fff;
     text-align: center;
     border-radius: 0;
 
     @include tablet {
       padding: 10rem 2rem;
+      background-size: contain;
     }
 
     h1 {

@@ -35,8 +35,5 @@ module.exports = {
         })
       }
     }
-  },
-  plugins: [
-    { src: '~/plugins/lazyImages', ssr: false }
-  ]
+  }
 }
