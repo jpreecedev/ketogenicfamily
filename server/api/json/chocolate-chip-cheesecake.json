@@ -4,6 +4,8 @@
   "title": "Chocolate Chip Cheesecake",
   "author": "Jon Preece",
   "published": "2017-09-03",
+  "prepTimeDisplay": "5 mins",
+  "prepTime": "PT5M",
   "description": "A delicious little something to satisfy any sweet tooth",
   "rating": 5,
   "ingredients": [{

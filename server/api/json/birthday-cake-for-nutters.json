@@ -4,6 +4,10 @@
   "title": "Birthday Cake For Nutters",
   "author": "Sian Preece",
   "published": "2017-09-30",
+  "prepTimeDisplay": "20 mins",
+  "prepTime": "PT20M",
+  "cookTimeDisplay": "30 mins",
+  "cookTime": "PT30M",
   "description": "Low carb, high fat, keto friendly, nutty birthday cake!",
   "rating": 5,
   "ingredients": [{

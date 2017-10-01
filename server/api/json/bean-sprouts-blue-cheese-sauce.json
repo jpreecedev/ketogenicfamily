@@ -4,6 +4,10 @@
   "title": "Bean sprouts with blue cheese sauce",
   "author": "Jon Preece",
   "published": "2017-08-28",
+  "prepTimeDisplay": "10 mins",
+  "prepTime": "PT10M",
+  "cookTimeDisplay": "5 mins",
+  "cookTime": "PT5M",
   "description": "A buttery, cheesy, delicious meal for the whole family",
   "rating": 3.5,
   "ingredients": [

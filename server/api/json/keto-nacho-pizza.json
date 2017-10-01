@@ -5,6 +5,10 @@
   "description": "Nacho pizza, the keto way!",
   "author": "Sian Preece",
   "published": "2017-08-29",
+  "prepTimeDisplay": "15 mins",
+  "prepTime": "PT15M",
+  "cookTimeDisplay": "15 mins",
+  "cookTime": "PT15M",
   "rating": 4.5,
   "ingredients": [{
       "quantity": 500,

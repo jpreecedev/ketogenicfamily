@@ -5,6 +5,10 @@
   "description": "Who doesn't love KFC?  Now you can enjoy it in your own home for a fraction of the cost.",
   "author": "Jon Preece",
   "published": "2017-08-28",
+  "prepTimeDisplay": "10 mins",
+  "prepTime": "PT10M",
+  "cookTimeDisplay": "45 mins",
+  "cookTime": "PT45M",
   "rating": 4,
   "ingredients": [{
       "quantity": 4,

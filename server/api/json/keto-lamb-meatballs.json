@@ -5,6 +5,10 @@
   "description": "A healthy twist on an Italian classic",
   "author": "Sian Preece",
   "published": "2017-09-30",
+  "prepTimeDisplay": "10 mins",
+  "prepTime": "PT10M",
+  "cookTimeDisplay": "20 mins",
+  "cookTime": "PT20M",
   "rating": 4,
   "ingredients": [{
       "quantity": 500,

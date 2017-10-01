@@ -5,6 +5,10 @@
   "description": "A classic meal, keto style",
   "author": "Sian Preece",
   "published": "2017-08-28",
+  "prepTimeDisplay": "15 mins",
+  "prepTime": "PT15M",
+  "cookTimeDisplay": "30 mins",
+  "cookTime": "PT30M",
   "rating": 4,
   "ingredients": [{
       "quantity": 500,

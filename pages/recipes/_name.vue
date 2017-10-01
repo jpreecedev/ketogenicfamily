@@ -25,6 +25,10 @@
                             :read-only="true"
                             :star-size="20">
                 </star-rating>
+                <p class="mt-3 small">
+                  <span v-if="recipe.prepTimeDisplay" :class="{'mr-3': recipe.cookTimeDisplay}">Prep time: {{ recipe.prepTimeDisplay }}</span>
+                  <span v-if="recipe.cookTimeDisplay">Cook time: {{ recipe.cookTimeDisplay }}</span>
+                </p>
               </div>
             </div>
           </div>
@@ -120,7 +124,14 @@ export default {
         "datePublished": "${this.recipe.published}",
         "description": "${this.recipe.description}",
         "recipeIngredient": [${this.getRecipeIngredients()}],
-        "recipeInstructions": "${this.getRecipeInstructions()}"
+        "recipeInstructions": "${this.getRecipeInstructions()}",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "${this.recipe.rating}",
+          "ratingCount": "1"
+        },
+        "cookTime": "${this.recipe.cookTime}",
+        "prepTime": "${this.recipe.prepTime}"
       }`
     },
     getRecipeIngredients () {

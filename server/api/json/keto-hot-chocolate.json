@@ -5,6 +5,8 @@
   "description": "Perfect winter warmer",
   "author": "Sian Preece",
   "published": "2017-09-30",
+  "prepTimeDisplay": "2 mins",
+  "prepTime": "PT2M",
   "rating": 4.5,
   "ingredients": [{
       "quantity": 4,

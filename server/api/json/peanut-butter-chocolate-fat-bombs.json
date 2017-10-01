@@ -5,6 +5,8 @@
   "description": "A delicious, high fat treat that is ready in minutes",
   "author": "Sian Preece",
   "published": "2017-08-28",
+  "prepTimeDisplay": "3 mins",
+  "prepTime": "PT3M",
   "rating": 5,
   "ingredients": [{
       "quantity": 3,

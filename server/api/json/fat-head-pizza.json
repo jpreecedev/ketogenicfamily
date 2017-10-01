@@ -5,6 +5,10 @@
   "description": "Ridiculously nice pizza",
   "author": "Jon Preece",
   "published": "2017-08-28",
+  "prepTimeDisplay": "10 mins",
+  "prepTime": "PT10M",
+  "cookTimeDisplay": "20 mins",
+  "cookTime": "PT20M",
   "rating": 5,
   "ingredients": [{
       "quantity": 1.5,

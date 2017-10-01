@@ -5,6 +5,10 @@
   "description": "A great alternative for traditional flour based muffins",
   "author": "Sian Preece",
   "published": "2017-09-03",
+  "prepTimeDisplay": "10 mins",
+  "prepTime": "PT10M",
+  "cookTimeDisplay": "10 mins",
+  "cookTime": "PT10M",
   "rating": 3.5,
   "ingredients": [{
       "quantity": 6,

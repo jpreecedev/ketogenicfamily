@@ -5,6 +5,8 @@
   "description": "Creamy, bite-sized decadent treat",
   "author": "Sian Preece",
   "published": "2017-09-30",
+  "prepTimeDisplay": "3 mins",
+  "prepTime": "PT3M",
   "rating": 4,
   "ingredients": [{
       "quantity": 1,
