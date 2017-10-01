@@ -126,13 +126,20 @@ export default {
           "ratingValue": "${this.recipe.rating}",
           "ratingCount": "1"
         },
-        "cookTime": "${this.recipe.cookTime}",
+        "cookTime": "${this.recipe.cookTime ? this.recipe.cookTime : ''}",
         "prepTime": "${this.recipe.prepTime}"
       }`
     },
     getRecipeIngredients () {
       return this.recipe.ingredients.map(ingredient => {
-        return `"${ingredient.quantity} ${ingredient.units} ${ingredient.description}"`
+        let result = `"${ingredient.quantity} ${ingredient.units} ${ingredient.description}"`
+        if (ingredient.groupTitle) {
+          result = ingredient.ingredients.map(groupedIngredient => {
+            return `"${groupedIngredient.quantity} ${groupedIngredient.units} ${groupedIngredient.description}"`
+          })
+          result.toString().trim().replace(/(^,)|(,$)/g, '')
+        }
+        return result
       })
     },
     getRecipeInstructions () {
