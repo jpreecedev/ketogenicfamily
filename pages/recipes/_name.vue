@@ -31,7 +31,6 @@
           <div class="col-12 col-md-4 order-1 order-md-12">
             <img :src="recipe.imgSrc"
                  :alt="recipe.title"
-                 lazy="loading"
                  class="img-fluid img-thumbnail">
           </div>
         </div>

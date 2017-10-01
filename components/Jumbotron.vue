@@ -24,7 +24,7 @@
     border-radius: 0;
 
     @include tablet {
-      padding: 8rem 2rem;
+      padding: 10rem 2rem;
     }
 
     h1 {
