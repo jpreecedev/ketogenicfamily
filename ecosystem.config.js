@@ -1,7 +1,7 @@
 module.exports = {
   apps: [{
     name: 'ketogenicfamily',
-    script: './server/index.js'
+    script: './build/main.js'
   }],
   deploy: {
     production: {
