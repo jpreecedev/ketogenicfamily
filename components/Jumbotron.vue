@@ -1,7 +1,7 @@
 <template>
   <section class="jumbotron">
     <div class="container">
-      <h1>Ketogenic Family.com</h1>
+      <h1>Ketogenic Family</h1>
       <p class="lead">Free recipes suitable for the modern ketogenic family</p>
     </div>
   </section>
