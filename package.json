@@ -24,6 +24,7 @@
     "vue-star-rating": "^1.4.0"
   },
   "devDependencies": {
+    "@nuxtjs/sitemap": "0.0.3",
     "babel-eslint": "^8.0.1",
     "babel-preset-stage-2": "^6.24.1",
     "backpack-core": "^0.4.1",

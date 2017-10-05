@@ -7,13 +7,13 @@
            role="button">
         <nuxt-link :to="card.url">
           <img v-if="lazy"
-                v-lazy="card.imgSrc"
-                :alt="card.imgAlt"
-                class="card-img-top img-fluid">
+               v-lazy="card.imgSrc"
+               :alt="card.imgAlt"
+               class="card-img-top img-fluid">
           <img v-else
-                :src="card.imgSrc"
-                :alt="card.imgAlt"
-                class="card-img-top img-fluid">
+               :src="card.imgSrc"
+               :alt="card.imgAlt"
+               class="card-img-top img-fluid">
           <div class="card-body">
             <h4 class="card-title">{{ card.title }}</h4>
             <p class="card-text">{{ card.text }}</p>
@@ -34,6 +34,11 @@
         type: Array,
         default: () => [],
         required: true
+      },
+      'lazy': {
+        type: Boolean,
+        required: false,
+        default: false
       }
     }
   }

@@ -1,7 +1,18 @@
+const overview = require('./server/api/json/overview')
+
 module.exports = {
   /*
   ** Headers of the page
   */
+  modules: [
+    '@nuxtjs/sitemap'
+  ],
+  sitemap: {
+    generate: false,
+    routes: overview.map(item => {
+      return item.url
+    })
+  },
   head: {
     title: 'KetogenicFamily.com',
     meta: [
