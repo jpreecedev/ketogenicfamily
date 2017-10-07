@@ -1,0 +1,73 @@
+{
+  "key": "keto-sponge-cake",
+  "imgSrc": "/img/keto-sponge-cake.jpg",
+  "title": "Keto Sponge Cake",
+  "author": "Sian Preece",
+  "published": "2017-10-07",
+  "prepTimeDisplay": "8 mins",
+  "prepTime": "PT8M",
+  "cookTimeDisplay": "30 mins",
+  "cookTime": "PT30M",
+  "description": "Sponge cake with vanilla cream and rasberries",
+  "rating": 4,
+  "ingredients": [{
+    "groupTitle": "Sponge",
+    "ingredients": [{
+      "quantity": 250,
+      "units": "grams",
+      "description": "ricotta"
+    }, {
+      "quantity": 1,
+      "units": "Tablespoon",
+      "description": "stevia"
+    }, {
+      "quantity": 3,
+      "units": "whole",
+      "description": "eggs"
+    }, {
+      "quantity": 100,
+      "units": "grams",
+      "description": "butter"
+    }, {
+      "quantity": 70,
+      "units": "grams",
+      "description": "pecan flour"
+    }, {
+      "quantity": 2,
+      "units": "tablespoons",
+      "description": "baking powder"
+    }, {
+      "quantity": 1,
+      "units": "tablespoon",
+      "description": "Himalayan pink salt"
+    }, {
+      "quantity": 1,
+      "units": "tablespoon",
+      "description": "Himalayan pink salt"
+    }]
+  }, {
+    "groupTitle": "Topping",
+    "ingredients": [{
+      "quantity": 150,
+      "units": "ml",
+      "description": "Whipping Cream"
+    }, {
+      "quantity": 1,
+      "units": "teaspoon",
+      "description": "vanilla extract"
+    }, {
+      "quantity": 1,
+      "units": "cup",
+      "description": "raspberries"
+    }]
+  }],
+  "instructions": [
+    "To make pecan flour, blend a bag of pecans in a food processor and put this to one side.",
+    "Put the butter in the microwave for 60 seconds to melt it and set aside to cool down.",
+    "With a hand whisk, blend ricotta and stevia.",
+    "Add in the eggs, one by one, then the melted butter and whisk.",
+    "Add the flour, baking power and salt. Whisk.",
+    "Pour the mix into a cupcake tin and bake for 30 mins until golden brown.",
+    "Once the sponge is cooked, whip up the cream, add in the vanilla extract and serve with raspberries"
+  ]
+}

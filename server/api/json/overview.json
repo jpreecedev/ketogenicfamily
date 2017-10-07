@@ -1,13 +1,13 @@
 [
   {
-    "url": "/recipes/peanut-butter-creams",
-    "key": "peanut-butter-creams",
-    "imgSrc": "/img/peanut-butter-creams.jpg",
-    "imgAlt": "Peanut butter creams",
-    "title": "Peanut butter creams",
-    "text": "Creamy, bite-sized decadent treat",
-    "rating": 4,
-    "lastUpdated": "Updated on 30 September 2017 by Sian Preece"
+    "url": "/recipes/simple-cheese-pizza",
+    "key": "simple-cheese-pizza",
+    "imgSrc": "/img/simple-cheese-pizza.jpg",
+    "imgAlt": "Simple Cheese Pizza",
+    "title": "Simple Cheese Pizza",
+    "text": "A Good Old Classic",
+    "rating": 5,
+    "lastUpdated": "Published 07 October 2017 by Jon Preece"
   },
   {
     "url": "/recipes/birthday-cake-for-nutters",
@@ -20,6 +20,16 @@
     "lastUpdated": "Updated on 30 September 2017 by Sian Preece"
   },
   {
+    "url": "/recipes/keto-sponge-cake",
+    "key": "keto-sponge-cake",
+    "imgSrc": "/img/keto-sponge-cake.jpg",
+    "imgAlt": "Keto Sponge Cake",
+    "title": "Keto Sponge Cake",
+    "text": "Sponge cake with vanilla cream and rasberries",
+    "rating": 4,
+    "lastUpdated": "Published on 07 October 2017 by Sian Preece"
+  },
+  {
     "url": "/recipes/chocolate-chip-cheesecake",
     "key": "chocolate-chip-cheesecake",
     "imgSrc": "/img/chocolate-chip-cheesecake.jpg",
@@ -28,6 +38,16 @@
     "text": "A delicious little something to satisfy any sweet tooth",
     "rating": 5,
     "lastUpdated": "Updated on 03 September 2017 by Sian Preece"
+  },
+  {
+    "url": "/recipes/peanut-butter-creams",
+    "key": "peanut-butter-creams",
+    "imgSrc": "/img/peanut-butter-creams.jpg",
+    "imgAlt": "Peanut butter creams",
+    "title": "Peanut butter creams",
+    "text": "Creamy, bite-sized decadent treat",
+    "rating": 4,
+    "lastUpdated": "Updated on 30 September 2017 by Sian Preece"
   },
   {
     "url": "/recipes/keto-muffins",
