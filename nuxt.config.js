@@ -7,6 +7,9 @@ module.exports = {
   modules: [
     '@nuxtjs/sitemap'
   ],
+  plugins: [
+    { src: '~plugins/ga.js', ssr: false }
+  ],
   sitemap: {
     generate: false,
     routes: overview.map(item => {
