@@ -34,12 +34,34 @@ export default {
   },
   head () {
     return {
-      title: 'KetogenicFamily.com - Ketogenic recipes for the whole family'
+      title: 'KetogenicFamily.com - Ketogenic recipes for the whole family',
+      __dangerouslyDisableSanitizers: ['script'],
+      script: [
+        {
+          hid: 'social-profile-links',
+          type: 'application/ld+json',
+          innerHTML: this.getSocialProfileLinks()
+        }
+      ]
     }
   },
   data () {
     return {
       overview: null
+    }
+  },
+  methods: {
+    getSocialProfileLinks () {
+      return `{
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Ketogenic Family",
+        "url": "https://ketogenicfamily.com",
+        "sameAs": [
+            "https://www.facebook.com/theketogenicfamily",
+            "https://www.instagram.com/ketogenic_family/"
+          ]
+      }`
     }
   }
 }
