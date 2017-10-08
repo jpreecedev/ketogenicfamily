@@ -1,5 +1,6 @@
 {
   "key": "peanut-butter-chocolate-fat-bombs",
+  "url": "/recipes/peanut-butter-chocolate-fat-bombs",
   "imgSrc": "/img/peanut-butter-chocolate-fat-bombs.jpg",
   "title": "Peanut butter & chocolate fat bombs",
   "description": "A delicious, high fat treat that is ready in minutes",
@@ -33,5 +34,10 @@
     "Add all the ingredients to a bowl and mix for 30 seconds to one minute",
     "Pour mixture into a cup-cake dish",
     "Freeze for at least 20 minutes to 1 hour"
+  ],
+  "related": [
+    "peanut-butter-creams",
+    "birthday-cake-for-nutters",
+    "keto-muffins"
   ]
 }

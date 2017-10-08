@@ -1,5 +1,6 @@
 {
   "key": "peanut-butter-creams",
+  "url": "/recipes/peanut-butter-creams",
   "imgSrc": "/img/peanut-butter-creams.jpg",
   "title": "Peanut butter creams",
   "description": "Creamy, bite-sized decadent treat",
@@ -28,5 +29,10 @@
     "Mix all the ingredients together with a hand mixer.",
     "Scoop the mixture onto the cupcake tray.",
     "Place in the freezer for an hour to set."
+  ],
+  "related": [
+    "peanut-butter-chocolate-fat-bombs",
+    "birthday-cake-for-nutters",
+    "keto-sponge-cake"
   ]
 }

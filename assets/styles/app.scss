@@ -166,8 +166,13 @@ img[lazy=loading] {
 
 [id^='star-rating'], [id^='star-rating'] .star-rating {
   display: block;
+  margin: 0 auto;
 
   .rating {
     display: none;
+  }
+
+  .card & {
+    margin: 0;
   }
 }

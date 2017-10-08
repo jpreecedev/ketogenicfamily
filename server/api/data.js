@@ -26,7 +26,17 @@ router.get('/overview', function (req, res, next) {
 })
 
 router.get('/recipes/:name', function (req, res, next) {
-  const json = getConfig(`json/${req.params.name}.json`)
+  let json = getConfig(`json/${req.params.name}.json`)
+
+  if (json.related) {
+    let relatedRecipes = []
+
+    json.related.forEach(r => {
+      relatedRecipes.push(getConfig(`json/${r}.json`))
+    })
+
+    json.related = relatedRecipes
+  }
 
   if (json) {
     res.json(json)

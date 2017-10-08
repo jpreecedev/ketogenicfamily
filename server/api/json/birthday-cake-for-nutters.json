@@ -1,5 +1,6 @@
 {
   "key": "birthday-cake-for-nutters",
+  "url": "/recipes/birthday-cake-for-nutters",
   "imgSrc": "/img/birthday-cake-for-nutters.jpg",
   "title": "Birthday Cake For Nutters",
   "author": "Sian Preece",
@@ -79,5 +80,10 @@
     "Add in the brazil flour & walnut flour, coconut flour and baking powder.",
     "Transfer the mixture into a greased cake tin and bake for 18-20 minuites. To test the mixture is cooked in the middle, stick a toothpick in the middle and if it comes out clean, it's ready.",
     "Whilst the cake is cooking, in a food processor blend together the cream cheese, butter, stevia and vanilla extract until smooth."
+  ],
+  "related": [
+    "chocolate-chip-cheesecake",
+    "keto-hot-chocolate",
+    "keto-sponge-cake"
   ]
 }

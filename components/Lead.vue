@@ -8,7 +8,6 @@
       </app-card>
     </div>
   </div>
-  </div>
 </template>
 
 <script>
@@ -22,8 +21,8 @@
       },
       'lazy': {
         type: Boolean,
-        required: false,
-        default: false
+        default: true,
+        required: false
       }
     }
   }

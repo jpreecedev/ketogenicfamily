@@ -1,5 +1,6 @@
 {
-  "key": "Coleslaw",
+  "key": "coleslaw",
+  "url": "/recipes/coleslaw",
   "imgSrc": "/img/coleslaw.jpg",
   "title": "Coleslaw",
   "description": "A fantastic healthy side dish, which goes with pretty much anything",
@@ -48,5 +49,10 @@
     "Cut up the red cabbage into sections and individually blend in a food processor until nicely chopped. Transfer the red cabbage to a large mixing bowl and add in the chopped red onion.",
     "Mix in sour cream, mayonnaise, tarragon, balsamic vinegar & stevia.",
     "With a spatula, mix well and serve."
+  ],
+  "related": [
+    "fat-head-pizza",
+    "keto-lamb-meatballs",
+    "home-made-kfc"
   ]
 }

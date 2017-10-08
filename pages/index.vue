@@ -4,7 +4,8 @@
     <section class="container">
 
       <h2 class="display-2">Latest recipes</h2>
-      <app-lead :data="latest">
+      <app-lead :data="latest"
+                :lazy="false">
       </app-lead>
 
       <h2 class="display-2">...and more of our favourites</h2>
@@ -18,13 +19,9 @@
 
 <script>
 import axios from '~/plugins/axios'
-import lazy from '~/plugins/lazyImages'
 import '~/plugins/components'
 
 export default {
-  components: {
-    lazy
-  },
   async asyncData () {
     let { data } = await axios.get('/api/overview')
     return {

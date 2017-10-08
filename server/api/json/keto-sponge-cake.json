@@ -1,5 +1,6 @@
 {
   "key": "keto-sponge-cake",
+  "url": "/recipes/keto-sponge-cake",
   "imgSrc": "/img/keto-sponge-cake.jpg",
   "title": "Keto Sponge Cake",
   "author": "Sian Preece",
@@ -69,5 +70,10 @@
     "Add the flour, baking power and salt. Whisk.",
     "Pour the mix into a cupcake tin and bake for 30 mins until golden brown.",
     "Once the sponge is cooked, whip up the cream, add in the vanilla extract and serve with raspberries"
+  ],
+  "related": [
+    "peanut-butter-chocolate-fat-bombs",
+    "birthday-cake-for-nutters",
+    "home-made-kfc"
   ]
 }

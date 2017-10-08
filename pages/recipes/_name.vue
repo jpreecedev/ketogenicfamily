@@ -23,11 +23,11 @@
                   <span v-if="recipe.cookTimeDisplay">Cook time: {{ recipe.cookTimeDisplay }}</span>
                 </p>
                 <star-rating id="star-rating"
-                            v-model="recipe.rating"
-                            text-class="rating"
-                            :increment="0.5"
-                            :read-only="true"
-                            :star-size="20">
+                             v-model="recipe.rating"
+                             text-class="rating"
+                             :increment="0.5"
+                             :read-only="true"
+                             :star-size="20">
                 </star-rating>
               </div>
             </div>
@@ -55,6 +55,12 @@
             </section>
           </div>
         </div>
+        <section class="mt-5"
+                 id="related"
+                 v-if="recipe.related">
+          <h2 class="display-2">Related Recipes</h2>
+          <app-lead :data="recipe.related"></app-lead>
+        </section>
         <section class="mt-5" id="comments">
           <h2 class="display-2">Discussion</h2>
           <vue-disqus shortname="ketogenicfamily"

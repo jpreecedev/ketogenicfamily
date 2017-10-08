@@ -1,5 +1,6 @@
 {
   "key": "fat-head-pizza",
+  "url": "/recipes/fat-head-pizza",
   "imgSrc": "/img/fat-head-pizza.jpg",
   "title": "Fat Head Pizza",
   "description": "Ridiculously nice pizza",
@@ -48,5 +49,10 @@
     "Add a think layer of pizza sauce",
     "Add toppings to suit.  Our favourites are; cheese, chorizo, bacon, salami, pepperoni, onion.",
     "Put back in oven for 5 minutes or until golden brown"
+  ],
+  "related": [
+    "simple-cheese-pizza",
+    "keto-nacho-pizza",
+    "home-made-kfc"
   ]
 }

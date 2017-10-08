@@ -1,5 +1,6 @@
 {
   "key": "keto-hot-chocolate",
+  "url": "/recipes/keto-hot-chocolate",
   "imgSrc": "/img/keto-hot-chocolate.jpg",
   "title": "Keto Hot Chocolate",
   "description": "Perfect winter warmer",
@@ -29,5 +30,10 @@
     "Blend all the ingredients together with a hand wisker whilst adding boiling hot water.",
     "Mix together and dish out to create the base.",
     "Once you get a frothy top it's ready."
+  ],
+  "related": [
+    "keto-sponge-cake",
+    "peanut-butter-creams",
+    "chocolate-chip-cheesecake"
   ]
 }

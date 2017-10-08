@@ -5,7 +5,7 @@
     "imgSrc": "/img/simple-cheese-pizza.jpg",
     "imgAlt": "Simple Cheese Pizza",
     "title": "Simple Cheese Pizza",
-    "text": "A Good Old Classic",
+    "description": "A Good Old Classic",
     "rating": 5,
     "lastUpdated": "Published 07 October 2017 by Jon Preece"
   },
@@ -15,7 +15,7 @@
     "imgSrc": "/img/birthday-cake-for-nutters.jpg",
     "imgAlt": "Birthday Cake For Nutters",
     "title": "Birthday Cake For Nutters",
-    "text": "Low carb, high fat, keto friendly, nutty birthday cake!",
+    "description": "Low carb, high fat, keto friendly, nutty birthday cake!",
     "rating": 5,
     "lastUpdated": "Updated on 30 September 2017 by Sian Preece"
   },
@@ -25,7 +25,7 @@
     "imgSrc": "/img/keto-sponge-cake.jpg",
     "imgAlt": "Keto Sponge Cake",
     "title": "Keto Sponge Cake",
-    "text": "Sponge cake with vanilla cream and rasberries",
+    "description": "Sponge cake with vanilla cream and rasberries",
     "rating": 4,
     "lastUpdated": "Published on 07 October 2017 by Sian Preece"
   },
@@ -35,7 +35,7 @@
     "imgSrc": "/img/chocolate-chip-cheesecake.jpg",
     "imgAlt": "Chocolate chip cheesecake",
     "title": "Chocolate chip cheesecake",
-    "text": "A delicious little something to satisfy any sweet tooth",
+    "description": "A delicious little something to satisfy any sweet tooth",
     "rating": 5,
     "lastUpdated": "Updated on 03 September 2017 by Sian Preece"
   },
@@ -45,7 +45,7 @@
     "imgSrc": "/img/peanut-butter-creams.jpg",
     "imgAlt": "Peanut butter creams",
     "title": "Peanut butter creams",
-    "text": "Creamy, bite-sized decadent treat",
+    "description": "Creamy, bite-sized decadent treat",
     "rating": 4,
     "lastUpdated": "Updated on 30 September 2017 by Sian Preece"
   },
@@ -55,7 +55,7 @@
     "imgSrc": "/img/keto-muffins.jpg",
     "imgAlt": "Keto Muffins",
     "title": "Keto Muffins",
-    "text": "A great alternative for traditional flour based muffins",
+    "description": "A great alternative for traditional flour based muffins",
     "rating": 3.5,
     "lastUpdated": "Published 03 September 2017 by Sian Preece"
   },
@@ -65,7 +65,7 @@
     "imgSrc": "/img/keto-hot-chocolate.jpg",
     "imgAlt": "Keto Hot Chocolate",
     "title": "Keto Hot Chocolate",
-    "text": "Perfect winter warmer",
+    "description": "Perfect winter warmer",
     "rating": 4.5,
     "lastUpdated": "Updated on 30 September 2017 by Sian Preece"
   },
@@ -75,7 +75,7 @@
     "imgSrc": "/img/keto-nacho-pizza.jpg",
     "imgAlt": "Keto Nacho Pizza",
     "title": "Keto Nacho Pizza",
-    "text": "Nacho pizza, the keto way!",
+    "description": "Nacho pizza, the keto way!",
     "rating": 4.5,
     "lastUpdated": "Published 29 August 2017 by Sian Preece"
   },
@@ -85,7 +85,7 @@
     "imgSrc": "/img/bean-sprouts-blue-cheese-sauce.jpg",
     "imgAlt": "Bean sprouts with blue cheese sauce",
     "title": "Bean sprouts with blue cheese sauce",
-    "text": "A buttery, cheesy, delicious meal for the whole family",
+    "description": "A buttery, cheesy, delicious meal for the whole family",
     "rating": 3.5,
     "lastUpdated": "Published 28 August 2017 by Jon Preece"
   },
@@ -95,7 +95,7 @@
     "imgSrc": "/img/fat-head-pizza.jpg",
     "imgAlt": "Fat Head Pizza",
     "title": "Fat Head Pizza",
-    "text": "Ridiculously nice pizza",
+    "description": "Ridiculously nice pizza",
     "rating": 5,
     "lastUpdated": "Published 28 August 2017 by Jon Preece"
   },
@@ -105,7 +105,7 @@
     "imgSrc": "/img/shepherds-pie.jpg",
     "imgAlt": "Shepherd's Pie",
     "title": "Shepherd's Pie",
-    "text": "A classic meal, keto style",
+    "description": "A classic meal, keto style",
     "rating": 4,
     "lastUpdated": "Published on 28 August 2017 by Sian Preece"
   },
@@ -115,7 +115,7 @@
     "imgSrc": "/img/peanut-butter-chocolate-fat-bombs.jpg",
     "imgAlt": "Peanut butter & chocolate fat bombs",
     "title": "Peanut butter & chocolate fat bombs",
-    "text": "A delicious, high fat treat that is ready in minutes",
+    "description": "A delicious, high fat treat that is ready in minutes",
     "rating": 5,
     "lastUpdated": "Published on 28 August 2017 by Jon Preece"
   },
@@ -125,7 +125,7 @@
     "imgSrc": "/img/coleslaw.jpg",
     "imgAlt": "Coleslaw",
     "title": "Coleslaw",
-    "text": "A fantastic healthy side dish, which goes with pretty much anything",
+    "description": "A fantastic healthy side dish, which goes with pretty much anything",
     "rating": 4,
     "lastUpdated": "Published on 28 August 2017 by Sian Preece"
   },
@@ -135,7 +135,7 @@
     "imgSrc": "/img/home-made-kfc.jpg",
     "imgAlt": "Home Made KFC",
     "title": "Home Made KFC",
-    "text": "Who doesn't love KFC?  Now you can enjoy it in your own home for a fraction of the cost.",
+    "description": "Who doesn't love KFC?  Now you can enjoy it in your own home for a fraction of the cost.",
     "rating": 4,
     "lastUpdated": "Published on 28 August 2017 by Jon Preece"
   }

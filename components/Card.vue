@@ -28,11 +28,12 @@
 
 <script>
   import StarRating from 'vue-star-rating'
+  import lazy from '~/plugins/lazyImages'
 
   export default {
     name: 'card',
     components: {
-      StarRating
+      StarRating, lazy
     },
     props: {
       'recipe': {
@@ -42,8 +43,8 @@
       },
       'lazy': {
         type: Boolean,
-        default: false,
-        required: true
+        default: true,
+        required: false
       }
     }
   }

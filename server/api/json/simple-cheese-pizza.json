@@ -1,5 +1,6 @@
 {
   "key": "simple-cheese-pizza",
+  "url": "/recipes/simple-cheese-pizza",
   "imgSrc": "/img/simple-cheese-pizza.jpg",
   "title": "Simple Cheese Pizza",
   "author": "Jon Preece",
@@ -52,5 +53,10 @@
     "Add the salsa for the sauce",
     "Add cheese slices for the topping",
     "Put back in oven for 5 minutes or until golden brown"
+  ],
+  "related": [
+    "fat-head-pizza",
+    "keto-nacho-pizza",
+    "shepherds-pie"
   ]
 }

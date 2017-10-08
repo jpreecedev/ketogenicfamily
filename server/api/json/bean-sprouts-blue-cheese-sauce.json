@@ -1,5 +1,6 @@
 {
   "key": "bean-sprouts-blue-cheese-sauce",
+  "url": "/recipes/bean-sprouts-blue-cheese-sauce",
   "imgSrc": "/img/bean-sprouts-blue-cheese-sauce.jpg",
   "title": "Bean sprouts with blue cheese sauce",
   "author": "Jon Preece",
@@ -41,5 +42,10 @@
     "Start by boiling the bean sprouts for 2 to 3 minutes, once cooked drain them.",
     "In a separate pan, add a large blob of butter, the blue cheese and cream cheese. Add a pinch of salt and pepper to taste.",
     "Transfer the bean sprouts into the cheese mixture, simmer for 2 to 3 minutes and serve."
+  ],
+  "related": [
+    "fat-head-pizza",
+    "birthday-cake-for-nutters",
+    "home-made-kfc"
   ]
 }

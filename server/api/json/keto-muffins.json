@@ -1,5 +1,6 @@
 {
   "key": "keto-muffins",
+  "url": "/recipes/keto-muffins",
   "imgSrc": "/img/keto-muffins.jpg",
   "title": "Keto Muffins",
   "description": "A great alternative for traditional flour based muffins",
@@ -39,5 +40,10 @@
     "Mix all the ingredients together in a mixing bowl with a hand mixer",
     "Grease up a muffin tray and fill each compartment with the mixture",
     "Cook in the oven for 10 minutes or until slightly brown"
+  ],
+  "related": [
+    "peanut-butter-chocolate-fat-bombs",
+    "birthday-cake-for-nutters",
+    "keto-hot-chocolate"
   ]
 }

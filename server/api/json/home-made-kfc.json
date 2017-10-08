@@ -1,5 +1,6 @@
 {
   "key": "home-made-kfc",
+  "url": "/recipes/home-made-kfc",
   "imgSrc": "/img/home-made-kfc.jpg",
   "title": "Home Made KFC",
   "description": "Who doesn't love KFC?  Now you can enjoy it in your own home for a fraction of the cost.",
@@ -52,5 +53,10 @@
     "In a baking dish, add enough olive oil to cover the bottom well (1-2mm).",
     "Place the chicken drumsticks on the oil and bake at 180C/350F for 45 minutes.",
     "Turn 2 or 3 times while they are cooking so all the coating gets covered in the olive oil."
+  ],
+  "related": [
+    "fat-head-pizza",
+    "simple-cheese-pizza",
+    "keto-nacho-pizza"
   ]
 }

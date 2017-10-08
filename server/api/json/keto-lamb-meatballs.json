@@ -1,5 +1,6 @@
 {
-  "key": "Keto Lamb Meatballs",
+  "key": "keto-lamb-meatballs",
+  "url": "/recipes/keto-lamb-meatballs",
   "imgSrc": "/img/keto-lamb-meatballs.jpg",
   "title": "Keto Lamb Meatballs",
   "description": "A healthy twist on an Italian classic",
@@ -47,5 +48,10 @@
     "In a casserole dish, add Salsa and chopped tomatoes.",
     "Then add in the meatballs and simmer.",
     "Serve with grated cheese on top."
+  ],
+  "related": [
+    "bean-sprouts-blue-cheese-sauce",
+    "fat-head-pizza",
+    "shepherds-pie"
   ]
 }

@@ -1,5 +1,6 @@
 {
   "key": "keto-nacho-pizza",
+  "url": "/recipes/keto-nacho-pizza",
   "imgSrc": "/img/keto-nacho-pizza.jpg",
   "title": "Keto Nacho Pizza",
   "description": "Nacho pizza, the keto way!",
@@ -43,5 +44,10 @@
     "Cook the sausages, add in the chopped up onion. Once cooked cut up the sausages.",
     "Place the sundried tomato paste on top of the nachos, then the toppings and cheese.",
     "Cook until the cheese is melted and serve."
+  ],
+  "related": [
+    "fat-head-pizza",
+    "simple-cheese-pizza",
+    "home-made-kfc"
   ]
 }
