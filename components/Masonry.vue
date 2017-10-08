@@ -4,21 +4,9 @@
             :key="card.key"
             class="card"
             role="button">
-        <nuxt-link :to="card.url">
-          <img v-if="lazy"
-               v-lazy="card.imgSrc"
-               :alt="card.imgAlt"
-               class="card-img-top img-fluid">
-          <img v-else
-               :src="card.imgSrc"
-               :alt="card.imgAlt"
-               class="card-img-top img-fluid">
-          <div class="card-body">
-            <h4 class="card-title">{{ card.title }}</h4>
-            <p class="card-text">{{ card.text }}</p>
-            <p class="card-text"><small class="text-muted">{{ card.lastUpdated }}</small></p>
-          </div>
-        </nuxt-link>
+        <app-card :recipe="card"
+                  :lazy="lazy">
+        </app-card>
       </div>
   </div>
 </template>

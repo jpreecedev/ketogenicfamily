@@ -164,7 +164,7 @@ img[lazy=loading] {
   transform: translateZ(0);
 }
 
-#star-rating, #star-rating .star-rating {
+[id^='star-rating'], [id^='star-rating'] .star-rating {
   display: block;
 
   .rating {
