@@ -24,8 +24,8 @@
     },
     methods: {
       getPostUrl (slug) {
-        if (slug.indexOf('posts/') > -1) {
-          return slug.slice(6)
+        if (slug.indexOf('post/') > -1) {
+          return slug.slice(5)
         }
         return `/blog/post/${slug}`
       }

@@ -34,7 +34,54 @@ export default {
   },
   head () {
     return {
-      title: `KetogenicFamily.com - ${this.blogPost.title}`
+      title: `${this.blogPost.title} - KetogenicFamily.com`,
+      __dangerouslyDisableSanitizers: ['script'],
+      meta: [
+        { hid: 'description', name: 'description', content: `${this.blogPost.title} - KetogenicFamily.com` }
+      ],
+      link: [
+        { hid: 'canonical', rel: 'canonical', content: `${this.blogPost.canonical}` }
+      ],
+      script: [
+        {
+          hid: 'artucke-structured-data',
+          type: 'application/ld+json',
+          innerHTML: this.getArticleStructuredData()
+        }
+      ]
+    }
+  },
+  methods: {
+    getArticleStructuredData () {
+      return `{
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "${this.blogPost.title}",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "${this.blogPost.canonical}"
+        },
+        "image": [
+          "http://ketogenicfamily.com/img/posts/${this.blogPost.title.toLowerCase().split(' ').join('-')}/1x1/photo.png",
+          "http://ketogenicfamily.com/img/posts/${this.blogPost.title.toLowerCase().split(' ').join('-')}/4x3/photo.png",
+          "http://ketogenicfamily.com/img/posts/${this.blogPost.title.toLowerCase().split(' ').join('-')}/16x9/photo.png"
+        ],
+        "datePublished": "${this.blogPost.date}",
+        "dateModified": "${this.blogPost.modified}",
+        "author": {
+          "@type": "Person",
+          "name": "${this.blogPost.publisher}"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "KetogenicFamily.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "http://ketogenicfamily.com/img/ketogenicfamily.png"
+          }
+        },
+        "description": "${this.blogPost.description}"
+      }`
     }
   }
 }

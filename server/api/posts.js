@@ -8,7 +8,7 @@ const fs = require('fs')
 const path = require('path')
 const router = Router()
 
-const folder = path.join(__dirname, '/posts')
+const folder = path.join(__dirname, '/post')
 
 let slug = (fileName, date) => {
   if (date) {
@@ -37,6 +37,7 @@ router.get('/posts', function (req, res, next) {
           title: result.attributes.title,
           slug: slug(file, result.attributes.date.split('-').join('_')),
           date: result.attributes.date || new Date(),
+          modified: result.attributes.modified || result.attributes.date,
           description: result.attributes.description || '',
           publisher: result.attributes.publisher || '',
           content: result.html
@@ -79,9 +80,11 @@ router.get('/posts/:name', function (req, res, next) {
         fileContent.slug = slug(file)
         fileContent.image = result.attributes.image || ''
         fileContent.date = result.attributes.date || new Date()
+        fileContent.modified = result.attributes.modified || result.attributes.date
         fileContent.description = result.attributes.description || ''
         fileContent.publisher = result.attributes.publisher
         fileContent.content = result.html
+        fileContent.canonical = `http://ketogenicfamily.com/blog/${slug(file)}`
       })
 
       return res.json(fileContent)
