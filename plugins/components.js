@@ -8,6 +8,7 @@ import Ingredients from '../components/Ingredients'
 import Card from '../components/Card'
 
 import BlogPost from '../pages/blog/components/Post'
+import Sidebar from '../pages/blog/components/Sidebar'
 
 Vue.component('app-footer', AppFooter)
 Vue.component('app-header', AppHeader)
@@ -16,4 +17,6 @@ Vue.component('app-masonry', Masonry)
 Vue.component('app-lead', Lead)
 Vue.component('app-ingredients', Ingredients)
 Vue.component('app-card', Card)
+
 Vue.component('app-blog-post', BlogPost)
+Vue.component('app-blog-sidebar', Sidebar)

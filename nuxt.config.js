@@ -31,7 +31,7 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: ['~/assets/styles/app.scss', 'bootstrap/dist/css/bootstrap.css'],
+  css: ['bootstrap/dist/css/bootstrap.css', '~/assets/styles/app.scss'],
   /*
   ** Add axios globally
   */

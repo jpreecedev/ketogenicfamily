@@ -84,7 +84,7 @@ export default {
   components: {
     VueDisqus, StarRating
   },
-  asyncData ({ params, error }) {
+  async asyncData ({ params, error }) {
     return axios.get('/api/recipes/' + params.name)
       .then((res) => {
         return { recipe: res.data }

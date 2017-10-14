@@ -14,23 +14,8 @@
           </app-blog-post>
         </div><!-- /.blog-main -->
 
-        <div class="col-sm-3 offset-sm-1 blog-sidebar">
-          <aside class="sidebar-module sidebar-module-inset">
-            <h4>About</h4>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-          </aside>
-          <aside class="sidebar-module social">
-            <h4>Share on social media</h4>
-            <div>
-              <a href="#">
-                  <img src="~/assets/img/icons/facebook.svg">
-              </a>
-              <a href="#">
-                <img src="~/assets/img/icons/instagram.svg">
-              </a>
-            </div>
-          </aside>
-        </div><!-- /.blog-sidebar -->
+        <app-blog-sidebar>
+        </app-blog-sidebar>
 
       </div><!-- /.row -->
 
@@ -44,9 +29,9 @@ import '~/plugins/components'
 
 export default {
   async asyncData () {
-    let { data } = await axios.get('/api/posts/2017_10_20-my-first-5-day-fast')
+    let { data } = await axios.get('/api/posts')
     return {
-      posts: [data]
+      posts: data
     }
   },
   head () {
@@ -63,6 +48,15 @@ export default {
     background-color: #f5f5f5;
     border-radius: .25rem;
     margin-bottom: 2rem;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .about-img {
+    width: 100%;
+    height: auto;
   }
 
   .social {
@@ -76,7 +70,10 @@ export default {
       }
     }
     img {
-      width: 47%;
+      width: 25%;
+    }
+    .links {
+      text-align: center;
     }
   }
 

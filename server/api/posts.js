@@ -10,18 +10,22 @@ const router = Router()
 
 const folder = path.join(__dirname, '/posts')
 
-let slug = function (fileName) {
+let slug = (fileName, date) => {
+  if (date) {
+    return `${date}-${fileName.replace(/\.[^/.]+$/, '').slice(11)}`
+  }
+
   return fileName.replace(/\.[^/.]+$/, '').slice(11)
 }
 
 router.get('/posts', function (req, res, next) {
-  var fileContent = []
+  let fileContent = []
 
   fs.readdir(path.resolve(folder), 'utf8', function (error, files) {
     if (error) throw error
 
     files.forEach(function (file) {
-      var post = fs.readFileSync(path.resolve(folder, file), 'utf8')
+      let post = fs.readFileSync(path.resolve(folder, file), 'utf8')
 
       markdown(post, (error, result) => {
         if (error) {
@@ -30,11 +34,12 @@ router.get('/posts', function (req, res, next) {
         }
 
         fileContent.unshift({
-          'title': result.attributes.title,
-          'slug': slug(file, true),
-          'date': result.attributes.date || new Date(),
-          'description': result.attributes.description || '',
-          'publisher': result.attributes.publisher || ''
+          title: result.attributes.title,
+          slug: slug(file, result.attributes.date.split('-').join('_')),
+          date: result.attributes.date || new Date(),
+          description: result.attributes.description || '',
+          publisher: result.attributes.publisher || '',
+          content: result.html
         })
       })
     })
@@ -50,7 +55,7 @@ router.get('/posts/:name', function (req, res, next) {
       return
     }
 
-    var file = files[0]
+    let file = files[0]
 
     if (undefined === file) {
       return res.status(404).send('No data found')
@@ -62,7 +67,7 @@ router.get('/posts/:name', function (req, res, next) {
         return
       }
 
-      var fileContent = {}
+      let fileContent = {}
 
       markdown(post, (error, result) => {
         if (error) {
