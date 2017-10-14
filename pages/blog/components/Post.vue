@@ -6,7 +6,7 @@
         </nuxt-link>
         <p class="meta">Published on <time>{{ blogPost.date | formatDate }}</time>, by {{ blogPost.publisher }}.</p>
       </header>
-      <section v-html="blogPost.content">
+      <section class="blog-post-content" v-html="blogPost.content">
       </section>
     </div>
   </article><!-- /.blog-post -->
