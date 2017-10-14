@@ -1,4 +1,4 @@
-const overview = require('./server/api/json/overview')
+const overview = require('./server/api/recipes/overview')
 
 module.exports = {
   /*
@@ -8,7 +8,8 @@ module.exports = {
     '@nuxtjs/sitemap'
   ],
   plugins: [
-    { src: '~plugins/ga.js', ssr: false }
+    { src: '~plugins/ga.js', ssr: false },
+    { src: '~plugins/filters.js', ssr: true }
   ],
   sitemap: {
     generate: false,

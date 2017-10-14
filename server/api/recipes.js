@@ -22,17 +22,17 @@ function getConfig (file) {
 }
 
 router.get('/overview', function (req, res, next) {
-  res.json(getConfig(`json/overview.json`))
+  res.json(getConfig(`recipes/overview.json`))
 })
 
 router.get('/recipes/:name', function (req, res, next) {
-  let json = getConfig(`json/${req.params.name}.json`)
+  let json = getConfig(`recipes/${req.params.name}.json`)
 
   if (json.related) {
     let relatedRecipes = []
 
     json.related.forEach(r => {
-      relatedRecipes.push(getConfig(`json/${r}.json`))
+      relatedRecipes.push(getConfig(`recipes/${r}.json`))
     })
 
     json.related = relatedRecipes

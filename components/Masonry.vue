@@ -1,13 +1,10 @@
 <template>
   <div class="card-columns">
-      <div v-for="card in data"
-            :key="card.key"
-            class="card"
-            role="button">
-        <app-card :recipe="card"
-                  :lazy="lazy">
-        </app-card>
-      </div>
+    <app-card v-for="card in data"
+              :key="card.key"
+              :recipe="card"
+              :lazy="lazy">
+    </app-card>
   </div>
 </template>
 

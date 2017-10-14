@@ -1,9 +1,11 @@
 import { Router } from 'express'
 
-import data from './data'
+import recipes from './recipes'
+import posts from './posts'
 
 const router = Router()
 
-router.use(data)
+router.use(recipes)
+router.use(posts)
 
 export default router

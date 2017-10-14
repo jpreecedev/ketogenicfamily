@@ -1,15 +1,30 @@
 <template>
-  <section class="jumbotron">
+  <section class="jumbotron" :class="{'slim': slim}">
     <div class="container">
-      <h1>Ketogenic Family</h1>
-      <p class="lead">Free recipes suitable for the modern ketogenic family</p>
+      <h1>{{ title }}</h1>
+      <p v-if="lead">{{ lead }}</p>
     </div>
   </section>
 </template>
 
 <script>
   export default {
-    name: 'app-jumbotron'
+    name: 'app-jumbotron',
+    props: {
+      'title': {
+        type: String,
+        required: true
+      },
+      'lead': {
+        type: String,
+        required: false
+      },
+      'slim': {
+        type: Boolean,
+        default: false,
+        required: false
+      }
+    }
   }
 </script>
 
@@ -26,6 +41,12 @@
     @include tablet {
       padding: 10rem 2rem;
       background-size: contain;
+    }
+
+    &.slim {
+      @include tablet {
+        padding: 2rem;
+      }
     }
 
     h1 {

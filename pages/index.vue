@@ -1,6 +1,8 @@
 <template>
   <div>
-    <app-jumbotron></app-jumbotron>
+    <app-jumbotron title="Ketogenic Family"
+                   lead="Free recipes suitable for the modern ketogenic family">
+    </app-jumbotron>
     <section class="container">
 
       <h2 class="display-2">Latest recipes</h2>
