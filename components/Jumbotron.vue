@@ -61,11 +61,11 @@
 
     p {
       text-shadow: 0px 5px 10px #000;
+      margin-bottom: 0;
 
       @include tablet {
         font-size: 1.5rem;
         line-height: 32px;
-        margin-bottom: 0;
       }
     }
   }
