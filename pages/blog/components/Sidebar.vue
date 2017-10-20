@@ -12,7 +12,7 @@
             <img src="~/assets/img/icons/Facebook.svg" alt="Facebook">
         </a>
         <a href="https://www.instagram.com/ketogenic_family/" target="_blank">
-          <img src="~/assets/img/icons/Fnstagram.svg" alt="Instagram">
+          <img src="~/assets/img/icons/Instagram.svg" alt="Instagram">
         </a>
       </div>
     </aside>
