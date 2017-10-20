@@ -5,7 +5,7 @@
       <h4>About</h4>
       <p>Follow along as Jon, Sian &amp; Oliver embark upon a journey together towards living a healthier, diet free life over the long term by applying the principals that form the ketogenic diet.</p>
     </aside>
-    <aside class="sidebar-module social">
+    <!-- <aside class="sidebar-module social">
       <h4>Follow on social media</h4>
       <div class="links">
         <a href="https://www.facebook.com/theketogenicfamily" target="_blank">
@@ -15,7 +15,7 @@
           <img src="~/assets/img/icons/instagram.svg" alt="Instagram">
         </a>
       </div>
-    </aside>
+    </aside> -->
   </div><!-- /.blog-sidebar -->
 </template>
 
