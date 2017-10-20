@@ -35,8 +35,6 @@
 
 <style lang="scss" scoped>
   .blog-post {
-    margin-bottom: 4rem;
-
     header a {
       color: inherit;
     }

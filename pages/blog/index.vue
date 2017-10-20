@@ -7,7 +7,7 @@
     <section class="container">
 
       <div class="row">
-        <div class="col-sm-8 blog-main">
+        <div class="col-xs-12 col-md-8 blog-main">
           <app-blog-post v-for="(blogPost, index) in posts"
                          :key="index"
                          :blogPost="blogPost">

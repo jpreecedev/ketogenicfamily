@@ -181,4 +181,12 @@ img[lazy=loading] {
   h2, h3, h4 {
     margin-top: 2rem;
   }
+  img {
+    width: 100%;
+    height: auto;
+
+    @include tablet {
+      width: inherit;
+    }
+  }
 }
