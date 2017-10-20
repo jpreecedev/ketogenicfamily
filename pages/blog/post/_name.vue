@@ -75,9 +75,9 @@ export default {
           "@id": "${this.blogPost.canonical}"
         },
         "image": [
-          "http://ketogenicfamily.com/img/posts/${this.blogPost.title.toLowerCase().split(' ').join('-')}/1x1/photo.png",
-          "http://ketogenicfamily.com/img/posts/${this.blogPost.title.toLowerCase().split(' ').join('-')}/4x3/photo.png",
-          "http://ketogenicfamily.com/img/posts/${this.blogPost.title.toLowerCase().split(' ').join('-')}/16x9/photo.png"
+          "http://ketogenicfamily.com/img/posts/${this.blogPost.key.toLowerCase().split(' ').join('-')}/1x1/photo.png",
+          "http://ketogenicfamily.com/img/posts/${this.blogPost.key.toLowerCase().split(' ').join('-')}/4x3/photo.png",
+          "http://ketogenicfamily.com/img/posts/${this.blogPost.key.toLowerCase().split(' ').join('-')}/16x9/photo.png"
         ],
         "datePublished": "${this.blogPost.date}",
         "dateModified": "${this.blogPost.modified}",

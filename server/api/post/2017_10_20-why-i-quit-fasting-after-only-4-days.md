@@ -1,5 +1,6 @@
 ---
 title: "I am a lean person, why I quit a 5 day fast after only 4 days"
+key: "why-I-quit-5-day-fast"
 date: "2017-10-20"
 description: "What I learned attempting a prolonged fast as a lean person"
 publisher: "Jon Preece"

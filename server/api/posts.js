@@ -35,6 +35,7 @@ router.get('/posts', function (req, res, next) {
 
         fileContent.unshift({
           title: result.attributes.title,
+          key: result.attributes.key,
           slug: slug(file, result.attributes.date.split('-').join('_')),
           date: result.attributes.date || new Date(),
           modified: result.attributes.modified || result.attributes.date,
@@ -77,6 +78,7 @@ router.get('/posts/:name', function (req, res, next) {
         }
 
         fileContent.title = result.attributes.title
+        fileContent.key = result.attributes.key
         fileContent.slug = slug(file)
         fileContent.image = result.attributes.image || ''
         fileContent.date = result.attributes.date || new Date()
