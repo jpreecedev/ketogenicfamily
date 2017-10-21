@@ -52,6 +52,10 @@
   .meta {
     color: #999;
     margin-bottom: 0;
+
+    &:last-child {
+      margin-bottom: 1.25rem;
+    }
   }
 
   .social-links {
