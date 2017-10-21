@@ -190,3 +190,11 @@ img[lazy=loading] {
     }
   }
 }
+
+.social-links {
+  margin: .5rem 0;
+
+  :first-child {
+    margin-right: .5rem;
+  }
+}
