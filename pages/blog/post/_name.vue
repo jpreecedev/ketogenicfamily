@@ -8,7 +8,8 @@
 
       <div class="row">
         <div class="col-xs-12 col-md-8 blog-main">
-          <app-blog-post :blogPost="blogPost">
+          <app-blog-post :blogPost="blogPost"
+                         :fullPost="true">
           </app-blog-post>
         </div><!-- /.blog-main -->
 
@@ -47,17 +48,22 @@ export default {
   },
   head () {
     return {
-      title: `${this.blogPost.title} - KetogenicFamily.com`,
+      title: this.getPageTitle(),
       __dangerouslyDisableSanitizers: ['script'],
       meta: [
-        { hid: 'description', name: 'description', content: `${this.blogPost.title} - KetogenicFamily.com` }
+        { hid: 'description', name: 'description', content: this.blogPost.description },
+        { hid: 'fb-og-url', property: 'og:url', content: `${this.blogPost.canonical}` },
+        { hid: 'fb-og-type', property: 'og:type', content: 'article' },
+        { hid: 'fb-og-title', property: 'og:title', content: this.getPageTitle() },
+        { hid: 'fb-og-description', property: 'og:description', content: this.blogPost.description },
+        { hid: 'fb-og-image', property: 'og-image', content: `http://ketogenicfamily.com/img/posts/${this.blogPost.key.toLowerCase().split(' ').join('-')}/1x1/photo.png` }
       ],
       link: [
         { hid: 'canonical', rel: 'canonical', content: `${this.blogPost.canonical}` }
       ],
       script: [
         {
-          hid: 'artucke-structured-data',
+          hid: 'article-structured-data',
           type: 'application/ld+json',
           innerHTML: this.getArticleStructuredData()
         }
@@ -65,6 +71,9 @@ export default {
     }
   },
   methods: {
+    getPageTitle () {
+      return `${this.blogPost.title} - KetogenicFamily.com`
+    },
     getArticleStructuredData () {
       return `{
         "@context": "http://schema.org",

@@ -18,16 +18,34 @@ let slug = (fileName, date) => {
   return fileName.replace(/\.[^/.]+$/, '').slice(11)
 }
 
+let getLastFullStop = post => {
+  const starting = 750
+  let currentPosition = starting
+  while (currentPosition < post.length || currentPosition >= 1250) {
+    let characterAt = post.substr(currentPosition, 1)
+    if (characterAt === '.') {
+      return currentPosition + 1
+    }
+    currentPosition += 1
+  }
+  return starting
+}
+
 router.get('/posts', function (req, res, next) {
   let fileContent = []
+  let linkToPost = 'http://link-to-post/'
 
   fs.readdir(path.resolve(folder), 'utf8', function (error, files) {
     if (error) throw error
 
     files.forEach(function (file) {
       let post = fs.readFileSync(path.resolve(folder, file), 'utf8')
+      let content = post.substr(0, getLastFullStop(post))
+      content += `..
 
-      markdown(post, (error, result) => {
+[Continue reading](${linkToPost})`
+
+      markdown(content, (error, result) => {
         if (error) {
           res.sendStatus(404)
           return
@@ -41,7 +59,8 @@ router.get('/posts', function (req, res, next) {
           modified: result.attributes.modified || result.attributes.date,
           description: result.attributes.description || '',
           publisher: result.attributes.publisher || '',
-          content: result.html
+          canonical: `http://ketogenicfamily.com/blog/${slug(file)}`,
+          content: result.html.replace(new RegExp(linkToPost, 'g'), `/blog/post/${slug(file, result.attributes.date.split('-').join('_'))}`)
         })
       })
     })

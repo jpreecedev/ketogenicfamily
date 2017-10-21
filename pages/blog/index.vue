@@ -10,7 +10,8 @@
         <div class="col-xs-12 col-md-8 blog-main">
           <app-blog-post v-for="(blogPost, index) in posts"
                          :key="index"
-                         :blogPost="blogPost">
+                         :blogPost="blogPost"
+                         :fullPost="false">
           </app-blog-post>
         </div><!-- /.blog-main -->
 
