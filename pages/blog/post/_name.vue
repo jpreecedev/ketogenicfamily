@@ -48,15 +48,15 @@ export default {
   },
   head () {
     return {
-      title: this.getPageTitle(),
+      title: `${this.blogPost.title} - KetogenicFamily.com`,
       __dangerouslyDisableSanitizers: ['script'],
       meta: [
         { hid: 'description', name: 'description', content: this.blogPost.description },
         { hid: 'fb-og-url', property: 'og:url', content: `${this.blogPost.canonical}` },
         { hid: 'fb-og-type', property: 'og:type', content: 'article' },
-        { hid: 'fb-og-title', property: 'og:title', content: this.getPageTitle() },
+        { hid: 'fb-og-title', property: 'og:title', content: `${this.blogPost.title}` },
         { hid: 'fb-og-description', property: 'og:description', content: this.blogPost.description },
-        { hid: 'fb-og-image', property: 'og-image', content: `http://ketogenicfamily.com/img/posts/${this.blogPost.key.toLowerCase().split(' ').join('-')}/1x1/photo.png` }
+        { hid: 'fb-og-image', property: 'og:image', content: `http://ketogenicfamily.com/img/posts/${this.blogPost.key.toLowerCase().split(' ').join('-')}/1x1/photo.png` }
       ],
       link: [
         { hid: 'canonical', rel: 'canonical', content: `${this.blogPost.canonical}` }
@@ -71,9 +71,6 @@ export default {
     }
   },
   methods: {
-    getPageTitle () {
-      return `${this.blogPost.title} - KetogenicFamily.com`
-    },
     getArticleStructuredData () {
       return `{
         "@context": "http://schema.org",
