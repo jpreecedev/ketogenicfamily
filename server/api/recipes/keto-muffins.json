@@ -11,6 +11,10 @@
   "cookTimeDisplay": "10 mins",
   "cookTime": "PT10M",
   "rating": 3.5,
+  "servings": {
+    "total": 6,
+    "units": "muffins"
+  },
   "ingredients": [{
       "quantity": 6,
       "units": "Large",

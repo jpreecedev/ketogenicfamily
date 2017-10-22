@@ -11,10 +11,14 @@
   "cookTimeDisplay": "30 mins",
   "cookTime": "PT30M",
   "rating": 4,
+  "servings": {
+    "total": 4,
+    "units": "servings"
+  },
   "ingredients": [{
       "quantity": 500,
       "units": "grams",
-      "description": "Lamb Mince 20% Fat"
+      "description": "lamb mince"
     },
     {
       "quantity": 1,
@@ -24,10 +28,9 @@
     {
       "quantity": 3,
       "units": "cups",
-      "description": "spinach (defrosted is fine)"
+      "description": "spinach"
     },
     {
-      "quantity": 1,
       "units": "pinch",
       "description": "Salt and Pepper"
     },
@@ -49,7 +52,7 @@
     {
       "quantity": 300,
       "units": "grams",
-      "description": "cauliflower florets (defrosted is fine)"
+      "description": "cauliflower florets"
     },
     {
       "quantity": 2,

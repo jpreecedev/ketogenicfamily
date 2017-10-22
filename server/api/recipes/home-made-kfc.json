@@ -11,39 +11,47 @@
   "cookTimeDisplay": "45 mins",
   "cookTime": "PT45M",
   "rating": 4,
+  "servings": {
+    "total": 4,
+    "units": "servings"
+  },
   "ingredients": [{
       "quantity": 4,
       "units": "large",
-      "description": "Chicken thighs (or chicken breast, thighs works best)"
+      "description": "Chicken thighs"
     },
     {
-      "quantity": 100,
+      "quantity": 4,
+      "units": "large",
+      "description": "Chicken legs"
+    },
+    {
+      "quantity": 200,
       "units": "grams",
       "description": "almond flour"
     },
     {
-      "quantity": 1,
+      "quantity": 2,
       "units": "teaspoon",
       "description": "ginger"
     },
     {
-      "quantity": 1,
+      "quantity": 2,
       "units": "teaspoon",
       "description": "parsley"
     },
     {
-      "quantity": 1,
+      "quantity": 2,
       "units": "teaspoon",
       "description": "paprika"
     },
     {
-      "quantity": 1,
+      "quantity": 2,
       "units": "teaspoon",
       "description": "chilli powder"
     },
     {
-      "quantity": 1,
-      "units": "pinch",
+      "units": "Pinch",
       "description": "Salt and Pepper"
     }
   ],

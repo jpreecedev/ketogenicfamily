@@ -9,6 +9,10 @@
   "prepTimeDisplay": "5 mins",
   "prepTime": "PT5M",
   "rating": 4,
+  "servings": {
+    "total": 8,
+    "units": "servings"
+  },
   "ingredients": [{
       "quantity": 1,
       "units": "large",

@@ -9,6 +9,10 @@
   "prepTimeDisplay": "3 mins",
   "prepTime": "PT3M",
   "rating": 4,
+  "servings": {
+    "total": 6,
+    "units": "creams"
+  },
   "ingredients": [{
       "quantity": 1,
       "units": "tablespoon",

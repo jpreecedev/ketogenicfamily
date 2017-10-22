@@ -9,10 +9,14 @@
   "prepTimeDisplay": "3 mins",
   "prepTime": "PT3M",
   "rating": 5,
+  "servings": {
+    "total": 4,
+    "units": "servings"
+  },
   "ingredients": [{
       "quantity": 3,
       "units": "tablespoons",
-      "description": "peanut butter (no added sugar)"
+      "description": "peanut butter"
     },
     {
       "quantity": 3,

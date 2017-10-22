@@ -9,20 +9,29 @@
   "prepTimeDisplay": "2 mins",
   "prepTime": "PT2M",
   "rating": 4.5,
+  "servings": {
+    "total": 1,
+    "units": "mug"
+  },
   "ingredients": [{
-      "quantity": 4,
+      "quantity": 2,
       "units": "tablespoons",
       "description": "butter"
     },
     {
-      "quantity": 2,
+      "quantity": 1,
       "units": "tablespoons",
       "description": "cocoa powder"
     },
     {
-      "quantity": 2,
+      "quantity": 1,
       "units": "teaspoons",
       "description": "stevia"
+    },
+    {
+      "quantity": 350,
+      "units": "ml",
+      "description": "water"
     }
   ],
   "instructions": [

@@ -11,6 +11,10 @@
   "cookTimeDisplay": "20 mins",
   "cookTime": "PT20M",
   "rating": 4,
+  "servings": {
+    "total": 4,
+    "units": "servings"
+  },
   "ingredients": [{
       "quantity": 500,
       "units": "grams",

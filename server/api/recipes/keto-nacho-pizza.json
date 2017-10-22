@@ -11,6 +11,10 @@
   "cookTimeDisplay": "15 mins",
   "cookTime": "PT15M",
   "rating": 4.5,
+  "servings": {
+    "total": 4,
+    "units": "servings"
+  },
   "ingredients": [{
       "quantity": 500,
       "units": "grams",
@@ -19,7 +23,7 @@
     {
       "quantity": 200,
       "units": "grams",
-      "description": "Pork sausages"
+      "description": "pork sausages"
     },
     {
       "quantity": 1,

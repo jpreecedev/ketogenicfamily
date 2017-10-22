@@ -11,6 +11,10 @@
   "cookTime": "PT5M",
   "description": "A buttery, cheesy, delicious meal for the whole family",
   "rating": 3.5,
+  "servings": {
+    "total": 3,
+    "units": "servings"
+  },
   "ingredients": [
     {
       "quantity": 300,
@@ -33,9 +37,12 @@
       "description": "Butter"
     },
     {
-      "quantity": 1,
-      "units": "pinch",
-      "description": "Salt & Pepper"
+      "quantity": 100,
+      "units": "grams",
+      "description": "bacon lardons"
+    },
+    {
+      "description": "Salt & pepper to taste"
     }
   ],
   "instructions": [
