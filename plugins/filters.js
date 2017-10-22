@@ -6,3 +6,9 @@ Vue.filter('formatDate', function (value) {
     return moment(value).format('MMMM Do YYYY')
   }
 })
+
+Vue.filter('formatNumber', function (value) {
+  if (value) {
+    return Number(Number.parseFloat(value).toFixed(2))
+  }
+})

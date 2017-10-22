@@ -39,7 +39,8 @@
           <div class="col-12 col-md-4">
             <section class="mt-3" id="ingredients">
               <h2 class="display-2">Ingredients</h2>
-              <app-ingredients :ingredients="recipe.ingredients">
+              <app-ingredients :ingredients="recipe.ingredients"
+                               :servings="recipe.servings">
               </app-ingredients>
             </section>
           </div>

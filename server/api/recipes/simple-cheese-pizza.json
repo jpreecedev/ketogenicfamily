@@ -5,12 +5,16 @@
   "title": "Simple Cheese Pizza",
   "author": "Jon Preece",
   "published": "2017-10-07",
-  "prepTimeDisplay": "3 mins",
-  "prepTime": "PT3M",
-  "cookTimeDisplay": "10 mins",
-  "cookTime": "PT10M",
+  "prepTimeDisplay": "10 mins",
+  "prepTime": "PT10M",
+  "cookTimeDisplay": "15-20 mins",
+  "cookTime": "PT15M",
   "description": "A Good Old Classic",
   "rating": 5,
+  "servings": {
+    "total": 6,
+    "units": "slices"
+  },
   "ingredients": [{
     "quantity": 1.5,
     "units": "cups ",
@@ -29,16 +33,14 @@
     "description": "cream cheese"
   }, {
     "quantity": 1,
-    "units": "pinch ",
-    "description": "garlic salt"
-  }, {
-    "quantity": 1,
-    "units": "whole ",
     "description": "egg"
   }, {
     "quantity": 1,
     "units": "jar ",
     "description": "salsa"
+  }, {
+    "units": "pinch ",
+    "description": "garlic salt"
   }],
   "instructions": [
     "To make brazil & precan flour, blend both bags of nuts in a food processor and put this to one side.",
