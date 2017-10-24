@@ -1,5 +1,25 @@
 [
   {
+    "url": "/recipes/lamb-chops-spiced-red-cabbage",
+    "key": "lamb-chops-spiced-red-cabbage",
+    "imgSrc": "/img/lamb-chops-spiced-red-cabbage.png",
+    "imgAlt": "Lamb chops with spiced red cabbage",
+    "title": "Lamb chops with spiced red cabbage",
+    "description": "A homemade meal made fancy",
+    "rating": 5,
+    "lastUpdated": "Published 24 October 2017 by Sian Preece"
+  },
+  {
+    "url": "/recipes/flourless-chocolate-biscuits",
+    "key": "flourless-chocolate-biscuits",
+    "imgSrc": "/img/flourless-chocolate-biscuits.png",
+    "imgAlt": "Flourless chocolate biscuits",
+    "title": "Flourless chocolate biscuits",
+    "description": "A soft, light, chocolatey biscuit",
+    "rating": 5,
+    "lastUpdated": "Published 24 October 2017 by Sian Preece"
+  },
+  {
     "url": "/recipes/simple-cheese-pizza",
     "key": "simple-cheese-pizza",
     "imgSrc": "/img/simple-cheese-pizza.jpg",
