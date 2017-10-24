@@ -5,6 +5,7 @@ import Jumbotron from '../components/Jumbotron'
 import Masonry from '../components/Masonry'
 import Lead from '../components/Lead'
 import Ingredients from '../components/Ingredients'
+import Nutrition from '../components/Nutrition'
 import Card from '../components/Card'
 
 import BlogPost from '../pages/blog/components/Post'
@@ -16,6 +17,7 @@ Vue.component('app-jumbotron', Jumbotron)
 Vue.component('app-masonry', Masonry)
 Vue.component('app-lead', Lead)
 Vue.component('app-ingredients', Ingredients)
+Vue.component('app-nutrition', Nutrition)
 Vue.component('app-card', Card)
 
 Vue.component('app-blog-post', BlogPost)
