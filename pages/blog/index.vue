@@ -11,7 +11,8 @@
           <app-blog-post v-for="(blogPost, index) in posts"
                          :key="index"
                          :blogPost="blogPost"
-                         :fullPost="false">
+                         :fullPost="false"
+                         :index="index">
           </app-blog-post>
         </div><!-- /.blog-main -->
 

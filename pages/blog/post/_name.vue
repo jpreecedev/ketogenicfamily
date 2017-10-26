@@ -9,7 +9,8 @@
       <div class="row">
         <div class="col-xs-12 col-md-8 blog-main">
           <app-blog-post :blogPost="blogPost"
-                         :fullPost="true">
+                         :fullPost="true"
+                         :index="0">
           </app-blog-post>
         </div><!-- /.blog-main -->
 
@@ -20,12 +21,16 @@
 
     </section>
 
-    <section class="container mt-5" id="comments">
-      <h2 class="display-2">Discussion</h2>
-      <vue-disqus shortname="ketogenicfamily"
-                  :identifier="blogPost.key"
-                  :url="'https://ketogenicfamily.com/blog/' + blogPost.key">
-      </vue-disqus>
+    <section class="container" id="comments">
+      <div class="row">
+        <div class="col-xs-12 col-md-8 blog-main">
+          <h2 class="display-2">Discussion</h2>
+          <vue-disqus shortname="ketogenicfamily"
+                      :identifier="blogPost.key"
+                      :url="'https://ketogenicfamily.com/blog/' + blogPost.key">
+          </vue-disqus>
+        </div>
+      </div>
     </section>
 
   </div>

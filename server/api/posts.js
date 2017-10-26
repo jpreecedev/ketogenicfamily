@@ -43,7 +43,7 @@ router.get('/posts', function (req, res, next) {
       let content = post.substr(0, getLastFullStop(post))
       content += `..
 
-[Continue reading](${linkToPost})`
+[Continue reading &rarr;](${linkToPost})`
 
       markdown(content, (error, result) => {
         if (error) {

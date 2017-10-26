@@ -1,5 +1,5 @@
 <template>
-  <article class="blog-post">
+  <article class="blog-post pb-5" :class="{ 'pt-5': index > 0, 'bordered': index > 0 }">
       <header>
         <nuxt-link :to="getPostUrl(blogPost.slug)">
           <h1 class="display-4">{{ blogPost.title }}</h1>
@@ -37,6 +37,11 @@
         type: Boolean,
         default: true,
         required: false
+      },
+      'index': {
+        type: Number,
+        default: 0,
+        required: true
       }
     },
     methods: {
@@ -52,6 +57,9 @@
 
 <style lang="scss" scoped>
   .blog-post {
+    &.bordered {
+      border-top: 1px solid rgba(0,0,0,.1);
+    }
     header a {
       color: inherit;
     }
