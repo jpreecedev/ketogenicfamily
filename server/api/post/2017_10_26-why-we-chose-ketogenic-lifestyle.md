@@ -2,7 +2,7 @@
 title: "Why we chose a ketogenic lifestyle"
 key: "why-we-chose-ketogenic-lifestyle"
 date: "2017-10-26"
-description: "A brief history on our journey towards a ketogenic lifestyle"
+description: "For years we struggled with low fat, high carb diets... until we discovered keto, and we've never looked back..."
 publisher: "Sian Preece"
 ---
 
