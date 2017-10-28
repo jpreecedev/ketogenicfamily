@@ -1,5 +1,55 @@
 [
   {
+    "url": "/recipes/sticky-muffins",
+    "key": "sticky-muffins",
+    "imgSrc": "/img/sticky-muffins.jpg",
+    "imgAlt": "Sticky Muffins",
+    "title": "Sticky Muffins",
+    "description": "A donut like textured light and fluffy sticky sweet muffins",
+    "rating": 4,
+    "lastUpdated": "Published 28 October 2017 by Sian Preece"
+  },
+  {
+    "url": "/recipes/raspberry-jelly-fat-bombs",
+    "key": "raspberry-jelly-fat-bombs",
+    "imgSrc": "/img/raspberry-jelly-fat-bombs.jpg",
+    "imgAlt": "Raspberry Jelly Fat Bombs",
+    "title": "Raspberry Jelly Fat Bombs",
+    "description": "Raspberry jelly high fat snack for the whole family",
+    "rating": 4,
+    "lastUpdated": "Published 28 October 2017 by Sian Preece"
+  },
+  {
+    "url": "/recipes/garlic-butter",
+    "key": "garlic-butter",
+    "imgSrc": "/img/garlic-butter.jpg",
+    "imgAlt": "Garlic Butter",
+    "title": "Garlic Butter",
+    "description": "A simple keto side dish",
+    "rating": 5,
+    "lastUpdated": "Published 28 October 2017 by Sian Preece"
+  },
+  {
+    "url": "/recipes/fat-head-sausage-rolls",
+    "key": "fat-head-sausage-rolls",
+    "imgSrc": "/img/fat-head-sausage-rolls.jpg",
+    "imgAlt": "Fat head sausage rolls",
+    "title": "Fat head sausage rolls",
+    "description": "Crispy, chewy, cheese wrapped sausagey goodness",
+    "rating": 4.5,
+    "lastUpdated": "Published 28 October 2017 by Sian Preece"
+  },
+  {
+    "url": "/recipes/easy-trifle",
+    "key": "easy-trifle",
+    "imgSrc": "/img/easy-trifle.jpg",
+    "imgAlt": "Easy trifle",
+    "title": "Easy trifle",
+    "description": "A delicious, quick and simple, creamy trifle recipe",
+    "rating": 4,
+    "lastUpdated": "Published 28 October 2017 by Sian Preece"
+  },
+  {
     "url": "/recipes/lamb-chops-spiced-red-cabbage",
     "key": "lamb-chops-spiced-red-cabbage",
     "imgSrc": "/img/lamb-chops-spiced-red-cabbage.png",
