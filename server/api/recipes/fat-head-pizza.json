@@ -11,28 +11,32 @@
   "cookTimeDisplay": "20 mins",
   "cookTime": "PT20M",
   "rating": 5,
+  "servings": {
+    "total": 1,
+    "units": "serves 6"
+  },
   "ingredients": [{
-      "quantity": 1.5,
-      "units": "cups",
-      "description": "shredded mozzarella cheese"
+      "quantity": 64,
+      "units": "g",
+      "description": "Shredded Cheese"
     },
     {
-      "quantity": 0.75,
-      "units": "cups",
-      "description": "almond flour"
+      "quantity": 129,
+      "units": "g",
+      "description": "Almond Flour"
     },
     {
       "quantity": 2,
-      "units": "tablespoons",
-      "description": "cream cheese"
+      "units": "tbsp",
+      "description": "Cream Cheese"
     },
     {
       "quantity": 1,
-      "description": "egg"
+      "description": "Egg"
     },
     {
-      "units": "Pinch",
-      "description": "garlic salt"
+      "units": "tsp",
+      "description": "Garlic Salt"
     }
   ],
   "instructions": [

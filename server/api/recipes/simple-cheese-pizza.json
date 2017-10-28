@@ -11,32 +11,36 @@
   "cookTime": "PT15M",
   "description": "A Good Old Classic",
   "rating": 5,
+  "servings": {
+    "total": 1,
+    "units": "serves 6"
+  },
   "ingredients": [{
-    "quantity": 1.5,
-    "units": "cups ",
-    "description": "shredded mozzarella cheese"
+    "quantity": 64,
+    "units": "g",
+    "description": "Shredded Cheese"
   }, {
-    "quantity": 0.37,
-    "units": "cups",
-    "description": "brazil flour"
+    "quantity": 92,
+    "units": "g",
+    "description": "Brazil Flour"
   }, {
-    "quantity": 0.37,
-    "units": "cups",
-    "description": "pecan flour"
+    "quantity": 92,
+    "units": "g",
+    "description": "Pecan Flour"
   }, {
     "quantity": 2,
-    "units": "tablespoons ",
-    "description": "cream cheese"
+    "units": "tbsp",
+    "description": "Cream Cheese"
   }, {
     "quantity": 1,
-    "description": "egg"
+    "description": "Egg"
   }, {
     "quantity": 1,
     "units": "jar ",
-    "description": "salsa"
+    "description": "Salsa"
   }, {
-    "units": "Pinch ",
-    "description": "garlic salt"
+    "units": "tsp",
+    "description": "Garlic Salt"
   }],
   "instructions": [
     "To make brazil & precan flour, blend both bags of nuts in a food processor and put this to one side.",

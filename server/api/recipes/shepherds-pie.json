@@ -12,10 +12,34 @@
   "cookTime": "PT30M",
   "rating": 4,
   "servings": {
-    "total": 4,
-    "units": "servings"
+    "total": 1,
+    "units": "serves 4"
   },
   "ingredients": [{
+    "groupTitle": "Topping",
+    "ingredients": [{
+      "quantity": 300,
+      "units": "grams",
+      "description": "cauliflower florets"
+    },
+    {
+      "quantity": 2,
+      "units": "tablespoons",
+      "description": "butter"
+    },
+    {
+      "quantity": 3,
+      "units": "cups",
+      "description": "grated cheese"
+    },
+    {
+      "quantity": 1,
+      "units": "cup",
+      "description": "heavy cream"
+    }]
+  }, {
+    "groupTitle": "Filling",
+    "ingredients": [{
       "quantity": 500,
       "units": "grams",
       "description": "lamb mince"
@@ -48,28 +72,8 @@
       "quantity": 1,
       "units": "teaspoon",
       "description": "mixed herbs"
-    },
-    {
-      "quantity": 300,
-      "units": "grams",
-      "description": "cauliflower florets"
-    },
-    {
-      "quantity": 2,
-      "units": "tablespoons",
-      "description": "butter"
-    },
-    {
-      "quantity": 3,
-      "units": "cups",
-      "description": "grated cheese"
-    },
-    {
-      "quantity": 1,
-      "units": "cup",
-      "description": "heavy cream"
-    }
-  ],
+    }]
+  }],
   "instructions": [
     "On a medium high heat add a large blob of butter, finely chopped onion, garlic and the lamb mince. Whilst cooking, add in mixed herbs, a squirt of lemon juice, salt and pepper. Leave to simmer on a low heat",
     "Add the defrosted cauliflower to a food processor and blend until you get a rice like consistency. In a pan melt a large blob of butter, add in the cauliflower, 1 cup of heavy cream, 3 cups of grated cheese.",

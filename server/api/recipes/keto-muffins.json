@@ -12,32 +12,32 @@
   "cookTime": "PT10M",
   "rating": 3.5,
   "servings": {
-    "total": 6,
-    "units": "muffins"
+    "total": 1,
+    "units": "6 muffins"
   },
   "ingredients": [{
       "quantity": 6,
-      "units": "Large",
+      "units": "",
       "description": "eggs"
     },
     {
       "quantity": 12,
-      "units": "tablespoons",
-      "description": "coconut flour"
+      "units": "tsp",
+      "description": "Coconut Flour"
     },
     {
       "quantity": 1,
-      "units": "teaspoon",
-      "description": "baking powder"
+      "units": "tsp",
+      "description": "Baking Powder"
     }, {
       "quantity": 1,
-      "units": "teaspoon",
-      "description": "salt"
+      "units": "tsp",
+      "description": "Salt"
     },
     {
       "quantity": 1,
-      "units": "teaspoon",
-      "description": "stevia"
+      "units": "tsp",
+      "description": "Stevia"
     }
   ],
   "instructions": [

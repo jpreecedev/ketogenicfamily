@@ -16,58 +16,48 @@
   },
   "ingredients": [{
       "quantity": 1,
-      "units": "whole",
-      "description": "red cabbage"
+      "units": "",
+      "description": "Red Cabbage"
     },
     {
       "quantity": 1,
-      "units": "white",
-      "description": "onion"
+      "units": "",
+      "description": "Onion"
     },
     {
       "quantity": 1,
-      "units": "clove",
-      "description": "garlic"
+      "units": "tbsp",
+      "description": "Nutmeg"
     },
     {
       "quantity": 1,
-      "units": "tablespoon",
-      "description": "nutmeg"
+      "units": "tbsp",
+      "description": "Cinnamon"
     },
     {
       "quantity": 1,
-      "units": "tablespoon",
-      "description": "cinnamon"
+      "units": "tbsp",
+      "description": "Ground Cloves"
     },
     {
       "quantity": 1,
-      "units": "tablespoon",
-      "description": "ground cloves"
+      "units": "tbsp",
+      "description": "Coconut Oil"
     },
     {
       "quantity": 1,
-      "units": "tablespoon",
-      "description": "coconut oil"
-    },
-    {
-      "quantity": 1,
-      "units": "tablespoon",
-      "description": "stevia"
+      "units": "tbsp",
+      "description": "Stevia"
     },
     {
       "quantity": 3,
-      "units": "tablespoons",
-      "description": "apple cider vinegar"
-    },
-    {
-      "quantity": 1,
-      "units": "tablespoon",
-      "description": "ground cloves"
+      "units": "tbsp",
+      "description": "Apple Cider Vinegar"
     },
     {
       "quantity": 50,
-      "units": "grams",
-      "description": "butter"
+      "units": "g",
+      "description": "Butter"
     }
   ],
   "instructions": [

@@ -11,37 +11,37 @@
   "cookTime": "PT15M",
   "rating": 4,
   "servings": {
-    "total": 12,
-    "units": "biscuits"
+    "total": 1,
+    "units": "12 biscuits"
   },
   "ingredients": [{
       "quantity": 45,
-      "units": "grams",
-      "description": "cocoa powder"
+      "units": "g",
+      "description": "Cocoa Powder"
     },
     {
       "quantity": 50,
-      "units": "grams",
-      "description": "stevia"
+      "units": "g",
+      "description": "Stevia"
     },
     {
       "quantity": 60,
-      "units": "grams",
-      "description": "butter"
+      "units": "g",
+      "description": "Butter"
     }, {
       "quantity": 60,
-      "units": "grams",
-      "description": "cream cheese"
+      "units": "g",
+      "description": "Cream Cheese"
     },
     {
       "quantity": 2,
       "units": "large",
-      "description": "eggs"
+      "description": "Eggs"
     },
     {
       "quantity": 1,
-      "units": "tablespoon",
-      "description": "vanilla extract"
+      "units": "tbsp",
+      "description": "Vanilla Extract"
     }
   ],
   "instructions": [

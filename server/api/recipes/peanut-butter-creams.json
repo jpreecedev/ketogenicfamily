@@ -10,23 +10,23 @@
   "prepTime": "PT3M",
   "rating": 4,
   "servings": {
-    "total": 6,
-    "units": "creams"
+    "total": 1,
+    "units": "6 creams"
   },
   "ingredients": [{
       "quantity": 1,
-      "units": "tablespoon",
-      "description": "peanut butter"
+      "units": "tbsp",
+      "description": "Peanut Butter"
     },
     {
       "quantity": 1,
-      "units": "tablespoon",
-      "description": "stevia"
+      "units": "tbsp",
+      "description": "Stevia"
     },
     {
       "quantity": 300,
       "units": "ml",
-      "description": "whipping cream"
+      "description": "Whipping Cream"
     }
   ],
   "instructions": [

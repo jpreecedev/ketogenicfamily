@@ -10,43 +10,43 @@
   "prepTime": "PT5M",
   "rating": 4,
   "servings": {
-    "total": 8,
-    "units": "servings"
+    "total": 1,
+    "units": "serves 8"
   },
   "ingredients": [{
       "quantity": 1,
-      "units": "large",
+      "units": "",
       "description": "Red cabbage"
     },
     {
       "quantity": 1,
-      "units": "large",
+      "units": "",
       "description": "Red onion"
     },
     {
       "quantity": 2,
-      "units": "tablespoons",
-      "description": "sour cream"
+      "units": "tbsp",
+      "description": "Sour Cream"
     },
     {
       "quantity": 2,
-      "units": "tablespoons",
-      "description": "mayonnaise"
+      "units": "tbsp",
+      "description": "Mayonnaise"
     },
     {
       "quantity": 1,
-      "units": "teaspoon",
-      "description": "tarragon"
+      "units": "tsp",
+      "description": "Tarragon"
     },
     {
       "quantity": 1,
-      "units": "tablespoon",
-      "description": "balsamic vinegar"
+      "units": "tbsp",
+      "description": "Balsamic Vinegar"
     },
     {
       "quantity": 1,
-      "units": "tablespoon",
-      "description": "stevia"
+      "units": "tbsp",
+      "description": "Stevia"
     }
   ],
   "instructions": [

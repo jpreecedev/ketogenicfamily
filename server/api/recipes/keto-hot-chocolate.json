@@ -15,23 +15,23 @@
   },
   "ingredients": [{
       "quantity": 2,
-      "units": "tablespoons",
-      "description": "butter"
+      "units": "tbsp",
+      "description": "Butter"
     },
     {
       "quantity": 1,
-      "units": "tablespoons",
-      "description": "cocoa powder"
+      "units": "tbsp",
+      "description": "Cocoa Powder"
     },
     {
       "quantity": 1,
-      "units": "teaspoons",
-      "description": "stevia"
+      "units": "tbsp",
+      "description": "Stevia"
     },
     {
       "quantity": 350,
       "units": "ml",
-      "description": "water"
+      "description": "Water"
     }
   ],
   "instructions": [
