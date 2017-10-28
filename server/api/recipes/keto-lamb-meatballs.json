@@ -12,38 +12,38 @@
   "cookTime": "PT20M",
   "rating": 4,
   "servings": {
-    "total": 1,
-    "units": "serves 4"
+    "total": 4,
+    "units": "servings"
   },
   "ingredients": [{
       "quantity": 500,
-      "units": "g",
-      "description": "Lamb Mince"
+      "units": "grams",
+      "description": "Lamb mince"
     },
     {
       "quantity": 2,
-      "units": "tbsp",
+      "units": "tablespoons",
       "description": "Shreaded Cheese"
     },
     {
       "quantity": 1,
-      "units": "tsp",
-      "description": "Mixed Herbs"
+      "units": "teaspoon",
+      "description": "mixed herbs"
     },
     {
       "quantity": 1,
-      "units": "tsp",
-      "description": "Salt & Pepper"
+      "units": "teaspoon",
+      "description": "salt & pepper"
     },
     {
       "quantity": 1,
-      "units": "Jar",
+      "units": "jar",
       "description": "Salsa"
     },
     {
       "quantity": 1,
-      "units": "Tin",
-      "description": "Chopped Tomatoes"
+      "units": "tin",
+      "description": "Chopped tomatoes"
     }
   ],
   "instructions": [

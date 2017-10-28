@@ -14,62 +14,62 @@
   "ingredients": [{
     "groupTitle": "Cake",
     "ingredients": [{
-      "quantity": 128,
-      "units": "g",
+      "quantity": 1,
+      "units": "cup",
       "description": "Stevia"
       }, {
-        "quantity": 129,
-        "units": "g",
+        "quantity": 0.75,
+        "units": "cup",
         "description": "Butter"
       }, {
         "quantity": 8,
-        "units": "large",
+        "units": "Large",
         "description": "Eggs"
       }, {
-        "quantity": 64,
-        "units": "g",
+        "quantity": 0.5,
+        "units": "cup",
         "description": "Almond Milk"
       }, {
         "quantity": 1,
-        "units": "tbsp",
+        "units": "Tablespoon",
         "description": "Vanilla Extract"
       }, {
-        "quantity": 64,
-        "units": "g",
+        "quantity": 1.5,
+        "units": "cups",
         "description": "Brazil Flour"
       }, {
-        "quantity": 64,
-        "units": "g",
+        "quantity": 1.5,
+        "units": "cups",
         "description": "Walnut Flour"
       }, {
-        "quantity": 64,
-        "units": "g",
+        "quantity": 0.5,
+        "units": "cup",
         "description": "Coconut Flour"
       }, {
         "quantity": 1.5,
-        "units": "tbsp",
+        "units": "tablespoons",
         "description": "Baking Powder"
       }]
   }, {
     "groupTitle": "Icing",
     "ingredients": [{
         "quantity": 900,
-        "units": "g",
+        "units": "grams",
         "description": "Cream Cheese"
       },
       {
-        "quantity": 43,
-        "units": "g",
+        "quantity": 0.3333,
+        "units": "cup",
         "description": "Butter"
       },
       {
-        "quantity": 86,
-        "units": "g",
+        "quantity": 0.6666,
+        "units": "cup",
         "description": "Stevia"
       },
       {
         "quantity": 1,
-        "units": "tsp",
+        "units": "Tablespoon",
         "description": "Vanilla Extract"
       }
     ]

@@ -12,38 +12,38 @@
   "description": "Sponge cake with vanilla cream and rasberries",
   "rating": 4,
   "servings": {
-    "total": 1,
-    "units": "6 cakes"
+    "total": 4,
+    "units": "servings"
   },
   "ingredients": [{
     "groupTitle": "Sponge",
     "ingredients": [{
       "quantity": 250,
-      "units": "g",
-      "description": "Ricotta"
+      "units": "grams",
+      "description": "ricotta"
     }, {
       "quantity": 1,
-      "units": "tbsp",
-      "description": "Stevia"
+      "units": "Tablespoon",
+      "description": "stevia"
     }, {
       "quantity": 3,
-      "description": "Eggs"
+      "description": "eggs"
     }, {
       "quantity": 100,
-      "units": "g",
-      "description": "Butter"
+      "units": "grams",
+      "description": "butter"
     }, {
       "quantity": 70,
-      "units": "g",
-      "description": "Pecan Flour"
+      "units": "grams",
+      "description": "pecan flour"
     }, {
       "quantity": 2,
-      "units": "tsp",
-      "description": "Baking Powder"
+      "units": "tablespoons",
+      "description": "baking powder"
     }, {
       "quantity": 1,
-      "units": "tsp",
-      "description": "Himalayan Pink Salt"
+      "units": "teaspoon",
+      "description": "Himalayan pink salt"
     }]
   }, {
     "groupTitle": "Topping",
@@ -53,12 +53,12 @@
       "description": "Whipping Cream"
     }, {
       "quantity": 1,
-      "units": "tsp",
-      "description": "Vanilla Extract"
+      "units": "teaspoon",
+      "description": "vanilla extract"
     }, {
       "quantity": 1,
       "units": "cup",
-      "description": "Raspberries"
+      "description": "raspberries"
     }]
   }],
   "instructions": [

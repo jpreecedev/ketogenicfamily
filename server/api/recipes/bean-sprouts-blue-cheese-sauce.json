@@ -12,37 +12,37 @@
   "description": "A buttery, cheesy, delicious meal for the whole family",
   "rating": 3.5,
   "servings": {
-    "total": 1,
-    "units": "serves 4"
+    "total": 3,
+    "units": "servings"
   },
   "ingredients": [
     {
       "quantity": 300,
-      "units": "g",
-      "description": "Fresh Beansprouts"
+      "units": "grams",
+      "description": "fresh beansprouts"
     },
     {
       "quantity": 125,
-      "units": "g",
-      "description": "Blue Cheese"
+      "units": "grams",
+      "description": "blue cheese"
     },
     {
       "quantity": 125,
-      "units": "g",
-      "description": "Cream Cheese"
+      "units": "grams",
+      "description": "cream cheese"
     },
     {
       "quantity": 1,
-      "units": "tbsp",
+      "units": "tablespoon",
       "description": "Butter"
     },
     {
       "quantity": 100,
-      "units": "g",
-      "description": "Bacon Lardons"
+      "units": "grams",
+      "description": "bacon lardons"
     },
     {
-      "description": "Salt & Pepper to taste"
+      "description": "Salt & pepper to taste"
     }
   ],
   "instructions": [

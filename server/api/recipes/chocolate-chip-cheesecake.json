@@ -10,43 +10,43 @@
   "description": "A delicious little something to satisfy any sweet tooth",
   "rating": 5,
   "servings": {
-    "total": 1,
-    "units": "serves 4"
+    "total": 4,
+    "units": "servings"
   },
   "ingredients": [{
       "quantity": 200,
-      "units": "g",
-      "description": "Almond Flour"
+      "units": "grams",
+      "description": "almond flour"
     },
     {
       "quantity": 1,
-      "units": "tbsp",
-      "description": "Butter"
+      "units": "tablespoon",
+      "description": "butter"
     },
     {
       "quantity": 250,
-      "units": "g",
-      "description": "Soft Cheese"
+      "units": "grams",
+      "description": "soft cheese"
     },
     {
       "quantity": 1,
-      "units": "tbsp",
-      "description": "Cocoa Powder"
+      "units": "teaspoon",
+      "description": "cocoa powder"
     },
     {
       "quantity": 300,
       "units": "ml",
-      "description": "Whipping Cream"
+      "description": "whipping cream"
     },
     {
       "quantity": 1,
-      "units": "tbsp",
-      "description": "Stevia"
+      "units": "tablespoon",
+      "description": "stevia"
     },
     {
 	    "quantity": 3,
       "units": "squares",
-      "description": "Dark Chocolate"
+      "description": "dark chocolate"
     }
   ],
   "instructions": [

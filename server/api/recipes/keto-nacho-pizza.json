@@ -12,33 +12,33 @@
   "cookTime": "PT15M",
   "rating": 4.5,
   "servings": {
-    "total": 1,
-    "units": "serves 4"
+    "total": 4,
+    "units": "servings"
   },
   "ingredients": [{
       "quantity": 500,
-      "units": "g",
-      "description": "Grated Cheese"
+      "units": "grams",
+      "description": "grated cheddar cheese"
     },
     {
       "quantity": 200,
-      "units": "g",
-      "description": "Pork Sausages"
+      "units": "grams",
+      "description": "pork sausages"
     },
     {
       "quantity": 1,
-      "units": "Jar",
-      "description": "Sundried Tomato Paste"
+      "units": "jar",
+      "description": "sundried tomato paste"
     },
     {
       "quantity": 1,
       "units": "large",
-      "description": "Onion"
+      "description": "onion"
     },
     {
       "quantity": 4,
       "units": "slices",
-      "description": "Pepperoni and Salami"
+      "description": "pepperoni and salami"
     }
   ],
   "instructions": [
