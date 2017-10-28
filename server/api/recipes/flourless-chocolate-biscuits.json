@@ -15,31 +15,31 @@
     "units": "biscuits"
   },
   "ingredients": [{
-      "quantity": 45,
+      "quantity": 3.75,
       "units": "grams",
       "description": "cocoa powder"
     },
     {
-      "quantity": 50,
+      "quantity": 4.1666,
       "units": "grams",
       "description": "stevia"
     },
     {
-      "quantity": 60,
+      "quantity": 5,
       "units": "grams",
       "description": "butter"
     }, {
-      "quantity": 60,
+      "quantity": 5,
       "units": "grams",
       "description": "cream cheese"
     },
     {
-      "quantity": 2,
+      "quantity": 0.1666,
       "units": "large",
       "description": "eggs"
     },
     {
-      "quantity": 1,
+      "quantity": 0.0833,
       "units": "tablespoon",
       "description": "vanilla extract"
     }

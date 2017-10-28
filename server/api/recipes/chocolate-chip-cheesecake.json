@@ -14,37 +14,37 @@
     "units": "servings"
   },
   "ingredients": [{
-      "quantity": 200,
+      "quantity": 50,
       "units": "grams",
       "description": "almond flour"
     },
     {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "tablespoon",
       "description": "butter"
     },
     {
-      "quantity": 250,
+      "quantity": 62.5,
       "units": "grams",
       "description": "soft cheese"
     },
     {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "teaspoon",
       "description": "cocoa powder"
     },
     {
-      "quantity": 300,
+      "quantity": 75,
       "units": "ml",
       "description": "whipping cream"
     },
     {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "tablespoon",
       "description": "stevia"
     },
     {
-	    "quantity": 3,
+	    "quantity": 0.75,
       "units": "squares",
       "description": "dark chocolate"
     }

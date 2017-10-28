@@ -16,27 +16,27 @@
     "units": "servings"
   },
   "ingredients": [{
-      "quantity": 500,
+      "quantity": 125,
       "units": "grams",
       "description": "grated cheddar cheese"
     },
     {
-      "quantity": 200,
+      "quantity": 50,
       "units": "grams",
       "description": "pork sausages"
     },
     {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "jar",
       "description": "sundried tomato paste"
     },
     {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "large",
       "description": "onion"
     },
     {
-      "quantity": 4,
+      "quantity": 1,
       "units": "slices",
       "description": "pepperoni and salami"
     }

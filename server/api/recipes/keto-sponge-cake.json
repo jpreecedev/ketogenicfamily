@@ -18,45 +18,45 @@
   "ingredients": [{
     "groupTitle": "Sponge",
     "ingredients": [{
-      "quantity": 250,
+      "quantity": 62.5,
       "units": "grams",
       "description": "ricotta"
     }, {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "Tablespoon",
       "description": "stevia"
     }, {
-      "quantity": 3,
+      "quantity": 0.75,
       "description": "eggs"
     }, {
-      "quantity": 100,
+      "quantity": 25,
       "units": "grams",
       "description": "butter"
     }, {
-      "quantity": 70,
+      "quantity": 17.5,
       "units": "grams",
       "description": "pecan flour"
     }, {
-      "quantity": 2,
+      "quantity": 0.5,
       "units": "tablespoons",
       "description": "baking powder"
     }, {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "teaspoon",
       "description": "Himalayan pink salt"
     }]
   }, {
     "groupTitle": "Topping",
     "ingredients": [{
-      "quantity": 150,
+      "quantity": 37.5,
       "units": "ml",
       "description": "Whipping Cream"
     }, {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "teaspoon",
       "description": "vanilla extract"
     }, {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "cup",
       "description": "raspberries"
     }]

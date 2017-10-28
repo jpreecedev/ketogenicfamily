@@ -16,26 +16,26 @@
     "units": "muffins"
   },
   "ingredients": [{
-      "quantity": 6,
+      "quantity": 1,
       "units": "Large",
       "description": "eggs"
     },
     {
-      "quantity": 12,
+      "quantity": 2,
       "units": "tablespoons",
       "description": "coconut flour"
     },
     {
-      "quantity": 1,
+      "quantity": 0.1666,
       "units": "teaspoon",
       "description": "baking powder"
     }, {
-      "quantity": 1,
+      "quantity": 0.1666,
       "units": "teaspoon",
       "description": "salt"
     },
     {
-      "quantity": 1,
+      "quantity": 0.1666,
       "units": "teaspoon",
       "description": "stevia"
     }

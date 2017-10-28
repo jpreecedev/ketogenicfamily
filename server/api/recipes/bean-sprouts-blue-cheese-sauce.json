@@ -17,27 +17,27 @@
   },
   "ingredients": [
     {
-      "quantity": 300,
+      "quantity": 100,
       "units": "grams",
       "description": "fresh beansprouts"
     },
     {
-      "quantity": 125,
+      "quantity": 41.6666,
       "units": "grams",
       "description": "blue cheese"
     },
     {
-      "quantity": 125,
+      "quantity": 41.6666,
       "units": "grams",
       "description": "cream cheese"
     },
     {
-      "quantity": 1,
+      "quantity": 0.3333,
       "units": "tablespoon",
       "description": "Butter"
     },
     {
-      "quantity": 100,
+      "quantity": 33.3333,
       "units": "grams",
       "description": "bacon lardons"
     },

@@ -14,17 +14,17 @@
     "units": "creams"
   },
   "ingredients": [{
-      "quantity": 1,
+      "quantity": 0.1666,
       "units": "tablespoon",
       "description": "peanut butter"
     },
     {
-      "quantity": 1,
+      "quantity": 0.1666,
       "units": "tablespoon",
       "description": "stevia"
     },
     {
-      "quantity": 300,
+      "quantity": 50,
       "units": "ml",
       "description": "whipping cream"
     }

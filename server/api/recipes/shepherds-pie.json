@@ -16,17 +16,17 @@
     "units": "servings"
   },
   "ingredients": [{
-      "quantity": 500,
+      "quantity": 125,
       "units": "grams",
       "description": "lamb mince"
     },
     {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "cup",
       "description": "onion"
     },
     {
-      "quantity": 3,
+      "quantity": 0.75,
       "units": "cups",
       "description": "spinach"
     },
@@ -35,37 +35,37 @@
       "description": "Salt and Pepper"
     },
     {
-      "quantity": 3,
+      "quantity": 0.75,
       "units": "cloves",
       "description": "crushed garlic"
     },
     {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "teaspoon",
       "description": "lemon juice"
     },
     {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "teaspoon",
       "description": "mixed herbs"
     },
     {
-      "quantity": 300,
+      "quantity": 75,
       "units": "grams",
       "description": "cauliflower florets"
     },
     {
-      "quantity": 2,
+      "quantity": 0.5,
       "units": "tablespoons",
       "description": "butter"
     },
     {
-      "quantity": 3,
+      "quantity": 0.75,
       "units": "cups",
       "description": "grated cheese"
     },
     {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "cup",
       "description": "heavy cream"
     }

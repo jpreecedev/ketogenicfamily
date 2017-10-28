@@ -16,32 +16,32 @@
     "units": "servings"
   },
   "ingredients": [{
-      "quantity": 500,
+      "quantity": 125,
       "units": "grams",
       "description": "Lamb mince"
     },
     {
-      "quantity": 2,
+      "quantity": 0.5,
       "units": "tablespoons",
       "description": "Shreaded Cheese"
     },
     {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "teaspoon",
       "description": "mixed herbs"
     },
     {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "teaspoon",
       "description": "salt & pepper"
     },
     {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "jar",
       "description": "Salsa"
     },
     {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "tin",
       "description": "Chopped tomatoes"
     }
