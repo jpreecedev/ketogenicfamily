@@ -2,13 +2,13 @@
   <section class="performance-facts mt-3" id="nutrition">
     <header class="performance-facts__header">
       <h1 class="performance-facts__title">Nutrition Facts</h1>
-      <p>Simple cheese pizza, per 1 slice</p>
+      <p>{{ title }}</p>
     </header>
     <table class="performance-facts__table">
       <thead>
         <tr>
           <th colspan="3" class="small-info">
-            Amount Per Serving
+            Amount per 1 {{ units }}
           </th>
         </tr>
       </thead>
@@ -16,11 +16,11 @@
         <tr>
           <th colspan="2">
             <b>Calories</b>
-            200
+            {{ totalCalories | formatNumber(0) }}
           </th>
           <td>
             Calories from Fat
-            130
+            {{ caloriesFromFat | formatNumber(0) }}
           </td>
         </tr>
         <tr class="thick-row">
@@ -31,28 +31,30 @@
         <tr>
           <th colspan="2">
             <b>Total Fat</b>
-            14g
+            {{ totalFat | formatNumber(0) }}g
           </th>
           <td>
-            <b>22%</b>
+            <b>{{ (100 / 166) * totalFat | formatNumber(0) }}%</b>
           </td>
         </tr>
         <tr>
-          <th colspan="2">
-            <b>Cholesterol</b>
-            55mg
+          <td class="blank-cell">
+          </td>
+          <th>
+            Saturated Fat
+            {{ totalSaturatedFat | formatNumber(0) }}g
           </th>
           <td>
-            <b>18%</b>
+            <b>{{ (100 / 166) * totalSaturatedFat | formatNumber(0) }}%</b>
           </td>
         </tr>
         <tr>
           <th colspan="2">
             <b>Total Carbohydrate</b>
-            17g
+            {{ totalCarbohydrate | formatNumber(0) }}g
           </th>
           <td>
-            <b>6%</b>
+            <b>{{ (100 / 25) * totalCarbohydrate | formatNumber(0) }}%</b>
           </td>
         </tr>
         <tr>
@@ -60,10 +62,9 @@
           </td>
           <th>
             Dietary Fiber
-            1g
+            {{ totalFibre | formatNumber(0) }}g
           </th>
           <td>
-            <b>4%</b>
           </td>
         </tr>
         <tr>
@@ -71,23 +72,78 @@
           </td>
           <th>
             Sugars
-            14g
+            {{ totalSugar | formatNumber(0) }}g
           </th>
           <td>
           </td>
         </tr>
-        <tr class="thick-end">
+        <tr>
           <th colspan="2">
             <b>Protein</b>
-            3g
+            {{ totalProtein | formatNumber(0) }}g
           </th>
           <td>
+            <b>{{ 1 * totalProtein | formatNumber(0) }}%</b>
+          </td>
+        </tr>
+        <tr>
+          <th colspan="2">
+            <b>Salt</b>
+            {{ totalSalt | formatNumber }}g
+          </th>
+          <td>
+            <b>{{ (100 / 8.1) * totalSalt | formatNumber(0) }}%</b>
           </td>
         </tr>
       </tbody>
     </table>
 
-    <p class="small-info">* Percent Daily Values are based on a 2,000 calorie diet.</p>
+    <p class="small-info">* Percent Daily Values are based on a 2,000 calorie intake, and has been <strong>adjusted for the ketogenic diet</strong>.</p>
+    <p class="small-info">Ketogenic diet macronutrient split is: 75% fat, 20% protein, 5% carbohydrates.</p>
+    <p class="small-info">Your daily values may be higher or lower depending on your calorie needs:</p>
+
+    <table class="performance-facts__table--small small-info">
+      <thead>
+        <tr>
+          <td colspan="2"></td>
+          <th>2,000</th>
+          <th>2,500</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th colspan="2">Total Fat</th>
+          <td>166g</td>
+          <td>208g</td>
+        </tr>
+        <tr>
+          <th colspan="2">Total Protein</th>
+          <td>100g</td>
+          <td>125g</td>
+        </tr>
+        <tr>
+          <th colspan="2">Total Carbohydrate</th>
+          <td>25g</td>
+          <td>31g</td>
+        </tr>
+        <tr>
+          <th colspan="2">Total Salt</th>
+          <td>8.1g</td>
+          <td>8.1g</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="small-info">
+      Calories per gram:
+    </p>
+    <p class="small-info text-center">
+      Fat 9
+      &bull;
+      Carbohydrate 4
+      &bull;
+      Protein 4
+    </p>
 
   </section>
 </template>
@@ -96,10 +152,58 @@
   export default {
     name: 'nutrition',
     props: {
-      'nutrition': {
-        type: Object,
+      'title': {
+        type: String,
         default: null,
-        required: false
+        required: true
+      },
+      'units': {
+        type: String,
+        default: null,
+        required: true
+      },
+      'nutritionalData': {
+        type: Array,
+        default: () => [],
+        required: true
+      }
+    },
+    methods: {
+      getTotal (prop) {
+        let result = 0
+        this.nutritionalData.forEach(item => {
+          result += item[prop] || 0
+        })
+        return result
+      }
+    },
+    computed: {
+      totalCalories () {
+        return this.getTotal('kcal')
+      },
+      caloriesFromFat () {
+        return this.getTotal('fat') * 9
+      },
+      totalFat () {
+        return this.getTotal('fat')
+      },
+      totalSaturatedFat () {
+        return this.getTotal('saturates')
+      },
+      totalCarbohydrate () {
+        return this.getTotal('carbohydrate')
+      },
+      totalSugar () {
+        return this.getTotal('sugars')
+      },
+      totalFibre () {
+        return this.getTotal('fibre')
+      },
+      totalProtein () {
+        return this.getTotal('protein')
+      },
+      totalSalt () {
+        return this.getTotal('salt')
       }
     }
   }

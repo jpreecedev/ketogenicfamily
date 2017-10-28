@@ -43,7 +43,11 @@
                                :servings="recipe.servings">
               </app-ingredients>
             </section>
-            <app-nutrition v-if="recipe.nutrition"></app-nutrition>
+            <app-nutrition v-if="recipe.hasNutritionalData"
+                           :title="recipe.title"
+                           :units="recipe.servings.nutritionUnits"
+                           :nutritionalData="recipe.ingredients.map(item => item.nutrition)">
+            </app-nutrition>
           </div>
           <div class="col-12 col-md-8">
             <section class="mt-5 mt-md-3" id="instructions">

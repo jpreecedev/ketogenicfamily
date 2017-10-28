@@ -16,6 +16,7 @@
       </app-masonry>
 
     </section>
+    <div id="fb-root"></div>
   </div>
 </template>
 

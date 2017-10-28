@@ -7,8 +7,8 @@ Vue.filter('formatDate', function (value) {
   }
 })
 
-Vue.filter('formatNumber', function (value) {
+Vue.filter('formatNumber', function (value, fixed = 2) {
   if (value) {
-    return Number(Number.parseFloat(value).toFixed(2))
+    return Number(Number.parseFloat(value).toFixed(fixed))
   }
 })

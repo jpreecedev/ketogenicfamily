@@ -11,27 +11,32 @@
   "rating": 5,
   "servings": {
     "total": 4,
-    "units": "servings"
+    "units": "servings",
+    "nutritionUnits": "bomb"
   },
   "ingredients": [{
-      "quantity": 3,
+      "quantity": 0.75,
       "units": "tablespoons",
-      "description": "peanut butter"
+      "description": "peanut butter",
+      "nutritionKey": "peanut-butter"
     },
     {
-      "quantity": 3,
+      "quantity": 0.75,
       "units": "tablespoons",
-      "description": "coconut oil"
+      "description": "coconut oil",
+      "nutritionKey": "coconut-oil"
     },
     {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "tablespoon",
-      "description": "dark cocoa powder"
+      "description": "cocoa powder",
+      "nutritionKey": "cocoa-powder"
     },
     {
-      "quantity": 1,
+      "quantity": 0.25,
       "units": "pinch",
-      "description": "salt"
+      "description": "salt",
+      "nutritionKey": "salt"
     }
   ],
   "instructions": [
