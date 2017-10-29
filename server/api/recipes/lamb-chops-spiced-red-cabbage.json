@@ -19,12 +19,12 @@
   },
   "ingredients": [{
       "quantity": 1,
-      "units": "whole",
+      "units": "large",
       "description": "red cabbage"
     },
     {
       "quantity": 1,
-      "units": "white",
+      "units": "large",
       "description": "onion"
     },
     {

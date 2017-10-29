@@ -44,7 +44,9 @@
       "description": "bacon lardons"
     },
     {
-      "description": "Salt & pepper to taste"
+      "quantity": 1,
+      "units": "teaspoon",
+      "description": "salt & pepper"
     }
   ],
   "instructions": [

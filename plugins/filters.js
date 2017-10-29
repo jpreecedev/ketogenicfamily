@@ -13,7 +13,7 @@ Vue.filter('formatNumber', function (value, units, fixed = 2) {
   }
 
   const formatForUnits = [
-    'cup', 'cups', 'tablespoon', 'tablespoons', 'teaspoon', 'teaspoons'
+    'cup', 'cups', 'tablespoon', 'tablespoons', 'teaspoon', 'teaspoons', 'pinch', 'jar', 'tin', 'clove', 'cloves', 'large'
   ]
 
   const formattedValue = Number(Number.parseFloat(value).toFixed(fixed))
