@@ -13,61 +13,63 @@
   "rating": 5,
   "servings": {
     "total": 4,
-    "units": "portions"
+    "units": "portions",
+    "showNutritionalLabel": false,
+    "adjustable": true
   },
   "ingredients": [{
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "whole",
       "description": "red cabbage"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "white",
       "description": "onion"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "clove",
       "description": "garlic"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "tablespoon",
       "description": "nutmeg"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "tablespoon",
       "description": "cinnamon"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "tablespoon",
       "description": "ground cloves"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "tablespoon",
       "description": "coconut oil"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "tablespoon",
       "description": "stevia"
     },
     {
-      "quantity": 0.75,
+      "quantity": 3,
       "units": "tablespoons",
       "description": "apple cider vinegar"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "tablespoon",
       "description": "ground cloves"
     },
     {
-      "quantity": 12.5,
-      "units": "grams",
+      "quantity": 50,
+      "units": "g",
       "description": "butter"
     }
   ],

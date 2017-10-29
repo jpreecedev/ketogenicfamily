@@ -11,20 +11,22 @@
   "rating": 4,
   "servings": {
     "total": 6,
-    "units": "creams"
+    "units": "creams",
+    "showNutritionalLabel": false,
+    "adjustable": true
   },
   "ingredients": [{
-      "quantity": 0.1666,
+      "quantity": 1,
       "units": "tablespoon",
       "description": "peanut butter"
     },
     {
-      "quantity": 0.1666,
+      "quantity": 1,
       "units": "tablespoon",
       "description": "stevia"
     },
     {
-      "quantity": 50,
+      "quantity": 300,
       "units": "ml",
       "description": "whipping cream"
     }

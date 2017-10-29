@@ -13,45 +13,48 @@
   "rating": 4,
   "servings": {
     "total": 4,
-    "units": "servings"
+    "units": "servings",
+    "showNutritionalLabel": false,
+    "adjustable": true
   },
   "ingredients": [{
-      "quantity": 1,
+      "quantity": 4,
       "units": "large",
       "description": "Chicken thighs"
     },
     {
-      "quantity": 1,
+      "quantity": 4,
       "units": "large",
       "description": "Chicken legs"
     },
     {
-      "quantity": 50,
-      "units": "grams",
+      "quantity": 200,
+      "units": "g",
       "description": "almond flour"
     },
     {
-      "quantity": 0.5,
-      "units": "teaspoon",
+      "quantity": 2,
+      "units": "teaspoons",
       "description": "ginger"
     },
     {
-      "quantity": 0.5,
-      "units": "teaspoon",
+      "quantity": 2,
+      "units": "teaspoons",
       "description": "parsley"
     },
     {
-      "quantity": 0.5,
-      "units": "teaspoon",
+      "quantity": 2,
+      "units": "teaspoons",
       "description": "paprika"
     },
     {
-      "quantity": 0.5,
-      "units": "teaspoon",
+      "quantity": 2,
+      "units": "teaspoons",
       "description": "chilli powder"
     },
     {
-      "units": "Pinch",
+      "quantity": 1,
+      "units": "pinch",
       "description": "Salt and Pepper"
     }
   ],

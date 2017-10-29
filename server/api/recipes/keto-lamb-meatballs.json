@@ -13,35 +13,37 @@
   "rating": 4,
   "servings": {
     "total": 4,
-    "units": "servings"
+    "units": "servings",
+    "showNutritionalLabel": false,
+    "adjustable": true
   },
   "ingredients": [{
-      "quantity": 125,
-      "units": "grams",
+      "quantity": 500,
+      "units": "g",
       "description": "Lamb mince"
     },
     {
-      "quantity": 0.5,
+      "quantity": 2,
       "units": "tablespoons",
       "description": "Shreaded Cheese"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "teaspoon",
       "description": "mixed herbs"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "teaspoon",
       "description": "salt & pepper"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "jar",
       "description": "Salsa"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "tin",
       "description": "Chopped tomatoes"
     }

@@ -13,30 +13,32 @@
   "rating": 4.5,
   "servings": {
     "total": 4,
-    "units": "servings"
+    "units": "servings",
+    "showNutritionalLabel": false,
+    "adjustable": false
   },
   "ingredients": [{
-      "quantity": 125,
-      "units": "grams",
+      "quantity": 500,
+      "units": "g",
       "description": "grated cheddar cheese"
     },
     {
-      "quantity": 50,
-      "units": "grams",
+      "quantity": 200,
+      "units": "g",
       "description": "pork sausages"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "jar",
       "description": "sundried tomato paste"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "large",
       "description": "onion"
     },
     {
-      "quantity": 1,
+      "quantity": 4,
       "units": "slices",
       "description": "pepperoni and salami"
     }

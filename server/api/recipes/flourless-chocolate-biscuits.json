@@ -12,34 +12,36 @@
   "rating": 4,
   "servings": {
     "total": 12,
-    "units": "biscuits"
+    "units": "biscuits",
+    "showNutritionalLabel": false,
+    "adjustable": true
   },
   "ingredients": [{
-      "quantity": 3.75,
-      "units": "grams",
+      "quantity": 45,
+      "units": "g",
       "description": "cocoa powder"
     },
     {
-      "quantity": 4.1666,
-      "units": "grams",
+      "quantity": 50,
+      "units": "g",
       "description": "stevia"
     },
     {
-      "quantity": 5,
-      "units": "grams",
+      "quantity": 60,
+      "units": "g",
       "description": "butter"
     }, {
-      "quantity": 5,
-      "units": "grams",
+      "quantity": 60,
+      "units": "g",
       "description": "cream cheese"
     },
     {
-      "quantity": 0.1666,
+      "quantity": 2,
       "units": "large",
       "description": "eggs"
     },
     {
-      "quantity": 0.0833,
+      "quantity": 1,
       "units": "tablespoon",
       "description": "vanilla extract"
     }

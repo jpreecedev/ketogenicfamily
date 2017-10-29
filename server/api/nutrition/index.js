@@ -3,9 +3,14 @@ import { getConfig } from '../fileReader'
 const nutrition = getConfig('nutrition/data.json')
 
 export function hasNutrition (recipe) {
-  return recipe.ingredients.some((ingredient) => {
-    return ingredient.nutritionKey
-  })
+  return recipe.ingredients.some(ingredient => {
+    if (ingredient.ingredients) {
+      return ingredient.ingredients.some(groupIngredient => {
+        return groupIngredient.key
+      })
+    }
+    return ingredient.key
+  }) && recipe.servings.showNutritionalLabel
 }
 
 export function convertTablespoonsToGrams (quantity) {
@@ -22,7 +27,10 @@ export function addNutritionalInformation (recipe) {
     ingredient.nutrition = {}
 
     const nutritionData = nutrition.find(item => {
-      return item.key === ingredient.nutritionKey
+      if (ingredient.ingredients) {
+        return ingredient.ingredients.find(a => a.key === item.key)
+      }
+      return item.key === ingredient.key
     })
 
     let multiplier = 1

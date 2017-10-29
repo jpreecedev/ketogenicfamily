@@ -13,24 +13,26 @@
   "rating": 4,
   "servings": {
     "total": 6,
-    "units": "bombs"
+    "units": "bombs",
+    "showNutritionalLabel": false,
+    "adjustable": true
   },
   "ingredients": [{
-      "quantity": 0.1666,
+      "quantity": 1,
       "units": "packet",
       "description": "sugar free raspberry jelly"
     },
     {
-      "quantity":0.0833,
+      "quantity": 0.5,
       "units": "pint",
       "description": "cold water"
     },
     {
-      "quantity":0.0833,
+      "quantity": 0.5,
       "units": "pint",
       "description": "boiling water"
     }, {
-      "quantity": 50,
+      "quantity": 300,
       "units": "ml",
       "description": "whipping cream"
     }

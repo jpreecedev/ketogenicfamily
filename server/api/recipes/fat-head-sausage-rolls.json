@@ -13,39 +13,41 @@
   "rating": 4.5,
   "servings": {
     "total": 6,
-    "units": "sausage rolls"
+    "units": "sausage rolls",
+    "showNutritionalLabel": false,
+    "adjustable": true
   },
   "ingredients": [{
-      "quantity": 1,
+      "quantity": 6,
       "units": "large",
-      "description": "sausage"
+      "description": "sausages"
     },
     {
-      "quantity": 0.1666,
+      "quantity": 1,
       "units": "tablespoon",
       "description": "onion salt"
     },
     {
-      "quantity": 42.5,
+      "quantity": 255,
       "units": "g",
       "description": "grated cheese"
     }, {
-      "quantity": 21.25,
+      "quantity": 128,
       "units": "g",
       "description": "almond flour"
     },
     {
-      "quantity": 0.1666,
+      "quantity": 1,
       "units": "large",
       "description": "egg"
     },
     {
-      "quantity": 0.1666,
+      "quantity": 1,
       "units": "teaspoon",
       "description": "salt"
     },
     {
-      "quantity": 0.1666,
+      "quantity": 1,
       "units": "teaspoon",
       "description": "sesame seeds"
     }

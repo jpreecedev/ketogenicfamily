@@ -13,29 +13,31 @@
   "rating": 3.5,
   "servings": {
     "total": 6,
-    "units": "muffins"
+    "units": "muffins",
+    "showNutritionalLabel": false,
+    "adjustable": true
   },
   "ingredients": [{
-      "quantity": 1,
+      "quantity": 6,
       "units": "Large",
       "description": "eggs"
     },
     {
-      "quantity": 2,
+      "quantity": 12,
       "units": "tablespoons",
       "description": "coconut flour"
     },
     {
-      "quantity": 0.1666,
+      "quantity": 1,
       "units": "teaspoon",
       "description": "baking powder"
     }, {
-      "quantity": 0.1666,
+      "quantity": 1,
       "units": "teaspoon",
       "description": "salt"
     },
     {
-      "quantity": 0.1666,
+      "quantity": 1,
       "units": "teaspoon",
       "description": "stevia"
     }

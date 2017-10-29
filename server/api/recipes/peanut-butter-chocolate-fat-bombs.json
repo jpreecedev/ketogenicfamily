@@ -12,31 +12,33 @@
   "servings": {
     "total": 4,
     "units": "servings",
-    "nutritionUnits": "bomb"
+    "nutritionUnits": "bomb",
+    "showNutritionalLabel": false,
+    "adjustable": true
   },
   "ingredients": [{
-      "quantity": 0.75,
+      "key": "peanut-butter",
+      "quantity": 3,
       "units": "tablespoons",
-      "description": "peanut butter",
-      "nutritionKey": "peanut-butter"
+      "description": "peanut butter"
     },
     {
-      "quantity": 0.75,
+      "key": "coconut-oil",
+      "quantity": 3,
       "units": "tablespoons",
-      "description": "coconut oil",
-      "nutritionKey": "coconut-oil"
+      "description": "coconut oil"
     },
     {
-      "quantity": 0.25,
+      "key": "cocoa-powder",
+      "quantity": 1,
       "units": "tablespoon",
-      "description": "cocoa powder",
-      "nutritionKey": "cocoa-powder"
+      "description": "cocoa powder"
     },
     {
-      "quantity": 0.25,
+      "key": "salt",
+      "quantity": 1,
       "units": "pinch",
-      "description": "salt",
-      "nutritionKey": "salt"
+      "description": "salt"
     }
   ],
   "instructions": [

@@ -11,20 +11,22 @@
   "rating": 5,
   "servings": {
     "total": 4,
-    "units": "servings"
+    "units": "servings",
+    "showNutritionalLabel": false,
+    "adjustable": true
   },
   "ingredients": [{
-      "quantity": 37.5,
-      "units": "grams",
+      "quantity": 150,
+      "units": "g",
       "description": "butter"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "cloves",
       "description": "garlic"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "tablespoon",
       "description": "salt"
     }

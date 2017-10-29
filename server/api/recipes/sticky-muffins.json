@@ -13,44 +13,46 @@
   "rating": 5,
   "servings": {
     "total": 6,
-    "units": "muffins"
+    "units": "muffins",
+    "showNutritionalLabel": false,
+    "adjustable": true
   },
   "ingredients": [{
-      "quantity": 0.1666,
+      "quantity": 1,
       "units": "cup",
       "description": "Almond flour"
     },
     {
-      "quantity": 0.0555,
+      "quantity": 0.3333,
       "units": "cup",
       "description": "stevia"
     },
     {
-      "quantity": 0.3333,
+      "quantity": 2,
       "units": "teaspoons",
       "description": "baking powder"
     }, {
-      "quantity": 0.1666,
+      "quantity": 1,
       "units": "teaspoon",
       "description": "cinnamon"
     },
     {
-      "quantity": 0.3333,
+      "quantity": 2,
       "units": "teaspoons",
       "description": "salt"
     },
     {
-      "quantity": 5.3333,
-      "units": "grams",
+      "quantity": 32,
+      "units": "g",
       "description": "butter"
     },
     {
-      "quantity": 5.3333,
-      "units": "grams",
+      "quantity": 32,
+      "units": "g",
       "description": "soya milk"
     },
     {
-      "quantity": 0.1666,
+      "quantity": 1,
       "units": "large",
       "description": "egg"
     }

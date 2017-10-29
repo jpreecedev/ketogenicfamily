@@ -11,7 +11,9 @@
   "rating": 4.5,
   "servings": {
     "total": 1,
-    "units": "mug"
+    "units": "mug",
+    "showNutritionalLabel": false,
+    "adjustable": true
   },
   "ingredients": [{
       "quantity": 2,

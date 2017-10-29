@@ -11,40 +11,42 @@
   "rating": 4,
   "servings": {
     "total": 8,
-    "units": "servings"
+    "units": "servings",
+    "showNutritionalLabel": false,
+    "adjustable": true
   },
   "ingredients": [{
-      "quantity": 0.125,
+      "quantity": 0.5,
       "units": "large",
       "description": "Red cabbage"
     },
     {
-      "quantity": 0.125,
+      "quantity": 0.5,
       "units": "large",
       "description": "Red onion"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "tablespoons",
       "description": "sour cream"
     },
     {
-      "quantity": 0.25,
+      "quantity": 1,
       "units": "tablespoons",
       "description": "mayonnaise"
     },
     {
-      "quantity": 0.125,
+      "quantity": 0.5,
       "units": "teaspoon",
       "description": "tarragon"
     },
     {
-      "quantity": 0.125,
+      "quantity": 0.5,
       "units": "tablespoon",
       "description": "balsamic vinegar"
     },
     {
-      "quantity": 0.125,
+      "quantity": 0.5,
       "units": "tablespoon",
       "description": "stevia"
     }

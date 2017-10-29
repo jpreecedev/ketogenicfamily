@@ -1,6 +1,6 @@
 <template>
   <div>
-    <template v-if="servings">
+    <template v-if="servings && servings.adjustable">
       <h3 class="display-2">Servings</h3>
       <form class="form-inline">
         <label class="sr-only" for="servingUnits">{{ servings.units }}</label>
@@ -23,12 +23,12 @@
             <ul class="bullets--hidden mt-1">
               <li v-for="(groupIngredient, index) in ingredient.ingredients"
                   :key="index">
-                {{ groupIngredient.quantity * (currentNumberOfServings !== startingNumberOfServings ? currentNumberOfServings : startingNumberOfServings) | formatNumber }} {{ groupIngredient.units }} {{ groupIngredient.description }}
+                  {{ (groupIngredient.quantity / startingNumberOfServings) * currentNumberOfServings | formatNumber }} {{ groupIngredient.units === "g" ? "g" : " " + groupIngredient.units }} {{ groupIngredient.description }}
               </li>
             </ul>
           </template>
           <template v-else>
-            {{ ingredient.quantity * (currentNumberOfServings !== startingNumberOfServings ? currentNumberOfServings : startingNumberOfServings) | formatNumber }} {{ ingredient.units }} {{ ingredient.description }}
+            {{ (ingredient.quantity / startingNumberOfServings) * currentNumberOfServings  | formatNumber }}{{ ingredient.units === "g" ? "g" : " " + ingredient.units }} {{ ingredient.description }}
           </template>
       </li>
     </ul>

@@ -11,21 +11,32 @@
   "cookTime": "PT30M",
   "description": "Low carb, high fat, keto friendly, nutty birthday cake!",
   "rating": 5,
+  "servings": {
+    "total": 12,
+    "units": "servings",
+    "showNutritionalLabel": false,
+    "nutritionUnits": "servings",
+    "adjustable": false
+  },
   "ingredients": [{
     "groupTitle": "Cake",
     "ingredients": [{
+      "key": "stevia",
       "quantity": 1,
       "units": "cup",
       "description": "Stevia"
       }, {
+        "key": "butter",
         "quantity": 0.75,
         "units": "cup",
         "description": "Butter"
       }, {
+        "key": "egg",
         "quantity": 8,
         "units": "Large",
         "description": "Eggs"
       }, {
+        "key": "almond-milk",
         "quantity": 0.5,
         "units": "cup",
         "description": "Almond Milk"
@@ -34,14 +45,17 @@
         "units": "Tablespoon",
         "description": "Vanilla Extract"
       }, {
+        "key": "brazil-nuts",
         "quantity": 1.5,
         "units": "cups",
         "description": "Brazil Flour"
       }, {
+        "key": "walnuts",
         "quantity": 1.5,
         "units": "cups",
         "description": "Walnut Flour"
       }, {
+        "key": "coconut-flour",
         "quantity": 0.5,
         "units": "cup",
         "description": "Coconut Flour"
@@ -53,16 +67,19 @@
   }, {
     "groupTitle": "Icing",
     "ingredients": [{
+        "key": "cream-cheese",
         "quantity": 900,
-        "units": "grams",
+        "units": "g",
         "description": "Cream Cheese"
       },
       {
+        "key": "butter",
         "quantity": 0.3333,
         "units": "cup",
         "description": "Butter"
       },
       {
+        "key": "stevia",
         "quantity": 0.6666,
         "units": "cup",
         "description": "Stevia"
