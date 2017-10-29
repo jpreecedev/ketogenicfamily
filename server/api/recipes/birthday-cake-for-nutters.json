@@ -42,7 +42,7 @@
         "description": "Almond Milk"
       }, {
         "quantity": 1,
-        "units": "Tablespoon",
+        "units": "tablespoon",
         "description": "Vanilla Extract"
       }, {
         "key": "brazil-nuts",
@@ -74,19 +74,19 @@
       },
       {
         "key": "butter",
-        "quantity": 0.3333,
+        "quantity": 0.33,
         "units": "cup",
         "description": "Butter"
       },
       {
         "key": "stevia",
-        "quantity": 0.6666,
+        "quantity": 0.66,
         "units": "cup",
         "description": "Stevia"
       },
       {
         "quantity": 1,
-        "units": "Tablespoon",
+        "units": "tablespoon",
         "description": "Vanilla Extract"
       }
     ]
