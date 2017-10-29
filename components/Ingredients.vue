@@ -23,12 +23,12 @@
             <ul class="bullets--hidden mt-1">
               <li v-for="(groupIngredient, index) in ingredient.ingredients"
                   :key="index">
-                  {{ (groupIngredient.quantity / startingNumberOfServings) * currentNumberOfServings | formatNumber }}{{ groupIngredient.units === "g" ? "g" : " " + groupIngredient.units }} {{ groupIngredient.description }}
+                  {{ (groupIngredient.quantity / startingNumberOfServings) * currentNumberOfServings | formatNumber(groupIngredient.units) }}{{ groupIngredient.units === "g" ? "g" : " " + groupIngredient.units }} {{ groupIngredient.description }}
               </li>
             </ul>
           </template>
           <template v-else>
-            {{ (ingredient.quantity / startingNumberOfServings) * currentNumberOfServings | formatNumber }}{{ ingredient.units === "g" ? "g" : " " + ingredient.units }} {{ ingredient.description }}
+            {{ (ingredient.quantity / startingNumberOfServings) * currentNumberOfServings | formatNumber(ingredient.units) }}{{ ingredient.units === "g" ? "g" : " " + ingredient.units }} {{ ingredient.description }}
           </template>
       </li>
     </ul>

@@ -7,23 +7,33 @@ Vue.filter('formatDate', function (value) {
   }
 })
 
-Vue.filter('formatNumber', function (value, fixed = 2) {
+Vue.filter('formatNumber', function (value, units, fixed = 2) {
   const format = (value, symbol) => {
     return Math.floor(value) > 0 ? Math.floor(value) + symbol : symbol
   }
 
-  switch (value % 1) {
-    case 0.25:
-      return format(value, '¼')
-    case 0.33:
-      return format(value, '⅓')
-    case 0.5:
-      return format(value, '½')
-    case 0.66:
-      return format(value, '⅔')
-    case 0.75:
-      return format(value, '¾')
-    default:
-      return Number(Number.parseFloat(value).toFixed(fixed))
+  const formatForUnits = [
+    'cup', 'cups', 'tablespoon', 'tablespoons', 'teaspoon', 'teaspoons'
+  ]
+
+  const formattedValue = Number(Number.parseFloat(value).toFixed(fixed))
+
+  if (formatForUnits.some(unit => unit === units)) {
+    switch (Number((formattedValue % 1).toPrecision(2))) {
+      case 0.25:
+        return format(formattedValue, '¼')
+      case 0.33:
+        return format(formattedValue, '⅓')
+      case 0.5:
+        return format(formattedValue, '½')
+      case 0.66:
+        return format(formattedValue, '⅔')
+      case 0.75:
+        return format(formattedValue, '¾')
+      default:
+        return formattedValue
+    }
   }
+
+  return formattedValue
 })

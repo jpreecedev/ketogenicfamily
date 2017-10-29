@@ -16,11 +16,11 @@
         <tr>
           <th colspan="2">
             <b>Calories</b>
-            {{ totalCalories | formatNumber(0) }}
+            {{ totalCalories | formatNumber("", 0) }}
           </th>
           <td>
             Calories from Fat
-            {{ caloriesFromFat | formatNumber(0) }}
+            {{ caloriesFromFat | formatNumber("", 0) }}
           </td>
         </tr>
         <tr class="thick-row">
@@ -31,10 +31,10 @@
         <tr>
           <th colspan="2">
             <b>Total Fat</b>
-            {{ totalFat | formatNumber(0) }}g
+            {{ totalFat | formatNumber("", 0) }}g
           </th>
           <td>
-            <b>{{ (100 / 166) * totalFat | formatNumber(0) }}%</b>
+            <b>{{ (100 / 166) * totalFat | formatNumber("", 0) }}%</b>
           </td>
         </tr>
         <tr>
@@ -42,19 +42,19 @@
           </td>
           <th>
             Saturated Fat
-            {{ totalSaturatedFat | formatNumber(0) }}g
+            {{ totalSaturatedFat | formatNumber("", 0) }}g
           </th>
           <td>
-            <b>{{ (100 / 166) * totalSaturatedFat | formatNumber(0) }}%</b>
+            <b>{{ (100 / 166) * totalSaturatedFat | formatNumber("", 0) }}%</b>
           </td>
         </tr>
         <tr>
           <th colspan="2">
             <b>Total Carbohydrate</b>
-            {{ totalCarbohydrate | formatNumber(0) }}g
+            {{ totalCarbohydrate | formatNumber("", 0) }}g
           </th>
           <td>
-            <b>{{ (100 / 25) * totalCarbohydrate | formatNumber(0) }}%</b>
+            <b>{{ (100 / 25) * totalCarbohydrate | formatNumber("", 0) }}%</b>
           </td>
         </tr>
         <tr>
@@ -62,7 +62,7 @@
           </td>
           <th>
             Dietary Fiber
-            {{ totalFibre | formatNumber(0) }}g
+            {{ totalFibre | formatNumber("", 0) }}g
           </th>
           <td>
           </td>
@@ -72,7 +72,7 @@
           </td>
           <th>
             Sugars
-            {{ totalSugar | formatNumber(0) }}g
+            {{ totalSugar | formatNumber("", 0) }}g
           </th>
           <td>
           </td>
@@ -80,10 +80,10 @@
         <tr>
           <th colspan="2">
             <b>Protein</b>
-            {{ totalProtein | formatNumber(0) }}g
+            {{ totalProtein | formatNumber("", 0) }}g
           </th>
           <td>
-            <b>{{ 1 * totalProtein | formatNumber(0) }}%</b>
+            <b>{{ 1 * totalProtein | formatNumber("", 0) }}%</b>
           </td>
         </tr>
         <tr>
@@ -92,7 +92,7 @@
             {{ totalSalt | formatNumber }}g
           </th>
           <td>
-            <b>{{ (100 / 8.1) * totalSalt | formatNumber(0) }}%</b>
+            <b>{{ (100 / 8.1) * totalSalt | formatNumber("", 0) }}%</b>
           </td>
         </tr>
       </tbody>

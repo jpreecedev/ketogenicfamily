@@ -29,6 +29,7 @@
       "description": "stevia"
     }, {
       "quantity": 3,
+      "units": "large",
       "description": "eggs"
     }, {
       "quantity": 100,
