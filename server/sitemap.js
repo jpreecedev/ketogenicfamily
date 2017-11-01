@@ -16,6 +16,4 @@ const getPosts = () => {
   return blogPosts
 }
 
-export function buildSitemap () {
-  return [...getRecipes(), ...getPosts()]
-}
+module.exports.sitemap = Array.prototype.concat(getRecipes(), getPosts())

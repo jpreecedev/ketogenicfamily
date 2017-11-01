@@ -1,4 +1,4 @@
-const sitemap = require('./server/sitemap')
+const sitemap = require('./server/sitemap').sitemap
 
 module.exports = {
   /*
@@ -19,7 +19,7 @@ module.exports = {
     exclude: [
       '/blog/components/*'
     ],
-    routes: sitemap.buildSitemap()
+    routes: sitemap
   },
   head: {
     title: 'KetogenicFamily.com',
