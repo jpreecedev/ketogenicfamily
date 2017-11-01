@@ -1,7 +1,5 @@
 import markdown from 'markdown-parse'
-import {
-  Router
-} from 'express'
+import { Router } from 'express'
 
 const glob = require('glob')
 const fs = require('fs')

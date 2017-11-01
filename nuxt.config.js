@@ -1,4 +1,4 @@
-const overview = require('./server/api/recipes/overview')
+const sitemap = require('./server/sitemap')
 
 module.exports = {
   /*
@@ -15,9 +15,11 @@ module.exports = {
   ],
   sitemap: {
     generate: false,
-    routes: overview.map(item => {
-      return item.url
-    })
+    cacheTime: 1000 * 60 * 15,
+    exclude: [
+      '/blog/components/*'
+    ],
+    routes: sitemap.buildSitemap()
   },
   head: {
     title: 'KetogenicFamily.com',
