@@ -35,11 +35,6 @@ export default {
     return {
       posts: data
     }
-  },
-  head () {
-    return {
-      title: 'KetogenicFamily.com - Follow our progress towards a permanent ketogenic lifestyle'
-    }
   }
 }
 </script>
