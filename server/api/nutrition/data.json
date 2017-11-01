@@ -574,5 +574,17 @@
     "fibre": 42,
     "protein": 18,
     "salt": 0.1
+  },
+  {
+    "key": "pumpkin-puree",
+    "display": "pumpkin puree",
+    "kcal": 41.67,
+    "fat": 0,
+    "saturates": 0,
+    "carbohydrate": 6.67,
+    "sugars": 3.33,
+    "fibre": 2.50,
+    "protein": 1.67,
+    "salt": 0.2
   }
 ]
