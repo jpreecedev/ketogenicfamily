@@ -11,6 +11,7 @@ module.exports = {
     { src: '~plugins/ga.js', ssr: false },
     { src: '~plugins/facebook-share.js', ssr: false },
     { src: '~plugins/twitter-share.js', ssr: false },
+    { src: '~plugins/drip.js', ssr: false },
     { src: '~plugins/filters.js', ssr: true }
   ],
   sitemap: {
