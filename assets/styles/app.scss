@@ -164,7 +164,7 @@ img[lazy=loading] {
   transform: translateZ(0);
 }
 
-[id^='star-rating'], [id^='star-rating'] .star-rating {
+[id^='star-rating'], [id^='star-rating'] .vue-star-rating {
   display: block;
   margin: 0 auto;
 
