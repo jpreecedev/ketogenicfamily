@@ -13,36 +13,26 @@ export function hasNutrition (recipe) {
   }) && recipe.servings.showNutritionalLabel
 }
 
-export function convertTablespoonsToGrams (quantity) {
-  return quantity * 15
-}
-
 export function addNutritionalInformation (recipe) {
   if (!hasNutrition(recipe) || !recipe.ingredients) {
     return
   }
 
   recipe.hasNutritionalData = true
+
   recipe.ingredients.forEach(ingredient => {
-    ingredient.nutrition = {}
+    let nutritionalData = nutrition.find(item => item.key === ingredient.key)
+    if (nutritionalData) {
+      ingredient.nutrition = {}
 
-    const nutritionData = nutrition.find(item => {
-      if (ingredient.ingredients) {
-        return ingredient.ingredients.find(a => a.key === item.key)
-      }
-      return item.key === ingredient.key
-    })
+      const multiplier = ((100 / recipe.servings.total) * ingredient.quantity) / 100
 
-    let multiplier = 1
-    if (ingredient.units === 'tablespoons' || ingredient.units === 'tablespoon') {
-      multiplier = convertTablespoonsToGrams(ingredient.quantity) / 100
-    }
-
-    for (let item in nutritionData) {
-      if (nutritionData.hasOwnProperty(item)) {
-        let element = nutritionData[item]
-        if (!isNaN(element)) {
-          ingredient.nutrition[item] = element * multiplier
+      for (let key in nutritionalData) {
+        if (nutritionalData.hasOwnProperty(key)) {
+          let element = nutritionalData[key]
+          if (!isNaN(element)) {
+            ingredient.nutrition[key] = (nutritionalData.tablespoon * multiplier) * (nutritionalData[key] / 100)
+          }
         }
       }
     }

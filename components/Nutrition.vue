@@ -34,7 +34,7 @@
             {{ totalFat | formatNumber("", 0) }}g
           </th>
           <td>
-            <b>{{ (100 / 166) * totalFat | formatNumber("", 0) }}%</b>
+            <b>{{ (100 / fat) * totalFat | formatNumber("", 0) }}%</b>
           </td>
         </tr>
         <tr>
@@ -45,7 +45,7 @@
             {{ totalSaturatedFat | formatNumber("", 0) }}g
           </th>
           <td>
-            <b>{{ (100 / 166) * totalSaturatedFat | formatNumber("", 0) }}%</b>
+            <b>{{ (100 / saturatedFat) * totalSaturatedFat | formatNumber("", 0) }}%</b>
           </td>
         </tr>
         <tr>
@@ -54,7 +54,7 @@
             {{ totalCarbohydrate | formatNumber("", 0) }}g
           </th>
           <td>
-            <b>{{ (100 / 25) * totalCarbohydrate | formatNumber("", 0) }}%</b>
+            <b>{{ (100 / carbohydrates) * totalCarbohydrate | formatNumber("", 0) }}%</b>
           </td>
         </tr>
         <tr>
@@ -83,7 +83,7 @@
             {{ totalProtein | formatNumber("", 0) }}g
           </th>
           <td>
-            <b>{{ 1 * totalProtein | formatNumber("", 0) }}%</b>
+            <b>{{ (100 / protein) * totalProtein | formatNumber("", 0) }}%</b>
           </td>
         </tr>
         <tr>
@@ -92,58 +92,13 @@
             {{ totalSalt | formatNumber }}g
           </th>
           <td>
-            <b>{{ (100 / 8.1) * totalSalt | formatNumber("", 0) }}%</b>
+            <b>{{ (100 / salt) * totalSalt | formatNumber("", 0) }}%</b>
           </td>
         </tr>
       </tbody>
     </table>
 
-    <p class="small-info">* Percent Daily Values are based on a 2,000 calorie intake, and has been <strong>adjusted for the ketogenic diet</strong>.</p>
-    <p class="small-info">Ketogenic diet macronutrient split is: 75% fat, 20% protein, 5% carbohydrates.</p>
-    <p class="small-info">Your daily values may be higher or lower depending on your calorie needs:</p>
-
-    <table class="performance-facts__table--small small-info">
-      <thead>
-        <tr>
-          <td colspan="2"></td>
-          <th>2,000</th>
-          <th>2,500</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th colspan="2">Total Fat</th>
-          <td>166g</td>
-          <td>208g</td>
-        </tr>
-        <tr>
-          <th colspan="2">Total Protein</th>
-          <td>100g</td>
-          <td>125g</td>
-        </tr>
-        <tr>
-          <th colspan="2">Total Carbohydrate</th>
-          <td>25g</td>
-          <td>31g</td>
-        </tr>
-        <tr>
-          <th colspan="2">Total Salt</th>
-          <td>8.1g</td>
-          <td>8.1g</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <p class="small-info">
-      Calories per gram:
-    </p>
-    <p class="small-info text-center">
-      Fat 9
-      &bull;
-      Carbohydrate 4
-      &bull;
-      Protein 4
-    </p>
+    <p class="small-info">* Percent Daily Values are based on a 2,000 calorie intake.</p>
 
   </section>
 </template>
@@ -166,6 +121,17 @@
         type: Array,
         default: () => [],
         required: true
+      }
+    },
+    data () {
+      return {
+        fat: 70,
+        protein: 50,
+        saturatedFat: 24,
+        carbohydrates: 310,
+        sugars: 90,
+        salt: 2.3,
+        fibre: 30
       }
     },
     methods: {
@@ -212,8 +178,8 @@
 <style lang="scss" scoped>
 
   section {
-    font-size: small;
-    line-height: 1.4;
+    font-size: 0.75rem;
+    line-height: 1;
   }
 
   p {
@@ -231,7 +197,7 @@
   }
   .performance-facts__title {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0 0 0.25rem 0;
   }
   .performance-facts__header {
@@ -280,6 +246,7 @@
     @extend .performance-facts__table;
     border-bottom: 1px solid #999;
     margin: 0 0 0.5rem 0;
+    line-height: 1.4;
     thead {
       tr {
         border-bottom: 1px solid black;
