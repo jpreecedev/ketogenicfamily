@@ -133,6 +133,8 @@ export default {
         "description": "${this.recipe.description}",
         "recipeIngredient": [${this.getRecipeIngredients()}],
         "recipeInstructions": "${this.getRecipeInstructions()}",
+        "recipeYield": "${this.recipe.servings.total}",
+        ${this.getNutrition()}
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "${this.recipe.rating}",
@@ -160,6 +162,24 @@ export default {
         result.push(`${index + 1}. ${instruction}`)
       })
       return result.join('\n')
+    },
+    getNutrition () {
+      if (!this.recipe.hasNutritionalData) {
+        return ''
+      }
+
+      return `"nutrition": {
+          "@type": "NutritionInformation",
+          "servingSize": "1 ${this.recipe.servings.nutritionUnits}",
+          "calories": "${this.recipe.nutrition.kcal ? this.recipe.nutrition.kcal.toFixed(0) : 0} calories",
+          "fatContent": "${this.recipe.nutrition.fat ? this.recipe.nutrition.fat.toFixed(0) : 0} g",
+          "carbohydrateContent": "${this.recipe.nutrition.carbohydrate ? this.recipe.nutrition.carbohydrate.toFixed(0) : 0} g",
+          "fiberContent": "${this.recipe.nutrition.fibre ? this.recipe.nutrition.fibre.toFixed(0) : 0} g",
+          "proteinContent": "${this.recipe.nutrition.protein ? this.recipe.nutrition.protein.toFixed(0) : 0} g",
+          "saturatedFatContent": "${this.recipe.nutrition.saturates ? this.recipe.nutrition.saturates.toFixed(0) : 0} g",
+          "sodiumContent": "${this.recipe.nutrition.salt ? this.recipe.nutrition.salt.toFixed(2) : 0} g",
+          "sugarContent": "${this.recipe.nutrition.sugars ? this.recipe.nutrition.sugars.toFixed(0) : 0} g"
+        },`
     }
   }
 }

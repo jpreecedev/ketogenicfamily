@@ -19,6 +19,7 @@ export function addNutritionalInformation (recipe) {
   }
 
   recipe.hasNutritionalData = true
+  recipe.nutrition = {}
 
   recipe.ingredients.forEach(ingredient => {
     let nutritionalData = nutrition.find(item => item.key === ingredient.key)
@@ -30,8 +31,10 @@ export function addNutritionalInformation (recipe) {
       for (let key in nutritionalData) {
         if (nutritionalData.hasOwnProperty(key)) {
           let element = nutritionalData[key]
-          if (!isNaN(element)) {
-            ingredient.nutrition[key] = (nutritionalData.tablespoon * multiplier) * (nutritionalData[key] / 100)
+          if (key && element && !isNaN(element)) {
+            const value = (nutritionalData.tablespoon * multiplier) * (nutritionalData[key] / 100)
+            ingredient.nutrition[key] = value
+            recipe.nutrition[key] = (recipe.nutrition[key] || 0) + value
           }
         }
       }
