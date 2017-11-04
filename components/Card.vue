@@ -1,5 +1,5 @@
 <template>
-  <div class="card mb-4"
+  <div class="card"
        role="button">
     <nuxt-link :to="recipe.url">
       <img v-if="lazy"
