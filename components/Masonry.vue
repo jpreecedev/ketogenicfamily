@@ -30,14 +30,6 @@
 
   @import '~assets/styles/variables';
 
-  .card {
-    cursor: pointer;
-
-    &:hover {
-      box-shadow: $shadow;
-    }
-  }
-
   a {
     text-decoration: none;
     color: #212529;
