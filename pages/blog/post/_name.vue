@@ -2,7 +2,7 @@
   <div>
     <app-jumbotron :slim="true"
                    title="Keto Blog"
-                   lead="Follow our progress towards a permanent ketogenic lifestyle">
+                   :lead="blogPost.title">
     </app-jumbotron>
     <section class="container">
 
