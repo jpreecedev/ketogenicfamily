@@ -16,6 +16,11 @@ When you eat carbs, your body converts the sugars into glucose, which enters the
 
 After an initial induction phase of between 1 to 6 weeks, your body will adapt to using fat for energy.  More precisely, a chemical process will take place in the liver and ketones will be produced.  The act of triggering ketosis through diet is known as nutritional ketosis.
 
+<figure>
+![Vegetables](/img/posts/what-is-the-ketogenic-diet/vegetables.png "Vegetables")
+<figcaption>You can eat lots of healthy vegetables on the ketogenic diet</figcaption>
+</figure>
+
 For most people, nutritional ketosis is achieved by consuming food with an overall macronutrient split of at least 75% fat, 20% protein and 5% carbs.  If too many carbs are consumed in a day, the body will switch back to using them for energy and you have to start over.  This is because carbs have a simple structure at the molecular level, and are easier to break down and utilize than fat.  Your body prefers to store fat for use later, when times are hard and food is scarce.  In the modern world, food is abundant all year round, so our bodies never have the need to access energy in reserve, so the supply only continues to grow over time.
 
 Using carbs for energy is arguably the bodies preferred means of producing energy, but throughout human evolution has been a secondary process to fat burning.  Earlier humans would have only had limited access to fruit and high starch vegetables (typically in the autumn) and would have spent the majority of the year hunting and eating animals, which are naturally almost carb free.
@@ -40,6 +45,11 @@ Most people wanting to try keto do so for at least 1 of the following 3 reasons;
 This person is overweight or obese and has either developed type 2 diabetes or has been warned by their doctor or healthcare professional that they are on the path to doing so.
 
 People in this category have been advised to eat a low carb diet, or have friends, family or a significant other who has made the recommendation, perhaps because they have tried the diet for themselves and seen positive results.
+
+<figure>
+![Diabetes](/img/posts/what-is-the-ketogenic-diet/diabetes.png "Diabetes")
+<figcaption>Type 2 diabetes suffers can control or reverse the condition altogether</figcaption>
+</figure>
 
 Overweight or obese people, especially those with, or at risk of, type 2 diabetes, often see the best results.  They lose weight faster (after all they have plenty of energy in reserve just waiting to be unlocked) and often see improvements in their overall health.  Often they reduce or eliminiate the need altogether for insulin injections and/or other prescribed medication.
 
@@ -159,6 +169,11 @@ We are often asked if children can eat Keto.  The simple answer is yes.
 All the above statements are true for children and adults.  In fact, since we introduced our child to keto his behaviour, concentration, and general attitude to his work has substantially improved.  We have not got a lot of scientific studies to back up our claims, only anecdotal evidence from our own experiences.
 
 Remember, children will experience the same keto flu-like withdrawal symptoms as adults, so be extra vigilant and adjust their calorie and macronutrient intake as required, the same way you would for yourself.  Children are usually very active, compared to adults, and may require more water and salt than before.
+
+<figure>
+![Clever Kids](/img/posts/what-is-the-ketogenic-diet/clever-kids.png "Clever Kids")
+<figcaption>The ketogenic diet can help children concentrate better at school</figcaption>
+</figure>
 
 We have found that the pressure on children to eat sugar is just as great if not greater than for adults.  Children are subjected to corporate advertising, peer pressure and expectations from family and other persons significantly involved in their daily lives (teachers, caregivers etc) to behave in a *normal* way.  Refusing sugary sweets and snacks, whilst undoubtedly beneficial for their health regardless of whether they are *"doing keto"* or not, will raise eyebrows and will result in questions being asked.
 

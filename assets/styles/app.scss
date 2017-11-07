@@ -193,12 +193,22 @@ img[lazy=loading] {
     font-size: 1.25rem;
   }
   img {
+    display: block;
     width: 100%;
     height: auto;
 
     @include tablet {
       width: inherit;
+      border-radius: 4px;
+      margin: 24px auto 0 auto;
+      box-shadow: $shadow;
     }
+  }
+  figcaption {
+    text-align: center;
+    font-size: .75rem;
+    font-style: italic;
+    margin: 16px 0 24px 0;
   }
 }
 
