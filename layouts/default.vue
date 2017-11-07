@@ -1,6 +1,7 @@
 <template>
   <div>
     <app-header></app-header>
+    <app-sidebar></app-sidebar>
     <main>
       <transition name="fade">
         <nuxt></nuxt>
@@ -14,7 +15,7 @@
   @import '~assets/styles/mixins';
 
   main {
-    margin-top: 72px;
+    margin-top: 50px;
 
     @include tablet {
       margin-top: 113px;

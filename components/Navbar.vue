@@ -9,18 +9,44 @@
         <p class="lead">Our ketogenic lifestyle learnings</p>
       </div>
     </router-link>
+    <button @click="openNavbar()"
+            class="navbar-toggler mr-1"
+            type="button"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
   </nav>
 </template>
+
+<script>
+  export default {
+    methods: {
+      openNavbar () {
+        this.$bus.$emit('OpenSidebar')
+      }
+    }
+  }
+</script>
 
 <style lang="scss" scoped>
   @import '~assets/styles/mixins';
 
   nav {
-    height: 72px;
+    height: 50px;
     padding: 0.5rem 0;
 
     @include tablet {
       height: 113px;
+    }
+  }
+
+  .lead {
+    display: none;
+
+    @include tablet {
+      display: block;
     }
   }
 
@@ -32,9 +58,13 @@
     }
 
     h1 {
-      font-size: 1.5rem;
+      font-size: 1rem;
       line-height: 32px;
       margin-bottom: 0;
+
+      @include tablet {
+        font-size: 1.5rem;
+      }
     }
 
     p {
@@ -64,10 +94,11 @@
 
     img {
       height: auto;
-      border-radius: 50px;
-      width: 50px;
+      border-radius: 20px;
+      width: 35px;
 
       @include tablet {
+        border-radius: 50px;
         width: 100%;
       }
     }

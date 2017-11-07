@@ -14,7 +14,7 @@
   }
 
   header {
-    height: 72px;
+    height: 50px;
 
     @include tablet {
       height: 113px;

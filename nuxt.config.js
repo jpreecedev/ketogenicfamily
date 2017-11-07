@@ -12,7 +12,8 @@ module.exports = {
     { src: '~plugins/facebook-share.js', ssr: false },
     { src: '~plugins/twitter-share.js', ssr: false },
     { src: '~plugins/drip.js', ssr: false },
-    { src: '~plugins/filters.js', ssr: true }
+    { src: '~plugins/filters.js', ssr: true },
+    { src: '~plugins/eventbus.js', ssr: true }
   ],
   sitemap: {
     generate: false,
