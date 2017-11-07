@@ -4,12 +4,6 @@
         <nuxt-link :to="getPostUrl(blogPost.slug)">
           <h1 class="display-4">{{ blogPost.title }}</h1>
         </nuxt-link>
-        <div v-if="fullPost"
-             class="social-links d-flex flex-row">
-          <twitter :title="blogPost.title"
-                   :href="blogPost.canonical"></twitter>
-          <facebook :href="blogPost.canonical"></facebook>
-        </div>
         <p class="meta">Published on <time>{{ blogPost.date | formatDate }}</time>, by {{ blogPost.publisher }}.</p>
       </header>
       <p>{{ blogPost.description }}</p>

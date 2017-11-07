@@ -7,15 +7,12 @@
     <section class="container">
 
       <div class="row">
-        <div class="col-xs-12 col-md-8 blog-main">
+        <div class="col blog-main">
           <app-blog-post :blogPost="blogPost"
                          :fullPost="true"
                          :index="0">
           </app-blog-post>
         </div><!-- /.blog-main -->
-
-        <app-blog-sidebar>
-        </app-blog-sidebar>
 
       </div><!-- /.row -->
 
@@ -23,7 +20,7 @@
 
     <section class="container" id="comments">
       <div class="row">
-        <div class="col-xs-12 col-md-8 blog-main">
+        <div class="col blog-main">
           <h2 class="display-2">Discussion</h2>
           <vue-disqus shortname="ketogenicfamily"
                       :identifier="blogPost.key"
