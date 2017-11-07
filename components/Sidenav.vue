@@ -49,14 +49,7 @@
     color: #818181;
     display: block;
     transition: 0.3s;
-    &:hover {
-      color: #f1f1f1;
-    }
   }
-}
-
-.offcanvas a:focus {
-  color: #f1f1f1;
 }
 
 .sidenav .closebtn {
