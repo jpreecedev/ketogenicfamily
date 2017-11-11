@@ -30,6 +30,9 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'KetogenicFamily.com - Follow our progress towards a permanent ketogenic lifestyle' }
     ],
+    script: [
+      { src: '//platform-api.sharethis.com/js/sharethis.js#property=5a06786850e8bc00116c7fea&product=sticky-share-buttons' }
+    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]

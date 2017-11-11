@@ -16,19 +16,22 @@
             </div>
             <div class="col-xs-12 col-md-6 d-flex justify-content-center align-items-center">
               <div>
-                <h1 class="display-4 mt-4 mt-md-3">{{ recipe.title }}</h1>
-                <p class="lead">{{ recipe.description }}</p>
-                <p class="mt-3 small">
+                <h1 class="display-4 mt-4 mt-md-0">{{ recipe.title }}</h1>
+                <p class="lead mb-2">{{ recipe.description }}</p>
+                <p class="mb-2 small">
                   <span v-if="recipe.prepTimeDisplay" :class="{'mr-3': recipe.cookTimeDisplay}">Prep time: {{ recipe.prepTimeDisplay }}</span>
                   <span v-if="recipe.cookTimeDisplay">Cook time: {{ recipe.cookTimeDisplay }}</span>
                 </p>
-                <star-rating id="star-rating"
-                             v-model="recipe.rating"
-                             text-class="rating"
-                             :increment="0.5"
-                             :read-only="true"
-                             :star-size="20">
-                </star-rating>
+                <div class="star-rating-container">
+                  <star-rating id="star-rating"
+                              v-model="recipe.rating"
+                              text-class="rating"
+                              :increment="0.5"
+                              :read-only="true"
+                              :star-size="20">
+                  </star-rating>
+                </div>
+                <app-social></app-social>
               </div>
             </div>
           </div>
@@ -230,6 +233,12 @@ export default {
     background-position: center center;
     background-size: cover;
     filter: blur(10px);
+  }
+
+  .star-rating-container {
+    @include tablet {
+      margin-bottom: 1rem;
+    }
   }
 
 </style>

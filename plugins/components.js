@@ -9,6 +9,7 @@ import Lead from '../components/Lead'
 import Ingredients from '../components/Ingredients'
 import Nutrition from '../components/Nutrition'
 import Card from '../components/Card'
+import SocialSharing from '../components/SocialSharing'
 
 import BlogPost from '../pages/blog/components/Post'
 import Sidebar from '../pages/blog/components/Sidebar'
@@ -23,6 +24,7 @@ Vue.component('app-lead', Lead)
 Vue.component('app-ingredients', Ingredients)
 Vue.component('app-nutrition', Nutrition)
 Vue.component('app-card', Card)
+Vue.component('app-social', SocialSharing)
 
 Vue.component('app-blog-post', BlogPost)
 Vue.component('app-blog-sidebar', Sidebar)

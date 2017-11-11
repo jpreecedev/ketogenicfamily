@@ -1,6 +1,7 @@
 <template>
   <article class="blog-post pb-5" :class="{ 'pt-5': index > 0, 'bordered': index > 0 }">
       <header>
+        <app-social v-if="fullPost"></app-social>
         <nuxt-link :to="getPostUrl(blogPost.slug)">
           <h1 class="display-4">{{ blogPost.title }}</h1>
         </nuxt-link>
@@ -68,5 +69,4 @@
       margin-bottom: 1.25rem;
     }
   }
-
 </style>
