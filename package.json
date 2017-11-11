@@ -24,14 +24,14 @@
     "source-map-support": "^0.5.0",
     "vue-disqus": "^2.0.3",
     "vue-lazyload": "^1.1.4",
-    "vue-star-rating": "^1.5.0"
+    "vue-star-rating": "^1.5.1"
   },
   "devDependencies": {
     "@nuxtjs/sitemap": "0.0.3",
-    "babel-eslint": "^8.0.1",
+    "babel-eslint": "^8.0.2",
     "babel-preset-stage-2": "^6.24.1",
     "backpack-core": "^0.4.3",
-    "eslint": "^4.10.0",
+    "eslint": "^4.11.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-loader": "^1.9.0",
     "eslint-plugin-html": "^3.1.1",
@@ -39,7 +39,7 @@
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.6.0",
     "pm2": "^2.7.2",
     "sass-lint": "^1.12.1",
     "sass-loader": "^6.0.6",
