@@ -11,7 +11,6 @@ module.exports = {
     { src: '~plugins/ga.js', ssr: false },
     { src: '~plugins/facebook-share.js', ssr: false },
     { src: '~plugins/twitter-share.js', ssr: false },
-    { src: '~plugins/drip.js', ssr: false },
     { src: '~plugins/filters.js', ssr: true },
     { src: '~plugins/eventbus.js', ssr: true }
   ],
@@ -31,7 +30,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'KetogenicFamily.com - Follow our progress towards a permanent ketogenic lifestyle' }
     ],
     script: [
-      { src: '//platform-api.sharethis.com/js/sharethis.js#property=5a06786850e8bc00116c7fea&product=sticky-share-buttons' }
+      { src: '//platform-api.sharethis.com/js/sharethis.js#property=5a06786850e8bc00116c7fea&product=sticky-share-buttons' },
+      { src: '/scripts/drip.js' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
