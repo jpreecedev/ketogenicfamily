@@ -7,3 +7,9 @@
     name: 'social'
   }
 </script>
+
+<style lang="scss" scoped>
+  .sharethis-inline-share-buttons {
+    margin-bottom: 1rem;
+  }
+</style>

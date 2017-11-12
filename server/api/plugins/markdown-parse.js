@@ -1,6 +1,19 @@
 const fm = require('front-matter')
 const marked = require('marked')
 
+const renderer = new marked.Renderer()
+
+renderer.table = (header, body) => {
+  return '<table class="table table-striped">\n' +
+  '<thead>\n' +
+  header +
+  '</thead>\n' +
+  '<tbody>\n' +
+  body +
+  '</tbody>\n' +
+  '</table>\n'
+}
+
 marked.setOptions({
   gfm: true,
   tables: true,
@@ -9,7 +22,8 @@ marked.setOptions({
   sanitize: false,
   smartLists: true,
   smartypants: false,
-  langPrefix: ''
+  langPrefix: '',
+  renderer: renderer
 })
 
 function parse (string, done) {
