@@ -1,5 +1,25 @@
 [
   {
+    "url": "/recipes/meatloaf-avocado-sour-cream",
+    "key": "meatloaf-avocado-sour-cream",
+    "imgSrc": "/img/meatloaf-avocado-sour-cream.jpg",
+    "imgAlt": "Meatloaf with avocado and sour cream",
+    "title": "Meatloaf with avocado and sour cream",
+    "description": "Classic meatloaf with little gems inside",
+    "rating": 4.5,
+    "lastUpdated": "Published 18 November 2017 by Sian Preece"
+  },
+  {
+    "url": "/recipes/egg-muffins",
+    "key": "egg-muffins",
+    "imgSrc": "/img/egg-muffins.jpg",
+    "imgAlt": "Egg Muffins",
+    "title": "Egg Muffins",
+    "description": "Tasty, salty breakfast or packed lunch filler",
+    "rating": 4,
+    "lastUpdated": "Published 18 November 2017 by Sian Preece"
+  },
+  {
     "url": "/recipes/pecan-chocolate-cake",
     "key": "pecan-chocolate-cake",
     "imgSrc": "/img/pecan-chocolate-cake.jpg",
