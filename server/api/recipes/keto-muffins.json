@@ -18,11 +18,13 @@
     "adjustable": true
   },
   "ingredients": [{
+      "key": "egg",
       "quantity": 6,
       "units": "Large",
       "description": "eggs"
     },
     {
+      "key": "coconut-flour",
       "quantity": 12,
       "units": "tablespoons",
       "description": "coconut flour"
@@ -31,12 +33,15 @@
       "quantity": 1,
       "units": "teaspoon",
       "description": "baking powder"
-    }, {
+    },
+    {
+      "key": "salt",
       "quantity": 1,
       "units": "teaspoon",
       "description": "salt"
     },
     {
+      "key": "stevia",
       "quantity": 1,
       "units": "teaspoon",
       "description": "stevia"

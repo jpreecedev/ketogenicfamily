@@ -18,31 +18,37 @@
     "adjustable": true
   },
   "ingredients": [{
+      "key": "lamb-mince",
       "quantity": 500,
       "units": "g",
       "description": "lamb mince"
     },
     {
+      "key": "white-onion",
       "quantity": 1,
       "units": "cup",
-      "description": "onion"
+      "description": "white onion"
     },
     {
+      "key": "spinach",
       "quantity": 3,
       "units": "cups",
       "description": "spinach"
     },
     {
+      "key": "salt",
       "quantity": 1,
       "units": "pinch",
       "description": "Salt and Pepper"
     },
     {
+      "key": "garlic",
       "quantity": 3,
       "units": "cloves",
       "description": "crushed garlic"
     },
     {
+      "key": "lemon-juice",
       "quantity": 1,
       "units": "teaspoon",
       "description": "lemon juice"
@@ -53,21 +59,25 @@
       "description": "mixed herbs"
     },
     {
+      "key": "cauliflower",
       "quantity": 300,
       "units": "g",
       "description": "cauliflower florets"
     },
     {
+      "key": "butter",
       "quantity": 2,
       "units": "tablespoons",
       "description": "butter"
     },
     {
+      "key": "grated-cheese",
       "quantity": 3,
       "units": "cups",
       "description": "grated cheese"
     },
     {
+      "key": "extra-thick-cream",
       "quantity": 1,
       "units": "cup",
       "description": "heavy cream"

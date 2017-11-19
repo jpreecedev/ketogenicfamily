@@ -18,16 +18,19 @@
     "adjustable": true
   },
   "ingredients": [{
+      "key": "red-cabbage",
       "quantity": 1,
       "units": "large",
       "description": "red cabbage"
     },
     {
+      "key": "white-onion",
       "quantity": 1,
       "units": "large",
       "description": "onion"
     },
     {
+      "key": "garlic",
       "quantity": 1,
       "units": "clove",
       "description": "garlic"
@@ -48,16 +51,19 @@
       "description": "ground cloves"
     },
     {
+      "key": "coconut-oil",
       "quantity": 1,
       "units": "tablespoon",
       "description": "coconut oil"
     },
     {
+      "key": "stevia",
       "quantity": 1,
       "units": "tablespoon",
       "description": "stevia"
     },
     {
+      "key": "apple-cider-vinegar",
       "quantity": 3,
       "units": "tablespoons",
       "description": "apple cider vinegar"
@@ -68,6 +74,7 @@
       "description": "ground cloves"
     },
     {
+      "key": "butter",
       "quantity": 50,
       "units": "g",
       "description": "butter"

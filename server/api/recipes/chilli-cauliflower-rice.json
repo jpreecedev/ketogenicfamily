@@ -19,41 +19,49 @@
   "ingredients": [{
       "groupTitle": "Chilli",
       "ingredients": [{
+          "key": "beef-steak-mince",
           "quantity": 500,
           "units": "grams",
           "description": "beef steak mince"
         },
         {
+          "key": "spinach",
           "quantity": 8,
           "units": "cups",
           "description": "spinach"
         },
         {
+          "key": "soya-beans",
           "quantity": 2,
           "units": "cups",
           "description": "soya beans"
         },
         {
+          "key": "salsa",
           "quantity": 1,
           "units": "jar",
           "description": "salsa"
         },
         {
+          "key": "green-pepper",
           "quantity": 1,
           "units": "green",
           "description": "pepper"
         },
         {
+          "key": "red-pepper",
           "quantity": 1,
           "units": "red",
           "description": "pepper"
         },
         {
+          "key": "white-onion",
           "quantity": 1,
-          "units": "white",
+          "units": "large",
           "description": "onion"
         },
         {
+          "key": "coconut-oil",
           "quantity": 1,
           "units": "tablespoon",
           "description": "coconut oil"
@@ -69,11 +77,13 @@
           "description": "chilli powder"
         },
         {
-          "quantity": 1,
+          "key": "salt",
+          "quantity": 0.25,
           "units": "teaspoon",
           "description": "salt & pepper"
         },
         {
+          "key": "beef-stock",
           "quantity": 1,
           "units": "beef",
           "description": "stock cube"
@@ -83,18 +93,21 @@
     {
       "groupTitle": "Spiced Rice",
       "ingredients": [{
+          "key": "cauliflower",
           "quantity": 300,
           "units": "grams",
           "description": "cauliflower"
         },
         {
+          "key": "coconut-oil",
           "quantity": 1,
           "units": "tablespoon",
           "description": "coconut oil"
         },
         {
-          "quantity": 1,
-          "units": "tablespoon",
+          "key": "salt",
+          "quantity": 0.25,
+          "units": "teaspoon",
           "description": "salt & pepper"
         },
         {
@@ -105,17 +118,17 @@
         {
           "quantity": 1,
           "units": "tablespoon",
-          "description": "tyme"
+          "description": "thyme"
         }
       ]
     }
   ],
   "instructions": [
     "Start by adding oil to a pan. Then add in chopped up onion and peppers. Then add in the beef - cook until brown.",
-    "Add in the spices - make sure the meat is completly covered. Then add in the salsa, spinach, soya beans and stock cube.",
+    "Add in the spices - make sure the meat is completely covered. Then add in the salsa, spinach, soya beans and stock cube.",
     "Leave to simmer on a low heat for 20 mins.",
     "In a food processor, pulse the cauliflower until you have a rice like texture.",
-    "In a hot oily pan, add the cauliflower and spices. Keep stirring for 10 minuites then serve."
+    "In a hot oily pan, add the cauliflower and herbs/spices. Keep stirring for 10 minutes then serve."
   ],
   "related": [
     "lamb-curry-spiced-cauliflower-rice",

@@ -18,6 +18,7 @@
     "adjustable": true
   },
   "ingredients": [{
+      "key": "sugar-free-raspberry-jelly",
       "quantity": 1,
       "units": "packet",
       "description": "sugar free raspberry jelly"
@@ -32,6 +33,7 @@
       "units": "pint",
       "description": "boiling water"
     }, {
+      "key": "whipping-cream",
       "quantity": 300,
       "units": "ml",
       "description": "whipping cream"

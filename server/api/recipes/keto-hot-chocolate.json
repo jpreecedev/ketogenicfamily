@@ -16,16 +16,19 @@
     "adjustable": true
   },
   "ingredients": [{
+      "key": "butter",
       "quantity": 2,
       "units": "tablespoons",
       "description": "butter"
     },
     {
+      "key": "cocoa-powder",
       "quantity": 1,
       "units": "tablespoons",
       "description": "cocoa powder"
     },
     {
+      "key": "stevia",
       "quantity": 1,
       "units": "teaspoons",
       "description": "stevia"

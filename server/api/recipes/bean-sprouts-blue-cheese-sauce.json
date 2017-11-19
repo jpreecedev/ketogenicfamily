@@ -19,32 +19,38 @@
   },
   "ingredients": [
     {
+      "key": "beansprouts",
       "quantity": 300,
       "units": "g",
       "description": "fresh beansprouts"
     },
     {
+      "key": "blue-cheese",
       "quantity": 125,
       "units": "g",
       "description": "blue cheese"
     },
     {
+      "key": "cream-cheese",
       "quantity": 125,
       "units": "g",
       "description": "cream cheese"
     },
     {
+      "key": "butter",
       "quantity": 1,
       "units": "tablespoon",
       "description": "Butter"
     },
     {
+      "key": "bacon-lardons",
       "quantity": 100,
       "units": "g",
       "description": "bacon lardons"
     },
     {
-      "quantity": 1,
+      "key": "salt",
+      "quantity": 0.25,
       "units": "teaspoon",
       "description": "salt & pepper"
     }

@@ -13,35 +13,44 @@
   "rating": 4,
   "servings": {
     "total": 6,
-    "units": "muffins"
+    "units": "muffins",
+    "showNutritionalLabel": false,
+    "nutritionUnits": "muffin",
+    "adjustable": true
   },
   "ingredients": [{
+      "key": "egg",
       "quantity": 6,
       "units": "large",
       "description": "eggs"
     },
     {
+      "key": "white-onion",
       "quantity": 1,
       "units": "white",
       "description": "onion"
     },
     {
+      "key": "smoked-bacon",
       "quantity": 4,
-      "units": "bacon",
+      "units": "smoked bacon",
       "description": "rashers"
     },
     {
+      "key": "grated-cheese",
       "quantity": 85,
       "units": "grams",
       "description": "grated cheese"
     },
     {
+      "key": "red-pepper",
       "quantity": 1,
       "units": "red",
       "description": "pepper"
     },
     {
-      "quantity": 1,
+      "key": "salt",
+      "quantity": 0.25,
       "units": "teaspoon",
       "description": "salt & pepper"
     }

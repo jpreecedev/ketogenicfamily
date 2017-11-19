@@ -18,21 +18,25 @@
   "ingredients": [{
       "groupTitle": "Meatloaf",
       "ingredients": [{
+          "key": "egg",
           "quantity": 3,
           "units": "Large",
           "description": "eggs"
         },
         {
+          "key": "pork-mince",
           "quantity": 500,
           "units": "g",
           "description": "pork mince"
         },
         {
+          "key": "pork-scratchings",
           "quantity": 300,
           "units": "g",
           "description": "Pork Rinds"
         },
         {
+          "key": "beef-steak-mince",
           "quantity": 500,
           "units": "g",
           "description": "beef mince"
@@ -47,17 +51,20 @@
           "description": "paprika"
         },
         {
+          "key": "english-mustard",
           "quantity": 2,
           "units": "tablespoons",
-          "description": "mustard"
+          "description": "english mustard"
         },
         {
+          "key": "olive-oil",
           "quantity": 3,
           "units": "tablespoons",
           "description": "olive oil"
         },
         {
-          "quantity": 1,
+          "key": "salt",
+          "quantity": 0.25,
           "units": "teaspoon",
           "description": "salt & pepper"
         }

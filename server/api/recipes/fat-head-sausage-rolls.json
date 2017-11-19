@@ -18,35 +18,42 @@
     "adjustable": true
   },
   "ingredients": [{
+      "key": "pork-sausage",
       "quantity": 6,
       "units": "large",
-      "description": "sausages"
+      "description": "pork sausages"
     },
     {
+      "key": "onion-salt",
       "quantity": 1,
       "units": "tablespoon",
       "description": "onion salt"
     },
     {
+      "key": "grated-cheese",
       "quantity": 255,
       "units": "g",
       "description": "grated cheese"
     }, {
+      "key": "almonds",
       "quantity": 128,
       "units": "g",
       "description": "almond flour"
     },
     {
+      "key": "egg",
       "quantity": 1,
       "units": "large",
       "description": "egg"
     },
     {
+      "key": "salt",
       "quantity": 1,
       "units": "teaspoon",
       "description": "salt"
     },
     {
+      "key": "sesame-seeds",
       "quantity": 1,
       "units": "teaspoon",
       "description": "sesame seeds"

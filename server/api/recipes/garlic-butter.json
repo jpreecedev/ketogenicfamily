@@ -16,16 +16,19 @@
     "adjustable": true
   },
   "ingredients": [{
+      "key": "butter",
       "quantity": 150,
       "units": "g",
       "description": "butter"
     },
     {
+      "key": "garlic",
       "quantity": 1,
       "units": "cloves",
       "description": "garlic"
     },
     {
+      "key": "salt",
       "quantity": 1,
       "units": "tablespoon",
       "description": "salt"

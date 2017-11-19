@@ -16,21 +16,25 @@
     "adjustable": true
   },
   "ingredients": [{
+      "key": "red-cabbage",
       "quantity": 0.5,
       "units": "large",
       "description": "Red cabbage"
     },
     {
+      "key": "red-onion",
       "quantity": 0.5,
       "units": "large",
       "description": "Red onion"
     },
     {
+      "key": "soured-cream",
       "quantity": 1,
       "units": "tablespoons",
       "description": "sour cream"
     },
     {
+      "key": "mayonnaise",
       "quantity": 1,
       "units": "tablespoons",
       "description": "mayonnaise"
@@ -41,11 +45,13 @@
       "description": "tarragon"
     },
     {
+      "key": "balsamic-vinegar",
       "quantity": 0.5,
       "units": "tablespoon",
       "description": "balsamic vinegar"
     },
     {
+      "key": "stevia",
       "quantity": 0.5,
       "units": "tablespoon",
       "description": "stevia"

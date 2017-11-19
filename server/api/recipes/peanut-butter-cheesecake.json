@@ -17,26 +17,31 @@
   "ingredients": [{
       "groupTitle": "Base",
       "ingredients": [{
+          "key": "egg",
           "quantity": 6,
           "units": "Large",
           "description": "eggs"
         },
         {
+          "key": "walnuts",
           "quantity": 1.5,
           "units": "cups",
           "description": "walnuts"
         },
         {
+          "key": "cocoa-powder",
           "quantity": 0.33,
           "units": "cup",
           "description": "cocoa powder"
         },
         {
+          "key": "stevia",
           "quantity": 0.25,
           "units": "cup",
           "description": "stevia"
         },
         {
+          "key": "butter",
           "quantity": 5,
           "units": "tablespoons",
           "description": "butter"
@@ -46,6 +51,7 @@
     {
       "groupTitle": "Filling",
       "ingredients": [{
+          "key": "cream-cheese",
           "quantity": 250,
           "units": "g",
           "description": "cream cheese"
@@ -56,20 +62,22 @@
           "description": "gelatin"
         },
         {
+          "key": "whipping-cream",
           "quantity": 300,
           "units": "ml",
           "description": "whipping cream"
         },
         {
+          "key": "stevia",
           "quantity": 2,
           "units": "teaspoons",
           "description": "stevia"
         },
         {
+          "key": "peanut-butter",
           "quantity": 1.25,
           "units": "cups",
           "description": "peanut butter"
-
         }
       ]
     }

@@ -18,11 +18,13 @@
   "ingredients": [{
     "groupTitle": "Walnut Crust",
     "ingredients": [{
+        "key": "walnuts",
         "quantity": 2,
         "units": "cups",
         "description": "walnuts"
       },
       {
+        "key": "butter",
         "quantity": 3,
         "units": "tablespoons",
         "description": "butter"
@@ -37,6 +39,7 @@
         "description": "vanilla"
       },
       {
+        "key": "stevia",
         "quantity": 2,
         "units": "teaspoon",
         "description": "stevia"
@@ -45,14 +48,17 @@
   }, {
     "groupTitle": "Filling",
     "ingredients": [{
+      "key": "cream-cheese",
       "quantity": 16,
       "units": "oz",
       "description": "cream cheese"
     }, {
+      "key": "whipping-cream",
       "quantity": 0.66,
       "units": "cup",
       "description": "whipping cream"
     }, {
+      "key": "pumpkin-puree",
       "quantity": 0.66,
       "units": "cup",
       "description": "pumpkin puree"

@@ -16,16 +16,19 @@
     "adjustable": true
   },
   "ingredients": [{
+      "key": "peanut-butter",
       "quantity": 1,
       "units": "tablespoon",
       "description": "peanut butter"
     },
     {
+      "key": "stevia",
       "quantity": 1,
       "units": "tablespoon",
       "description": "stevia"
     },
     {
+      "key": "whipping-cream",
       "quantity": 300,
       "units": "ml",
       "description": "whipping cream"

@@ -19,16 +19,19 @@
   "ingredients": [{
       "groupTitle": "Lamb Curry",
       "ingredients": [{
+          "key": "diced-lamb",
           "quantity": 300,
           "units": "grams",
           "description": "diced lamb"
         },
         {
+          "key": "garlic",
           "quantity": 3,
           "units": "crushed",
           "description": "garlic cloves"
         },
         {
+          "key": "beef-stock",
           "quantity": 1,
           "units": "beef",
           "description": "stock cube"
@@ -44,32 +47,38 @@
           "description": "chilli powder"
         },
         {
+          "key": "coconut-milk",
           "quantity": 400,
           "units": "ml",
           "description": "coconut milk"
         },
         {
+          "key": "salsa",
           "quantity": 300,
           "units": "grams",
           "description": "salsa"
         },
         {
+          "key": "spinach",
           "quantity": 50,
           "units": "grams",
           "description": "spinach"
         },
         {
+          "key": "white-onion",
           "quantity": 1,
-          "units": "white",
-          "description": "onion"
+          "units": "large",
+          "description": "white onion"
         },
         {
+          "key": "coconut-oil",
           "quantity": 1,
           "units": "tablespoon",
           "description": "coconut oil"
         },
         {
-          "quantity": 1,
+          "key": "salt",
+          "quantity": 0.25,
           "units": "teaspoon",
           "description": "salt & pepper"
         }
@@ -78,6 +87,7 @@
     {
       "groupTitle": "Spiced Rice",
       "ingredients": [{
+          "key": "cauliflower",
           "quantity": 300,
           "units": "grams",
           "description": "cauliflower"
@@ -98,11 +108,13 @@
           "description": "fennel seeds"
         },
         {
+          "key": "coconut-oil",
           "quantity": 1,
           "units": "tablespoon",
           "description": "coconut oil"
         },
         {
+          "key": "chicken-stock",
           "quantity": 200,
           "units": "ml",
           "description": "chicken stock"
@@ -121,7 +133,7 @@
     "Once cooked, add in the coconut milk,salsa, stock cube and spinach.",
     "Leave to simmer on a low heat for 20 mins.",
     "In a food processor, pulse the cauliflower until you have a rice like texture.",
-    "In a hot oily pan, add the cauliflower, seeds, spices and stock. Leave to simmer for 10 minuites then serve."
+    "In a hot oily pan, add the cauliflower, seeds, spices and stock. Leave to simmer for 10 minutes then serve."
   ],
   "related": [
     "keto-lamb-meatballs",

@@ -18,29 +18,34 @@
     "adjustable": false
   },
   "ingredients": [{
+      "key": "grated-cheese",
       "quantity": 500,
       "units": "g",
-      "description": "grated cheddar cheese"
+      "description": "grated cheese"
     },
     {
+      "key": "pork-sausage",
       "quantity": 200,
       "units": "g",
       "description": "pork sausages"
     },
     {
+      "key": "sundried-tomato-paste",
       "quantity": 1,
       "units": "jar",
       "description": "sundried tomato paste"
     },
     {
+      "key": "white-onion",
       "quantity": 1,
       "units": "large",
-      "description": "onion"
+      "description": "white onion"
     },
     {
+      "key": "pepperoni",
       "quantity": 4,
       "units": "slices",
-      "description": "pepperoni and salami"
+      "description": "pepperoni"
     }
   ],
   "instructions": [

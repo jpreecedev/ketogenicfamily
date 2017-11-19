@@ -23,16 +23,19 @@
           "description": "gelatine"
         },
         {
+          "key": "peanut-butter",
           "quantity": 5,
           "units": "tablespoons",
           "description": "peanut butter"
         },
         {
+          "key": "soya-milk",
           "quantity": 5,
           "units": "tablespoons",
           "description": "soya milk"
         },
         {
+          "key": "stevia",
           "quantity": 5,
           "units": "teaspoons",
           "description": "stevia"
@@ -42,11 +45,13 @@
     {
       "groupTitle": "Middle Layer",
       "ingredients": [{
+          "key": "peanut-butter",
           "quantity": 5,
           "units": "tablespoons",
           "description": "peanut butter"
         },
         {
+          "key": "butter",
           "quantity": 3,
           "units": "tablespoons",
           "description": "butter"
@@ -57,6 +62,7 @@
           "description": "sugar free maple syrup"
         },
         {
+          "key": "pecan-nuts",
           "quantity": 1,
           "units": "tablespoon",
           "description": "pecan nuts"
@@ -66,16 +72,19 @@
     {
       "groupTitle": "Top Layer",
       "ingredients": [{
+          "key": "butter",
           "quantity": 5,
           "units": "tablespoons",
           "description": "butter"
         },
         {
+          "key": "85%-dark-chocolate",
           "quantity": 50,
           "units": "grams",
           "description": "dark chocolate"
         },
         {
+          "key": "stevia",
           "quantity": 5,
           "units": "teaspoons",
           "description": "stevia"

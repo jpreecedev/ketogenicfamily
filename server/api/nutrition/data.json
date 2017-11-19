@@ -60,6 +60,18 @@
     "salt": 0.15
   },
   {
+    "key": "pork-mince",
+    "display": "Pork mince 12% fat",
+    "kcal": 179,
+    "fat": 11.6,
+    "saturates": 4.1,
+    "carbohydrate": 0,
+    "sugars": 0,
+    "fibre": 0,
+    "protein": 18.7,
+    "salt": 0.3
+  },
+  {
     "key": "pork-sausage",
     "display": "Pork sausage",
     "kcal": 303,
@@ -72,6 +84,30 @@
     "salt": 1
   },
   {
+    "key": "bacon-lardons",
+    "display": "bacon lardons",
+    "kcal": 197,
+    "fat": 13.7,
+    "saturates": 4.5,
+    "carbohydrate": 0.8,
+    "sugars": 0.2,
+    "fibre": 1,
+    "protein": 17.1,
+    "salt": 2.4
+  },
+  {
+    "key": "smoked-bacon",
+    "display": "Smoked bacon",
+    "kcal": 180,
+    "fat": 12.6,
+    "saturates": 4.1,
+    "carbohydrate": 0.4,
+    "sugars": 0.2,
+    "fibre": 0,
+    "protein": 16.3,
+    "salt": 2.8
+  },
+  {
     "key": "smoked-rindless-streaky-bacon",
     "display": "Smoked Rindless Streaky Bacon",
     "kcal": 267,
@@ -82,6 +118,30 @@
     "fibre": 0,
     "protein": 13.1,
     "salt": 2.8
+  },
+  {
+    "key": "balsamic-vinegar",
+    "display": "balsamic vinegar",
+    "kcal": 100,
+    "fat": 0,
+    "saturates": 0,
+    "carbohydrate": 24,
+    "sugars": 24,
+    "fibre": 0.1,
+    "protein": 1.0,
+    "salt": 0.1
+  },
+  {
+    "key": "english-mustard",
+    "display": "english mustard",
+    "kcal": 195,
+    "fat": 12,
+    "saturates": 0.7,
+    "carbohydrate": 13,
+    "sugars": 13,
+    "fibre": 0,
+    "protein": 6.8,
+    "salt": 8.5
   },
   {
     "key": "mayonnaise",
@@ -105,8 +165,7 @@
     "sugars": 7.3,
     "fibre": 9.3,
     "protein": 24.7,
-    "salt": 0.92,
-    "tablespoon": 15
+    "salt": 0.92
   },
   {
     "key": "coconut-oil",
@@ -118,8 +177,7 @@
     "sugars": 0.1,
     "fibre": 0.5,
     "protein": 0.1,
-    "salt": 0.01,
-    "tablespoon": 13
+    "salt": 0.01
   },
   {
     "key": "salsa",
@@ -158,6 +216,54 @@
     "salt": 0.01
   },
   {
+    "key": "chicken-stock",
+    "display": "chicken stock",
+    "kcal": 283,
+    "fat": 4.1,
+    "saturates": 1,
+    "carbohydrate": 46.8,
+    "sugars": 16.5,
+    "fibre": 2.8,
+    "protein": 13.5,
+    "salt": 24.9
+  },
+  {
+    "key": "beef-stock",
+    "display": "beef stock",
+    "kcal": 265,
+    "fat": 4.9,
+    "saturates": 2.4,
+    "carbohydrate": 35.7,
+    "sugars": 2.2,
+    "fibre": 4.2,
+    "protein": 17.4,
+    "salt": 30.70
+  },
+  {
+    "key": "chicken-legs-skin-on",
+    "display": "Chicken legs skin on",
+    "kcal": 188,
+    "fat": 12.8,
+    "saturates": 3.6,
+    "carbohydrate": 0,
+    "sugars": 0,
+    "fibre": 0,
+    "protein": 18.1,
+    "salt": 0.3
+  },
+  {
+    "key": "chicken-thighs-skin-on",
+    "display": "Chicken thighs skin on",
+    "kcal": 230,
+    "fat": 17.7,
+    "saturates": 6.3,
+    "carbohydrate": 0,
+    "sugars": 0,
+    "fibre": 0,
+    "protein": 17.6,
+    "salt": 0.3
+  },
+  {
     "key": "chicken-breast",
     "display": "Chicken breast",
     "kcal": 111,
@@ -182,6 +288,18 @@
     "salt": 0.1
   },
   {
+    "key": "blue-cheese",
+    "display": "blue cheese",
+    "kcal": 410,
+    "fat": 35,
+    "saturates": 23,
+    "carbohydrate": 0.1,
+    "sugars": 0.1,
+    "fibre": 0,
+    "protein": 23.7,
+    "salt": 2
+  },
+  {
     "key": "cream-cheese",
     "display": "Cream cheese",
     "kcal": 285,
@@ -204,18 +322,6 @@
     "fibre": 0.5,
     "protein": 0.8,
     "salt": 1
-  },
-  {
-    "key": "kerrygold",
-    "display": "Kerrygold",
-    "kcal": 744,
-    "fat": 80,
-    "saturates": 53,
-    "carbohydrate": 0.6,
-    "sugars": 0.6,
-    "fibre": 0,
-    "protein": 0.6,
-    "salt": 1.8
   },
   {
     "key": "pouring-cream",
@@ -263,8 +369,67 @@
     "sugars": 2,
     "fibre": 33.5,
     "protein": 23,
-    "salt": 1.4,
-    "tablespoon": 7.3
+    "salt": 1.4
+  },
+  {
+    "key": "onion-salt",
+    "display": "onion salt",
+    "kcal": 89,
+    "fat": 0.2,
+    "saturates": 0.1,
+    "carbohydrate": 17.7,
+    "sugars": 8.4,
+    "fibre": 3.3,
+    "protein": 2.4,
+    "salt": 73.6
+  },
+  {
+    "key": "sesame-seeds",
+    "display": "sesame seeds",
+    "kcal": 619,
+    "fat": 58,
+    "saturates": 10.5,
+    "carbohydrate": 0.9,
+    "sugars": 0.4,
+    "fibre": 10.5,
+    "protein": 18.2,
+    "salt": 0.1
+  },
+  {
+    "key": "lemon-juice",
+    "display": "lemon juice",
+    "kcal": 26,
+    "fat": 0.1,
+    "saturates": 1.7,
+    "carbohydrate": 1.7,
+    "sugars": 1.4,
+    "fibre": 0.3,
+    "protein": 0.3,
+    "salt": 0.1
+  },
+  {
+    "key": "garlic",
+    "display": "garlic",
+    "kcal": 110,
+    "fat": 0.6,
+    "saturates": 0.1,
+    "carbohydrate": 16.3,
+    "sugars": 1.6,
+    "fibre": 4.1,
+    "protein": 7.9,
+    "salt": 0.01
+  },
+  {
+    "key": "garlic-salt",
+    "display": "garlic salt",
+    "kcal": 84,
+    "fat": 0.2,
+    "saturates": 0.1,
+    "carbohydrate": 15,
+    "sugars": 0.8,
+    "fibre": 2.1,
+    "protein": 4.4,
+    "salt": 67.5
   },
   {
     "key": "salt",
@@ -289,6 +454,18 @@
     "fibre": 11.5,
     "protein": 9.4,
     "salt": 0.13
+  },
+  {
+    "key": "raspberries",
+    "display": "raspberries",
+    "kcal": 48,
+    "fat": 0.6,
+    "saturates": 0.1,
+    "carbohydrate": 7.6,
+    "sugars": 4.7,
+    "fibre": 3.9,
+    "protein": 1,
+    "salt": 0
   },
   {
     "key": "sugar-free-raspberry-jelly",
@@ -325,6 +502,18 @@
     "fibre": 1.1,
     "protein": 0.5,
     "salt": 0.2
+  },
+  {
+    "key": "spinach",
+    "display": "spinach",
+    "kcal": 29,
+    "fat": 0.8,
+    "saturates": 0.1,
+    "carbohydrate": 1.6,
+    "sugars": 1.5,
+    "fibre": 2.1,
+    "protein": 2.8,
+    "salt": 0.4
   },
   {
     "key": "beef-steak-mince",
@@ -387,6 +576,18 @@
     "salt": 0.01
   },
   {
+    "key": "ricotta",
+    "display": "ricotta",
+    "kcal": 103,
+    "fat": 7,
+    "saturates": 4.9,
+    "carbohydrate": 3,
+    "sugars": 3,
+    "fibre": 0,
+    "protein": 7,
+    "salt": 0.3
+  },
+  {
     "key": "double-gloucester-cheese",
     "display": "Double Gloucester cheese",
     "kcal": 411,
@@ -397,6 +598,30 @@
     "fibre": 0,
     "protein": 24.9,
     "salt": 1.7
+  },
+  {
+    "key": "pepperoni",
+    "display": "pepperoni",
+    "kcal": 494,
+    "fat": 46.7,
+    "saturates": 18.2,
+    "carbohydrate": 1.9,
+    "sugars": 0.7,
+    "fibre": 0.6,
+    "protein": 16.3,
+    "salt": 3.4
+  },
+  {
+    "key": "red-pepper",
+    "display": "Red Pepper",
+    "kcal": 36,
+    "fat": 0.4,
+    "saturates": 0.1,
+    "carbohydrate": 6.4,
+    "sugars": 6.1,
+    "fibre": 1.6,
+    "protein": 1,
+    "salt": 0.01
   },
   {
     "key": "green-pepper",
@@ -411,6 +636,18 @@
     "salt": 0.01
   },
   {
+    "key": "chopped-tomatoes",
+    "display": "chopped tomatoes",
+    "kcal": 25,
+    "fat": 0.2,
+    "saturates": 0.1,
+    "carbohydrate": 4,
+    "sugars": 4,
+    "fibre": 0.9,
+    "protein": 1.4,
+    "salt": 0.01
+  },
+  {
     "key": "sundried-tomato-paste",
     "display": "sundried tomato paste",
     "kcal": 360,
@@ -421,6 +658,30 @@
     "fibre": 4.4,
     "protein": 3.2,
     "salt": 2.6
+  },
+  {
+    "key": "diced-lamb",
+    "display": "diced lamb",
+    "kcal": 173,
+    "fat": 10.7,
+    "saturates": 5.6,
+    "carbohydrate": 0,
+    "sugars": 0,
+    "fibre": 0,
+    "protein": 19.1,
+    "salt": 0.2
+  },
+  {
+    "key": "lamb-mince",
+    "display": "lamb mince",
+    "kcal": 245,
+    "fat": 19.8,
+    "saturates": 9.5,
+    "carbohydrate": 0,
+    "sugars": 0,
+    "fibre": 0,
+    "protein": 16.8,
+    "salt": 0.2
   },
   {
     "key": "lamb-chops",
@@ -519,6 +780,18 @@
     "salt": 0.1
   },
   {
+    "key": "beansprouts",
+    "display": "beansprouts",
+    "kcal": 47,
+    "fat": 2.8,
+    "saturates": 0.2,
+    "carbohydrate": 2.1,
+    "sugars": 2.1,
+    "fibre": 1.8,
+    "protein": 2.5,
+    "salt": 0.1
+  },
+  {
     "key": "soya-beans",
     "display": "soya beans",
     "kcal": 153,
@@ -529,6 +802,18 @@
     "fibre": 6.0,
     "protein": 14.0,
     "salt": 0
+  },
+  {
+    "key": "apple-cider-vinegar",
+    "display": "apple cider vinegar",
+    "kcal": 10,
+    "fat": 0.5,
+    "saturates": 0.1,
+    "carbohydrate": 1,
+    "sugars": 0.1,
+    "fibre": 0.5,
+    "protein": 0.1,
+    "salt": 0.1
   },
   {
     "key": "stevia",
@@ -565,6 +850,18 @@
     "fibre": 0,
     "protein": 0.5,
     "salt": 0.15
+  },
+  {
+    "key": "coconut-milk",
+    "display": "coconut milk",
+    "kcal": 142,
+    "fat": 15,
+    "saturates": 12,
+    "carbohydrate": 1.6,
+    "sugars": 1.6,
+    "fibre": 0,
+    "protein": 1,
+    "salt": 0.06
   },
   {
     "key": "coconut-flour",

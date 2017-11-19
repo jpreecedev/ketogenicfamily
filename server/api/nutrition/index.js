@@ -26,15 +26,15 @@ export function addNutritionalInformation (recipe) {
     if (nutritionalData) {
       ingredient.nutrition = {}
 
-      const multiplier = ((100 / recipe.servings.total) * ingredient.quantity) / 100
-
-      for (let key in nutritionalData) {
+      for (const key in nutritionalData) {
         if (nutritionalData.hasOwnProperty(key)) {
-          let element = nutritionalData[key]
-          if (key && element && !isNaN(element)) {
-            const value = (nutritionalData.tablespoon * multiplier) * (nutritionalData[key] / 100)
-            ingredient.nutrition[key] = value
-            recipe.nutrition[key] = (recipe.nutrition[key] || 0) + value
+          const element = nutritionalData[key]
+          if (!isNaN(element)) {
+            if (element === 0) {
+              ingredient.nutrition[key] = 0
+            } else {
+              ingredient.nutrition[key] = element / recipe.servings.total
+            }
           }
         }
       }

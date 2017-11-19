@@ -18,11 +18,13 @@
     "adjustable": true
   },
   "ingredients": [{
+      "key": "almonds",
       "quantity": 1,
       "units": "cup",
       "description": "Almond flour"
     },
     {
+      "key": "stevia",
       "quantity": 0.33,
       "units": "cup",
       "description": "stevia"
@@ -37,21 +39,25 @@
       "description": "cinnamon"
     },
     {
-      "quantity": 2,
-      "units": "teaspoons",
+      "key": "salt",
+      "quantity": 1,
+      "units": "teaspoon",
       "description": "salt"
     },
     {
+      "key": "butter",
       "quantity": 32,
       "units": "g",
       "description": "butter"
     },
     {
+      "key": "soya-milk",
       "quantity": 32,
       "units": "g",
       "description": "soya milk"
     },
     {
+      "key": "egg",
       "quantity": 1,
       "units": "large",
       "description": "egg"

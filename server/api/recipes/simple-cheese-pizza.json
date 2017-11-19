@@ -19,7 +19,7 @@
     "adjustable": false
   },
   "ingredients": [{
-    "key": "grated-cheese",
+    "key": "mozzarella",
     "quantity": 1.5,
     "units": "cups",
     "description": "shredded mozzarella cheese"
@@ -49,6 +49,7 @@
     "units": "jar",
     "description": "salsa"
   }, {
+    "key": "garlic-salt",
     "quantity": 1,
     "units": "teaspoon",
     "description": "garlic salt"

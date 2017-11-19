@@ -18,16 +18,19 @@
     "adjustable": true
   },
   "ingredients": [{
+      "key": "chicken-thighs-skin-on",
       "quantity": 4,
       "units": "large",
-      "description": "Chicken thighs"
+      "description": "Chicken thighs (skin on)"
     },
     {
+      "key": "chicken-legs-skin-on",
       "quantity": 4,
       "units": "large",
-      "description": "Chicken legs"
+      "description": "Chicken legs (skin on)"
     },
     {
+      "key": "almonds",
       "quantity": 200,
       "units": "g",
       "description": "almond flour"
@@ -53,6 +56,7 @@
       "description": "chilli powder"
     },
     {
+      "key": "salt",
       "quantity": 1,
       "units": "pinch",
       "description": "Salt and Pepper"

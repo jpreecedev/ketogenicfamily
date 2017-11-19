@@ -17,25 +17,31 @@
     "adjustable": true
   },
   "ingredients": [{
+      "key": "cocoa-powder",
       "quantity": 45,
       "units": "g",
       "description": "cocoa powder"
     },
     {
+      "key": "stevia",
       "quantity": 50,
       "units": "g",
       "description": "stevia"
     },
     {
+      "key": "butter",
       "quantity": 60,
       "units": "g",
       "description": "butter"
-    }, {
+    },
+    {
+      "key": "cream-cheese",
       "quantity": 60,
       "units": "g",
       "description": "cream cheese"
     },
     {
+      "key": "egg",
       "quantity": 2,
       "units": "large",
       "description": "eggs"

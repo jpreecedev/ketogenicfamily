@@ -18,14 +18,16 @@
     "adjustable": true
   },
   "ingredients": [{
+      "key": "lamb-mince",
       "quantity": 500,
       "units": "g",
       "description": "Lamb mince"
     },
     {
+      "key": "grated-cheese",
       "quantity": 2,
       "units": "tablespoons",
-      "description": "Shreaded Cheese"
+      "description": "grated cheese"
     },
     {
       "quantity": 1,
@@ -33,16 +35,19 @@
       "description": "mixed herbs"
     },
     {
-      "quantity": 1,
+      "key": "salt",
+      "quantity": 0.25,
       "units": "teaspoon",
       "description": "salt & pepper"
     },
     {
+      "key": "salsa",
       "quantity": 1,
       "units": "jar",
       "description": "Salsa"
     },
     {
+      "key": "chopped-tomatoes",
       "quantity": 1,
       "units": "tin",
       "description": "Chopped tomatoes"
@@ -51,7 +56,7 @@
   "instructions": [
     "Mix all the ingredients together in a bowl.",
     "Roll out into meatballs and fry in a pan.",
-    "In a casserole dish, add Salsa and chopped tomatoes.",
+    "In a casserole dish, add salsa and chopped tomatoes.",
     "Then add in the meatballs and simmer.",
     "Serve with grated cheese on top."
   ],
