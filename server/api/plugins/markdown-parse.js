@@ -4,7 +4,7 @@ const marked = require('marked')
 const renderer = new marked.Renderer()
 
 renderer.table = (header, body) => {
-  return '<table class="table table-striped">\n' +
+  return '<table class="table table-striped table-responsive">\n' +
   '<thead>\n' +
   header +
   '</thead>\n' +
