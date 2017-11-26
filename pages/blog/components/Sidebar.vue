@@ -8,10 +8,10 @@
     <aside class="sidebar-module social">
       <h4>Follow on social media</h4>
       <div class="links">
-        <a href="https://www.facebook.com/theketogenicfamily" target="_blank">
+        <a href="https://www.facebook.com/theketogenicfamily" rel="noopener" target="_blank">
             <img src="~/assets/img/icons/Facebook.svg" alt="Facebook">
         </a>
-        <a href="https://www.instagram.com/ketogenic_family/" target="_blank">
+        <a href="https://www.instagram.com/ketogenic_family/" rel="noopener" target="_blank">
           <img src="~/assets/img/icons/Instagram.svg" alt="Instagram">
         </a>
       </div>
