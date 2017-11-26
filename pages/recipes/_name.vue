@@ -94,13 +94,10 @@ export default {
     VueDisqus, StarRating
   },
   async asyncData ({ params, error }) {
-    await axios.get('/api/recipes/' + params.name)
-      .then((res) => {
-        return { recipe: res.data }
-      })
-      .catch((e) => {
-        error({ statusCode: 404, message: 'Recipe not found' })
-      })
+    const { data } = await axios.get('/api/recipes/' + params.name)
+    return {
+      recipe: data
+    }
   },
   head () {
     return {

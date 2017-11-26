@@ -43,7 +43,7 @@ export default {
     VueDisqus
   },
   async asyncData ({ params, error }) {
-    let { data } = await axios.get(`/api/posts/${params.name}`)
+    const { data } = await axios.get(`/api/posts/${params.name}`)
     return {
       blogPost: data
     }

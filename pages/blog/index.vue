@@ -31,7 +31,7 @@ import '~/plugins/components'
 
 export default {
   async asyncData () {
-    let { data } = await axios.get('/api/posts')
+    const { data } = await axios.get('/api/posts')
     return {
       posts: data
     }

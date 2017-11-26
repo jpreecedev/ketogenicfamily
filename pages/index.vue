@@ -26,7 +26,7 @@ import '~/plugins/components'
 
 export default {
   async asyncData () {
-    let { data } = await axios.get('/api/overview')
+    const { data } = await axios.get('/api/overview')
     return {
       latest: data.slice(0, 3),
       more: data.slice(3)
