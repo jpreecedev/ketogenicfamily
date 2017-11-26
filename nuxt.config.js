@@ -1,11 +1,16 @@
 const sitemap = require('./server/sitemap').sitemap
 
+const title = 'KetogenicFamily.com'
+const hostname = 'https://ketogenicfamily.com'
+const description = 'KetogenicFamily.com - Follow our progress towards a permanent ketogenic lifestyle'
+
 module.exports = {
   /*
   ** Headers of the page
   */
   modules: [
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxtjs/rss'
   ],
   plugins: [
     { src: '~plugins/ga.js', ssr: false },
@@ -20,14 +25,21 @@ module.exports = {
     exclude: [
       '/blog/components/*'
     ],
-    routes: sitemap
+    hostname,
+    routes: sitemap.all
+  },
+  rss: {
+    description,
+    title,
+    hostname,
+    routes: sitemap.posts
   },
   head: {
-    title: 'KetogenicFamily.com',
+    title,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'KetogenicFamily.com - Follow our progress towards a permanent ketogenic lifestyle' }
+      { hid: 'description', name: 'description', content: description }
     ],
     script: [
       { src: '//platform-api.sharethis.com/js/sharethis.js#property=5a06786850e8bc00116c7fea&product=sticky-share-buttons' },
