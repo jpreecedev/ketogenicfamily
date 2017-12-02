@@ -58,7 +58,7 @@ export default {
         { hid: 'fb-og-type', property: 'og:type', content: 'article' },
         { hid: 'fb-og-title', property: 'og:title', content: `${this.blogPost.title}` },
         { hid: 'fb-og-description', property: 'og:description', content: this.blogPost.description },
-        { hid: 'fb-og-image', property: 'og:image', content: `http://ketogenicfamily.com/img/posts/${this.blogPost.key.split(' ').join('-')}/200x200.png` }
+        { hid: 'fb-og-image', property: 'og:image', content: `https://ketogenicfamily.com/img/posts/${this.blogPost.key.split(' ').join('-')}/200x200.png` }
       ],
       link: [
         { hid: 'canonical', rel: 'canonical', content: `${this.blogPost.canonical}` }
@@ -83,9 +83,9 @@ export default {
           "@id": "${this.blogPost.canonical}"
         },
         "image": [
-          "http://ketogenicfamily.com/img/posts/${this.blogPost.key.toLowerCase().split(' ').join('-')}/1x1/photo.png",
-          "http://ketogenicfamily.com/img/posts/${this.blogPost.key.toLowerCase().split(' ').join('-')}/4x3/photo.png",
-          "http://ketogenicfamily.com/img/posts/${this.blogPost.key.toLowerCase().split(' ').join('-')}/16x9/photo.png"
+          "https://ketogenicfamily.com/img/posts/${this.blogPost.key.toLowerCase().split(' ').join('-')}/1x1/photo.png",
+          "https://ketogenicfamily.com/img/posts/${this.blogPost.key.toLowerCase().split(' ').join('-')}/4x3/photo.png",
+          "https://ketogenicfamily.com/img/posts/${this.blogPost.key.toLowerCase().split(' ').join('-')}/16x9/photo.png"
         ],
         "datePublished": "${this.blogPost.date}",
         "dateModified": "${this.blogPost.modified}",
@@ -98,7 +98,7 @@ export default {
           "name": "KetogenicFamily.com",
           "logo": {
             "@type": "ImageObject",
-            "url": "http://ketogenicfamily.com/img/ketogenicfamily.png"
+            "url": "https://ketogenicfamily.com/img/ketogenicfamily.png"
           }
         },
         "description": "${this.blogPost.description}"

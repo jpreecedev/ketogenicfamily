@@ -57,7 +57,7 @@ router.get('/posts', function (req, res, next) {
           modified: result.attributes.modified || result.attributes.date,
           description: result.attributes.description || '',
           publisher: result.attributes.publisher || '',
-          canonical: `http://ketogenicfamily.com/blog/${slug(file)}`,
+          canonical: `https://ketogenicfamily.com/blog/${slug(file)}`,
           content: result.html.replace(new RegExp(linkToPost, 'g'), `/blog/post/${slug(file, result.attributes.date.split('-').join('_'))}`)
         })
       })
@@ -103,7 +103,7 @@ router.get('/posts/:name', function (req, res, next) {
         fileContent.description = result.attributes.description || ''
         fileContent.publisher = result.attributes.publisher
         fileContent.content = result.html
-        fileContent.canonical = `http://ketogenicfamily.com/blog/${slug(file)}`
+        fileContent.canonical = `https://ketogenicfamily.com/blog/${slug(file)}`
       })
 
       return res.json(fileContent)
