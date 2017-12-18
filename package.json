@@ -15,6 +15,7 @@
   "dependencies": {
     "axios": "^0.17.1",
     "bootstrap": "^4.0.0-beta.2",
+    "classnames": "^2.2.5",
     "cross-env": "^5.1.1",
     "express": "^4.16.2",
     "front-matter": "^2.3.0",
@@ -29,7 +30,11 @@
   "devDependencies": {
     "@nuxtjs/sitemap": "0.0.3",
     "babel-eslint": "^8.0.3",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.5.0",
     "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-vue-app": "^2.0.0",
     "backpack-core": "^0.4.3",
     "eslint": "^4.13.1",
     "eslint-config-standard": "^10.2.1",

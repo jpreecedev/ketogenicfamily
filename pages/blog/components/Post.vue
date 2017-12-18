@@ -1,25 +1,8 @@
-<template>
-  <article class="blog-post pb-3" :class="{ 'pt-5': index > 0, 'bordered': index > 0 }">
-      <header>
-        <app-social v-if="fullPost"></app-social>
-        <img v-if="!fullPost"
-             class="lead-img"
-             :src="'/img/posts/' + blogPost.key + '/16x9/photo.png'"
-             :alt="blogPost.title">
-        <nuxt-link :to="getPostUrl(blogPost.slug)">
-          <h1 class="display-4">{{ blogPost.title }}</h1>
-        </nuxt-link>
-        <p class="meta">Published on <time>{{ blogPost.date | formatDate }}</time>, by {{ blogPost.publisher }}.</p>
-      </header>
-      <section class="blog-post-content" v-html="this.blogPost.content">
-      </section>
-    </div>
-  </article><!-- /.blog-post -->
-</template>
-
 <script>
   import facebook from './Facebook'
   import twitter from './Twitter'
+  import { formatDate } from '../../../plugins/filters'
+  import classNames from 'classnames'
 
   export default {
     name: 'post',
@@ -50,6 +33,32 @@
         }
         return `/blog/post/${slug}`
       }
+    },
+    render (h) {
+      const articleClasses = classNames(
+        'blog-post pb-3',
+        { 'pt-5': this.index > 0 },
+        { 'bordered': this.index > 0 }
+      )
+
+      return <no-ssr>
+        <article class={ articleClasses }>
+          <header>
+            {
+              this.fullPost && <app-social></app-social>
+            }
+            {
+              !this.fullPost && <img class="lead-img" src={ '/img/posts/' + this.blogPost.key + '/16x9/photo.png' } alt={ this.blogPost.title } />
+            }
+
+            <nuxt-link to={ this.getPostUrl(this.blogPost.slug) }>
+              <h1 class="display-4">{ this.blogPost.title }</h1>
+            </nuxt-link>
+            <p class="meta">Published on <time>{ formatDate(this.blogPost.date) }</time>, by { this.blogPost.publisher }.</p>
+          </header>
+          <section class="blog-post-content" domPropsInnerHTML={ this.blogPost.content }></section>
+        </article>
+      </no-ssr>
     }
   }
 </script>

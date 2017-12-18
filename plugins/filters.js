@@ -1,11 +1,13 @@
 import moment from 'moment'
 import Vue from 'vue'
 
-Vue.filter('formatDate', function (value) {
+export function formatDate (value) {
   if (value) {
     return moment(value).format('MMMM Do YYYY')
   }
-})
+}
+
+Vue.filter('formatDate', formatDate)
 
 Vue.filter('formatNumber', function (value, units, fixed = 2) {
   const format = (value, symbol) => {
