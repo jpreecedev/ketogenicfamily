@@ -11,7 +11,9 @@
                   min="1"
                   max="30"
                   v-model.number="currentNumberOfServings">
-          <div class="input-group-addon">{{ servings.units }}</div>
+          <div class="input-group-append">
+            <span class="input-group-text">{{ servings.units }}</span>
+          </div>
         </div>
       </form>
     </template>
