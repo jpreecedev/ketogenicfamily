@@ -1,8 +1,7 @@
 {
   "name": "ketogenicfamily",
   "version": "1.0.0",
-  "description":
-    "KetogenicFamily.com - Follow our progress towards a permanent ketogenic lifestyle",
+  "description": "KetogenicFamily.com - Follow our progress towards a permanent ketogenic lifestyle",
   "author": "Jon Preece <jonpreece@hotmail.co.uk>",
   "private": true,
   "scripts": {
@@ -45,6 +44,7 @@
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
+    "mime": "^2.2.0",
     "node-sass": "^4.7.2",
     "pm2": "^2.9.1",
     "sass-lint": "^1.12.1",
