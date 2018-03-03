@@ -6,7 +6,6 @@ const description =
   "KetogenicFamily.com - Follow our progress towards a permanent ketogenic lifestyle";
 
 module.exports = {
-  debug: true,
   /*
   ** Headers of the page
   */
