@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "@nuxtjs/sitemap": "0.0.3",
+    "@nuxtjs/youch": "^4.2.3",
     "autoprefixer": "^8.1.0",
     "babel-eslint": "^8.1.2",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
