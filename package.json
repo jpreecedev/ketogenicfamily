@@ -26,6 +26,7 @@
     "vue": "^2.5.13",
     "vue-disqus": "^2.0.4",
     "vue-lazyload": "^1.1.4",
+    "vue-meta": "^1.4.3",
     "vue-star-rating": "^1.5.1"
   },
   "devDependencies": {
