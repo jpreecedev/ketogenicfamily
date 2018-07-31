@@ -83,31 +83,43 @@
 </template>
 
 <script>
+/* eslint-disable */
 import axios from '~/plugins/axios'
-import VueDisqus from 'vue-disqus/VueDisqus.vue'
 import StarRating from 'vue-star-rating'
 import '~/plugins/components'
 
 export default {
   name: 'id',
   components: {
-    VueDisqus, StarRating
+    StarRating
   },
-  async asyncData ({ params, error }) {
+  async asyncData({ params, error }) {
     const { data } = await axios.get('/api/recipes/' + params.name)
     return {
       recipe: data
     }
   },
-  head () {
+  head() {
     return {
-      title: `${this.recipe.title} ${this.recipe.description} - KetogenicFamily.com`,
+      title: `${this.recipe.title} ${
+        this.recipe.description
+      } - KetogenicFamily.com`,
       __dangerouslyDisableSanitizers: ['script'],
       meta: [
-        { hid: 'description', name: 'description', content: `${this.recipe.title} ${this.recipe.description} - KetogenicFamily.com` }
+        {
+          hid: 'description',
+          name: 'description',
+          content: `${this.recipe.title} ${
+            this.recipe.description
+          } - KetogenicFamily.com`
+        }
       ],
       link: [
-        { hid: 'canonical', rel: 'canonical', content: `https://ketogenicfamily.com/recipes/${this.recipe.key}` }
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          content: `https://ketogenicfamily.com/recipes/${this.recipe.key}`
+        }
       ],
       script: [
         {
@@ -119,7 +131,7 @@ export default {
     }
   },
   methods: {
-    getRecipeStructuredData () {
+    getRecipeStructuredData() {
       return `{
         "@context": "http://schema.org/",
         "@type": "Recipe",
@@ -144,26 +156,33 @@ export default {
         "prepTime": "${this.recipe.prepTime}"
       }`
     },
-    getRecipeIngredients () {
+    getRecipeIngredients() {
       return this.recipe.ingredients.map(ingredient => {
-        let result = `"${ingredient.quantity} ${ingredient.units} ${ingredient.description}"`
+        let result = `"${ingredient.quantity} ${ingredient.units} ${
+          ingredient.description
+        }"`
         if (ingredient.groupTitle) {
           result = ingredient.ingredients.map(groupedIngredient => {
-            return `"${groupedIngredient.quantity} ${groupedIngredient.units} ${groupedIngredient.description}"`
+            return `"${groupedIngredient.quantity} ${groupedIngredient.units} ${
+              groupedIngredient.description
+            }"`
           })
-          result.toString().trim().replace(/(^,)|(,$)/g, '')
+          result
+            .toString()
+            .trim()
+            .replace(/(^,)|(,$)/g, '')
         }
         return result
       })
     },
-    getRecipeInstructions () {
+    getRecipeInstructions() {
       let result = []
       this.recipe.instructions.map((instruction, index) => {
         result.push(`${index + 1}. ${instruction}`)
       })
       return result.join('\n')
     },
-    getNutrition () {
+    getNutrition() {
       if (!this.recipe.hasNutritionalData) {
         return ''
       }
@@ -171,14 +190,44 @@ export default {
       return `"nutrition": {
           "@type": "NutritionInformation",
           "servingSize": "1 ${this.recipe.servings.nutritionUnits}",
-          "calories": "${this.recipe.nutrition.kcal ? this.recipe.nutrition.kcal.toFixed(0) : 0} calories",
-          "fatContent": "${this.recipe.nutrition.fat ? this.recipe.nutrition.fat.toFixed(0) : 0} g",
-          "carbohydrateContent": "${this.recipe.nutrition.carbohydrate ? this.recipe.nutrition.carbohydrate.toFixed(0) : 0} g",
-          "fiberContent": "${this.recipe.nutrition.fibre ? this.recipe.nutrition.fibre.toFixed(0) : 0} g",
-          "proteinContent": "${this.recipe.nutrition.protein ? this.recipe.nutrition.protein.toFixed(0) : 0} g",
-          "saturatedFatContent": "${this.recipe.nutrition.saturates ? this.recipe.nutrition.saturates.toFixed(0) : 0} g",
-          "sodiumContent": "${this.recipe.nutrition.salt ? this.recipe.nutrition.salt.toFixed(2) : 0} g",
-          "sugarContent": "${this.recipe.nutrition.sugars ? this.recipe.nutrition.sugars.toFixed(0) : 0} g"
+          "calories": "${
+            this.recipe.nutrition.kcal
+              ? this.recipe.nutrition.kcal.toFixed(0)
+              : 0
+          } calories",
+          "fatContent": "${
+            this.recipe.nutrition.fat ? this.recipe.nutrition.fat.toFixed(0) : 0
+          } g",
+          "carbohydrateContent": "${
+            this.recipe.nutrition.carbohydrate
+              ? this.recipe.nutrition.carbohydrate.toFixed(0)
+              : 0
+          } g",
+          "fiberContent": "${
+            this.recipe.nutrition.fibre
+              ? this.recipe.nutrition.fibre.toFixed(0)
+              : 0
+          } g",
+          "proteinContent": "${
+            this.recipe.nutrition.protein
+              ? this.recipe.nutrition.protein.toFixed(0)
+              : 0
+          } g",
+          "saturatedFatContent": "${
+            this.recipe.nutrition.saturates
+              ? this.recipe.nutrition.saturates.toFixed(0)
+              : 0
+          } g",
+          "sodiumContent": "${
+            this.recipe.nutrition.salt
+              ? this.recipe.nutrition.salt.toFixed(2)
+              : 0
+          } g",
+          "sugarContent": "${
+            this.recipe.nutrition.sugars
+              ? this.recipe.nutrition.sugars.toFixed(0)
+              : 0
+          } g"
         },`
     }
   }
@@ -186,56 +235,56 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  @import '~assets/styles/mixins';
+@import "~assets/styles/mixins";
 
-  .container, .container.body {
-    max-width: 1024px;
+.container,
+.container.body {
+  max-width: 1024px;
+}
+
+.recipe-header {
+  background-color: #fafafa;
+  padding: 15px 0;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+
+  @include tablet {
+    padding-top: 30px;
   }
+}
 
-  .recipe-header {
-    background-color: #fafafa;
-    padding: 15px 0;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-    border-bottom: 1px solid #eee;
-    text-align: center;
+#comments {
+  margin: 3rem auto 1rem auto;
+}
 
-    @include tablet {
-      padding-top: 30px;
-    }
+.img-container {
+  height: 200px;
+  position: relative;
+}
+
+.img-thumbnail {
+  height: auto;
+  width: auto;
+  max-height: 200px;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.img-underlay {
+  width: 100%;
+  position: absolute;
+  height: 200px;
+  transform: scale(1.03, 1.03);
+  background-position: center center;
+  background-size: cover;
+  filter: blur(10px);
+}
+
+.star-rating-container {
+  @include tablet {
+    margin-bottom: 1rem;
   }
-
-  #comments {
-    margin: 3rem auto 1rem auto;
-  }
-
-  .img-container {
-    height: 200px;
-    position: relative;
-  }
-
-  .img-thumbnail {
-    height: auto;
-    width: auto;
-    max-height: 200px;
-    position: absolute;
-    transform: translateX(-50%);
-  }
-
-  .img-underlay {
-    width: 100%;
-    position: absolute;
-    height: 200px;
-    transform: scale(1.03, 1.03);
-    background-position: center center;
-    background-size: cover;
-    filter: blur(10px);
-  }
-
-  .star-rating-container {
-    @include tablet {
-      margin-bottom: 1rem;
-    }
-  }
-
+}
 </style>
